@@ -3,9 +3,9 @@
   "title": "Hermes Agent vs OpenClaw \u2014 Head-to-Head",
   "file": "hermes-vs-openclaw.md",
   "category": "AI / Comparison",
-  "summary": "Head-to-head: OpenClaw (393,709\u2605) vs Hermes Agent (259,690\u2605) on adoption, velocity, health, maintenance & ecosystem, plus the broader field of personal-assistant agents. Verdict: default OpenClaw; Hermes if Python-first.",
+  "summary": "Head-to-head: OpenClaw (394,230\u2605) vs Hermes Agent (261,966\u2605) on adoption, velocity, health, maintenance & ecosystem, plus the broader field of personal-assistant agents. Verdict: default OpenClaw; Hermes if Python-first.",
   "tool_count": 10,
-  "total_stars": 973526,
+  "total_stars": 977279,
   "categories": {
     "Principals": 2,
     "Field": 8
@@ -13,27 +13,27 @@
   "top_tools": [
     {
       "name": "openclaw/openclaw",
-      "stars": 393709
+      "stars": 394230
     },
     {
       "name": "NousResearch/hermes-agent",
-      "stars": 259690
+      "stars": 261966
     },
     {
       "name": "bytedance/deer-flow",
-      "stars": 84879
+      "stars": 85183
     },
     {
       "name": "code-yeongyu/oh-my-openagent",
-      "stars": 70612
+      "stars": 70798
     },
     {
       "name": "HKUDS/nanobot",
-      "stars": 49761
+      "stars": 49964
     }
   ],
-  "snapshot": "2026-11-02T14:17:38.270Z",
-  "generated": "2026-11-02",
+  "snapshot": "2026-11-09T14:44:53.318Z",
+  "generated": "2026-11-09",
   "generator": "scripts/reports/hermes_vs_openclaw.py",
-  "created": "2026-11-01"
+  "created": "2026-11-07"
 }

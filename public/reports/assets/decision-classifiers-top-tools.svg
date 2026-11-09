@@ -13,17 +13,17 @@ text{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 <text x="14" y="25" class="ttl">Top tools by stars</text>
 <text x="236" y="49.0" class="lbl" text-anchor="end" dominant-baseline="central">BoundaryML/baml</text>
 <path d="M244,40 h340.0 q4,0 4,4 v10 q0,4 -4,4 h-340.0 z" class="bar"/>
-<text x="594.0" y="49.0" class="val" dominant-baseline="central">9,470</text>
+<text x="594.0" y="49.0" class="val" dominant-baseline="central">9,495</text>
 <text x="236" y="76.0" class="lbl" text-anchor="end" dominant-baseline="central">guardrails-ai/guardrails</text>
-<path d="M244,67 h271.3 q4,0 4,4 v10 q0,4 -4,4 h-271.3 z" class="bar"/>
-<text x="525.3" y="76.0" class="val" dominant-baseline="central">7,580</text>
+<path d="M244,67 h271.0 q4,0 4,4 v10 q0,4 -4,4 h-271.0 z" class="bar"/>
+<text x="525.0" y="76.0" class="val" dominant-baseline="central">7,590</text>
 <text x="236" y="103.0" class="lbl" text-anchor="end" dominant-baseline="central">NVIDIA-NeMo/Guardrails</text>
-<path d="M244,94 h265.3 q4,0 4,4 v10 q0,4 -4,4 h-265.3 z" class="bar"/>
-<text x="519.3" y="103.0" class="val" dominant-baseline="central">7,414</text>
+<path d="M244,94 h266.2 q4,0 4,4 v10 q0,4 -4,4 h-266.2 z" class="bar"/>
+<text x="520.2" y="103.0" class="val" dominant-baseline="central">7,458</text>
 <text x="236" y="130.0" class="lbl" text-anchor="end" dominant-baseline="central">katanemo/plano</text>
-<path d="M244,121 h254.1 q4,0 4,4 v10 q0,4 -4,4 h-254.1 z" class="bar"/>
-<text x="508.1" y="130.0" class="val" dominant-baseline="central">7,104</text>
+<path d="M244,121 h253.7 q4,0 4,4 v10 q0,4 -4,4 h-253.7 z" class="bar"/>
+<text x="507.7" y="130.0" class="val" dominant-baseline="central">7,113</text>
 <text x="236" y="157.0" class="lbl" text-anchor="end" dominant-baseline="central">mizorewww/laya-mlx</text>
 <path d="M244,148 h252.5 q4,0 4,4 v10 q0,4 -4,4 h-252.5 z" class="bar"/>
-<text x="506.5" y="157.0" class="val" dominant-baseline="central">7,062</text>
+<text x="506.5" y="157.0" class="val" dominant-baseline="central">7,080</text>
 </svg>

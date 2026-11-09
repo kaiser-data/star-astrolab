@@ -1,8 +1,8 @@
 # AI Agent Orchestration — Landscape Report
 
-> Derived from **kaiser-data**'s 2,587 starred repos (snapshot `2026-11-02T14:17:38.270Z`), cross-referenced with the repo-similarity graph (2,587 nodes / 8,732 edges, 42 communities).
+> Derived from **kaiser-data**'s 2,728 starred repos (snapshot `2026-11-09T14:44:53.318Z`), cross-referenced with the repo-similarity graph (2,728 nodes / 9,126 edges, 41 communities).
 >
-> Generated 2026-11-02 by `scripts/reports/agent_orchestration.py` (regenerate any time — no API cost).
+> Generated 2026-11-09 by `scripts/reports/agent_orchestration.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/agent-orchestration-top-tools.svg)
 
@@ -13,7 +13,7 @@
 
 ## Executive summary
 
-- **38 agent-orchestration tools** in your stars (**1,639,294★**), organized by *how you express coordination*:
+- **38 agent-orchestration tools** in your stars (**1,647,466★**), organized by *how you express coordination*:
   - **Code-first agent frameworks** (17): `MetaGPT`, `autogen`, `crewAI`, `langgraph`, `agno`, `dspy`, `agentscope`, `openai-agents-python`, `smolagents`, `semantic-kernel`, `adk-python`, `camel`, `agent-framework`, `voltagent`, `harness-sdk`, `beeai-framework`, `AutoAgents`
   - **Visual / low-code platforms** (4): `n8n`, `dify`, `langflow`, `sim`
   - **Coding-agent orchestration** (9): `deer-flow`, `ruflo`, `oh-my-openagent`, `agents`, `oh-my-claudecode`, `paseo`, `eigent`, `agent-orchestrator`, `coding-agent-template`
@@ -42,74 +42,74 @@
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 71,137 (▲19) | Python | 16 | stale | Declining | 0 |
-| [microsoft/autogen](https://github.com/microsoft/autogen) | 61,677 (▲17) | Python | 45 | active | Mature | 1 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 60,420 (▲51) | Python | 79 | very active | Classic | 1 |
-| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 44,334 (▲74) | Python | 83 | very active | Classic | 2 |
-| [agno-agi/agno](https://github.com/agno-agi/agno) | 43,015 (▲13) | Python | 87 | very active | Classic | 3 |
-| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 38,885 (▲12) | Python | 78 | very active | Classic | 1 |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 35,210 (▲112) | Python | 97 | very active | Mature | 9 |
-| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 30,457 (▲25) | Python | 85 | very active | Hot | 2 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 30,189 (▲26) | Python | 60 | active | Mature | 2 |
-| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28,724 (▼1) | C# | 99 | very active | Classic | 6 |
-| [google/adk-python](https://github.com/google/adk-python) | 22,082 (▲13) | Python | 99 | very active | Hot | 9 |
-| [camel-ai/camel](https://github.com/camel-ai/camel) | 18,007 (▲3) | Python | 76 | very active | Classic | 2 |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14,495 (▲25) | Python | 98 | very active | Hot | 7 |
-| [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 10,916 (▲9) | TypeScript | 69 | active | Mature | 2 |
-| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 9,028 (▲9) | Python | 87 | very active | Hot | 3 |
-| [i-am-bee/beeai-framework](https://github.com/i-am-bee/beeai-framework) | 3,449 (▲2) | Python | 100 | very active | Mature | 5 |
-| [liquidos-ai/AutoAgents](https://github.com/liquidos-ai/AutoAgents) | 773 (▲1) | Rust | 67 | active | Mature | 2 |
+| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 71,229 (▲92) | Python | 16 | stale | Declining | 0 |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | 61,759 (▲82) | Python | 45 | active | Mature | 1 |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 60,687 (▲267) | Python | 78 | very active | Classic | 1 |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 44,691 (▲357) | Python | 83 | very active | Classic | 2 |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | 43,118 (▲103) | Python | 92 | very active | Classic | 4 |
+| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 38,983 (▲98) | Python | 78 | very active | Classic | 1 |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 35,678 (▲468) | Python | 97 | very active | Mature | 9 |
+| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 30,578 (▲121) | Python | 85 | very active | Hot | 2 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 30,278 (▲89) | Python | 59 | active | Mature | 2 |
+| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28,748 (▲24) | C# | 100 | very active | Classic | 9 |
+| [google/adk-python](https://github.com/google/adk-python) | 22,159 (▲77) | Python | 99 | very active | Hot | 7 |
+| [camel-ai/camel](https://github.com/camel-ai/camel) | 18,023 (▲16) | Python | 76 | very active | Classic | 2 |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14,604 (▲109) | Python | 98 | very active | Hot | 7 |
+| [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 10,935 (▲19) | TypeScript | 83 | active | Mature | 4 |
+| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 9,086 (▲58) | TypeScript | 87 | very active | Hot | 3 |
+| [i-am-bee/beeai-framework](https://github.com/i-am-bee/beeai-framework) | 3,456 (▲7) | Python | 94 | very active | Mature | 4 |
+| [liquidos-ai/AutoAgents](https://github.com/liquidos-ai/AutoAgents) | 780 (▲7) | Rust | 66 | active | Mature | 2 |
 
 ### Visual / low-code platforms
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 209,356 (▲100) | TypeScript | 100 | very active | Classic | 6 |
-| [langgenius/dify](https://github.com/langgenius/dify) | 160,233 (▲83) | Python | 95 | very active | Classic | 4 |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 156,257 (▲40) | Python | 79 | very active | Classic | 1 |
-| [simstudioai/sim](https://github.com/simstudioai/sim) | 29,970 (▲17) | TypeScript | 78 | very active | Mature | 1 |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 209,907 (▲551) | TypeScript | 100 | very active | Classic | 7 |
+| [langgenius/dify](https://github.com/langgenius/dify) | 160,755 (▲522) | Python | 100 | very active | Classic | 5 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 156,469 (▲212) | Python | 79 | very active | Classic | 1 |
+| [simstudioai/sim](https://github.com/simstudioai/sim) | 30,114 (▲144) | TypeScript | 78 | very active | Mature | 1 |
 
 ### Coding-agent orchestration
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 84,879 (▲62) | Python | 87 | very active | Hot | 10 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 80,601 (▲129) | TypeScript | 77 | very active | Hot | 1 |
-| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 70,612 (▲43) | TypeScript | 77 | very active | Rising | 1 |
-| [wshobson/agents](https://github.com/wshobson/agents) | 42,097 (▲28) | Python | 63 | very active | Hot | 1 |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 40,513 (▲36) | TypeScript | 80 | very active | Hot | 1 |
-| [getpaseo/paseo](https://github.com/getpaseo/paseo) | 22,802 (▲118) | TypeScript | 78 | very active | Hot | 1 |
-| [eigent-ai/eigent](https://github.com/eigent-ai/eigent) | 15,720 (▲13) | TypeScript | 78 | very active | Hot | 1 |
-| [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14,010 (▲32) | Go | 98 | very active | Hot | 6 |
-| [vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template) | 1,796 (▲1) | TypeScript | 29 | slowing | Declining | 0 |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 85,183 (▲304) | Python | 89 | very active | Hot | 16 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 81,326 (▲725) | TypeScript | 78 | very active | Hot | 1 |
+| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 70,798 (▲186) | TypeScript | 77 | very active | Rising | 1 |
+| [wshobson/agents](https://github.com/wshobson/agents) | 42,350 (▲253) | Python | 64 | very active | Hot | 1 |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 40,710 (▲197) | TypeScript | 80 | very active | Hot | 1 |
+| [getpaseo/paseo](https://github.com/getpaseo/paseo) | 23,617 (▲815) | TypeScript | 77 | very active | Hot | 1 |
+| [eigent-ai/eigent](https://github.com/eigent-ai/eigent) | 15,783 (▲63) | TypeScript | 78 | very active | Hot | 1 |
+| [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14,332 (▲322) | TypeScript | 88 | very active | Hot | 3 |
+| [vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template) | 1,797 (▲1) | TypeScript | 28 | slowing | Declining | 0 |
 
 ### Agent OS / long-horizon harness
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [elizaOS/eliza](https://github.com/elizaOS/eliza) | 19,757 (▲8) | TypeScript | 80 | very active | Mature | 1 |
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | 19,792 (▲35) | TypeScript | 80 | very active | Mature | 1 |
 
 ### Durable / production infra
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [flyteorg/flyte](https://github.com/flyteorg/flyte) | 7,846 | Go | 85 | very active | Classic | 2 |
-| [inngest/agent-kit](https://github.com/inngest/agent-kit) | 959 | TypeScript | 21 | stale | Declining | 0 |
+| [flyteorg/flyte](https://github.com/flyteorg/flyte) | 7,831 (▼15) | Go | 85 | very active | Classic | 2 |
+| [inngest/agent-kit](https://github.com/inngest/agent-kit) | 962 (▲3) | TypeScript | 21 | stale | Declining | 0 |
 
 ### Vertical / domain systems
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 119,820 (▲537) | Python | 79 | very active | Mature | 1 |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 30,431 (▲18) | Python | 78 | very active | Classic | 1 |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121,507 (▲1,687) | Python | 79 | very active | Mature | 1 |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 30,597 (▲166) | Python | 80 | very active | Classic | 1 |
 
 ### Protocols & meta-frameworks
 
 | Tool | ★ | Lang | Health | Activity | Lifecycle | Bus factor |
 |---|---|---|---|---|---|---|
-| [sentient-agi/ROMA](https://github.com/sentient-agi/ROMA) | 5,190 (▲1) | Python | 16 | stale | Declining | 0 |
-| [TinyAGI/tinyagi](https://github.com/TinyAGI/tinyagi) | 3,628 | TypeScript | 32 | stale | Declining | 0 |
-| [veegee82/agent-workflow-protocol](https://github.com/veegee82/agent-workflow-protocol) | 19 | Python | 21 | slowing | Declining | 0 |
+| [sentient-agi/ROMA](https://github.com/sentient-agi/ROMA) | 5,193 (▲3) | Python | 15 | stale | Declining | 0 |
+| [TinyAGI/tinyagi](https://github.com/TinyAGI/tinyagi) | 3,632 (▲4) | TypeScript | 31 | stale | Declining | 0 |
+| [veegee82/agent-workflow-protocol](https://github.com/veegee82/agent-workflow-protocol) | 19 | Python | 20 | slowing | Declining | 0 |
 
 ## Details
 
@@ -117,55 +117,55 @@
 
 _SDKs you write agents in — maximum control over routing, state and hand-offs; the engineer's default._
 
-- **[FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT)** · 71,137★ · Python · Declining · health 16  
+- **[FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT)** · 71,229★ · Python · Declining · health 16  
   Multi-agent 'software company' — assigns SOPs/roles (PM, architect, engineer).  
   <sub>topics: agent, gpt, llm, metagpt, multi-agent</sub>
-- **[microsoft/autogen](https://github.com/microsoft/autogen)** · 61,677★ · Python · Mature · health 45  
+- **[microsoft/autogen](https://github.com/microsoft/autogen)** · 61,759★ · Python · Mature · health 45  
   Microsoft's conversational multi-agent framework; agents talk to solve tasks.  
   <sub>topics: chatgpt, llm-agent, llm-framework, agentic, agentic-agi, agents</sub>
-- **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)** · 60,420★ · Python · Classic · health 79  
+- **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)** · 60,687★ · Python · Classic · health 78  
   Role-based 'crew' multi-agent framework — agents with roles, goals & tools collaborate.  
   <sub>topics: agents, ai, ai-agents, llms, aiagentframework</sub>
-- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** · 44,334★ · Python · Classic · health 83  
+- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** · 44,691★ · Python · Classic · health 83  
   Graph-based agent runtime — explicit nodes/edges/state; the de-facto control-flow framework.  
   <sub>topics: agents, ai, ai-agents, chatgpt, deepagents, enterprise</sub>
-- **[agno-agi/agno](https://github.com/agno-agi/agno)** · 43,015★ · Python · Classic · health 87  
+- **[agno-agi/agno](https://github.com/agno-agi/agno)** · 43,118★ · Python · Classic · health 92  
   Fast multimodal agent framework (ex-phidata) with memory/tools/teams.  
   <sub>topics: developer-tools, python, agents, ai, ai-agents</sub>
-- **[stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)** · 38,885★ · Python · Classic · health 78  
+- **[stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)** · 38,983★ · Python · Classic · health 78  
   Programmatic prompt/pipeline optimization — compile agent behavior instead of hand-prompting.  
   <sub>topics: —</sub>
-- **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** · 35,210★ · Python · Mature · health 97  
+- **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** · 35,678★ · Python · Mature · health 97  
   Build agents you can see/understand/trust; strong observability + multi-agent.  
   <sub>topics: agent, chatbot, large-language-models, llm, llm-agent, multi-agent</sub>
-- **[openai/openai-agents-python](https://github.com/openai/openai-agents-python)** · 30,457★ · Python · Hot · health 85  
+- **[openai/openai-agents-python](https://github.com/openai/openai-agents-python)** · 30,578★ · Python · Hot · health 85  
   Lightweight, powerful framework for multi-agent workflows; handoffs + guardrails + tracing.  
   <sub>topics: agents, ai, framework, llm, python, openai</sub>
-- **[huggingface/smolagents](https://github.com/huggingface/smolagents)** · 30,189★ · Python · Mature · health 60  
+- **[huggingface/smolagents](https://github.com/huggingface/smolagents)** · 30,278★ · Python · Mature · health 59  
   Minimalist code-agent framework — agents that write & run Python to act.  
   <sub>topics: —</sub>
-- **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** · 28,724★ · C# · Classic · health 99  
+- **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** · 28,748★ · C# · Classic · health 100  
   Microsoft's enterprise SDK (C#/Python) for plugging LLMs + planning into apps.  
   <sub>topics: ai, artificial-intelligence, llm, openai, sdk</sub>
-- **[google/adk-python](https://github.com/google/adk-python)** · 22,082★ · Python · Hot · health 99  
+- **[google/adk-python](https://github.com/google/adk-python)** · 22,159★ · Python · Hot · health 99  
   Google's code-first Agent Development Kit — build, evaluate & deploy agents.  
   <sub>topics: agent, agents, agents-sdk, ai, ai-agents, multi-agent-systems</sub>
-- **[camel-ai/camel](https://github.com/camel-ai/camel)** · 18,007★ · Python · Classic · health 76  
+- **[camel-ai/camel](https://github.com/camel-ai/camel)** · 18,023★ · Python · Classic · health 76  
   Large multi-agent 'society' framework for studying agent cooperation at scale.  
   <sub>topics: ai-societies, artificial-intelligence, deep-learning, large-language-models, multi-agent-systems, natural-language-processing</sub>
-- **[microsoft/agent-framework](https://github.com/microsoft/agent-framework)** · 14,495★ · Python · Hot · health 98  
+- **[microsoft/agent-framework](https://github.com/microsoft/agent-framework)** · 14,604★ · Python · Hot · health 98  
   Microsoft's framework to build, orchestrate & deploy multi-agent workflows (health 92).  
   <sub>topics: agent-framework, agentic-ai, agents, ai, multi-agent, orchestration</sub>
-- **[VoltAgent/voltagent](https://github.com/VoltAgent/voltagent)** · 10,916★ · TypeScript · Mature · health 69  
+- **[VoltAgent/voltagent](https://github.com/VoltAgent/voltagent)** · 10,935★ · TypeScript · Mature · health 83  
   TypeScript agent-engineering platform + open-source framework.  
   <sub>topics: agents, ai, chatbots, llm, mcp, nodejs</sub>
-- **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)** · 9,028★ · Python · Hot · health 87  
+- **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)** · 9,086★ · TypeScript · Hot · health 87  
   Model-driven agents in a few lines; very high health (96) and bus factor 7.  
   <sub>topics: agentic, agentic-ai, agents, ai, autonomous-agents, llm</sub>
-- **[i-am-bee/beeai-framework](https://github.com/i-am-bee/beeai-framework)** · 3,449★ · Python · Mature · health 100  
+- **[i-am-bee/beeai-framework](https://github.com/i-am-bee/beeai-framework)** · 3,456★ · Python · Mature · health 94  
   Production-ready agents in both Python and TypeScript.  
   <sub>topics: agents, ai, framework, ai-agent, llm, multiagent</sub>
-- **[liquidos-ai/AutoAgents](https://github.com/liquidos-ai/AutoAgents)** · 773★ · Rust · Mature · health 67  
+- **[liquidos-ai/AutoAgents](https://github.com/liquidos-ai/AutoAgents)** · 780★ · Rust · Mature · health 66  
   Rust multi-agent framework to build, deploy & coordinate agents.  
   <sub>topics: agents, ai, ai-agents, ai-agents-framework, llm</sub>
 
@@ -173,16 +173,16 @@ _SDKs you write agents in — maximum control over routing, state and hand-offs;
 
 _Drag-and-drop canvases — fastest to a working flow, accessible to non-engineers, less granular control._
 
-- **[n8n-io/n8n](https://github.com/n8n-io/n8n)** · 209,356★ · TypeScript · Classic · health 100  
+- **[n8n-io/n8n](https://github.com/n8n-io/n8n)** · 209,907★ · TypeScript · Classic · health 100  
   Fair-code workflow automation with native AI nodes — the giant (189k★, health 100).  
   <sub>topics: automation, ipaas, n8n, workflow, typescript, self-hosted</sub>
-- **[langgenius/dify](https://github.com/langgenius/dify)** · 160,233★ · Python · Classic · health 95  
+- **[langgenius/dify](https://github.com/langgenius/dify)** · 160,755★ · Python · Classic · health 100  
   Production-ready platform for agentic workflow development (health 100).  
   <sub>topics: ai, gpt, llm, openai, python, agent</sub>
-- **[langflow-ai/langflow](https://github.com/langflow-ai/langflow)** · 156,257★ · Python · Classic · health 79  
+- **[langflow-ai/langflow](https://github.com/langflow-ai/langflow)** · 156,469★ · Python · Classic · health 79  
   Popular drag-and-drop builder for agents & flows; visual graph of components.  
   <sub>topics: react-flow, chatgpt, large-language-models, generative-ai, agents, multiagent</sub>
-- **[simstudioai/sim](https://github.com/simstudioai/sim)** · 29,970★ · TypeScript · Mature · health 78  
+- **[simstudioai/sim](https://github.com/simstudioai/sim)** · 30,114★ · TypeScript · Mature · health 78  
   Build, deploy & orchestrate agents — 'central intelligence layer for your AI workforce'.  
   <sub>topics: agentic-workflow, agents, ai, nextjs, typescript, agent-workflow</sub>
 
@@ -190,31 +190,31 @@ _Drag-and-drop canvases — fastest to a working flow, accessible to non-enginee
 
 _Coordinate *swarms of coding agents* (Claude Code, Codex, Cursor…) on a codebase — plan, spawn, run in parallel, handle CI._
 
-- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** · 84,879★ · Python · Hot · health 87  
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** · 85,183★ · Python · Hot · health 89  
   Long-horizon SuperAgent harness that researches, codes & creates with sandboxes (bf6).  
   <sub>topics: agent, agentic, agentic-framework, agentic-workflow, ai, ai-agents</sub>
-- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** · 80,601★ · TypeScript · Hot · health 77  
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** · 81,326★ · TypeScript · Hot · health 78  
   Agent-orchestration platform for Claude — multi-agent swarms coordinating autonomous coding.  
-  <sub>topics: swarm, agentic-ai, agentic-framework, agentic-workflow, autonomous-agents, codex</sub>
-- **[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** · 70,612★ · TypeScript · Rising · health 77  
+  <sub>topics: agent-memory, agent-orchestration, agentic-ai, agentic-workflow, ai-agents, autonomous-agents</sub>
+- **[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** · 70,798★ · TypeScript · Rising · health 77  
   'omo' — agent harness (formerly oh-my-opencode) for coding workflows.  
   <sub>topics: opencode, ai, anthropic, claude, claude-skills, cursor</sub>
-- **[wshobson/agents](https://github.com/wshobson/agents)** · 42,097★ · Python · Hot · health 63  
+- **[wshobson/agents](https://github.com/wshobson/agents)** · 42,350★ · Python · Hot · health 64  
   Multi-harness agentic plugin marketplace (Claude Code, Codex, Cursor, OpenCode, Gemini).  
   <sub>topics: anthropic, agent-skills, agentic-ai, ai-agents, cursor, cursor-rules</sub>
-- **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** · 40,513★ · TypeScript · Hot · health 80  
+- **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** · 40,710★ · TypeScript · Hot · health 80  
   Teams-first multi-agent orchestration for Claude Code.  
   <sub>topics: agentic-coding, ai-agents, claude, claude-code, oh-my-opencode, opencode</sub>
-- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** · 22,802★ · TypeScript · Hot · health 78  
+- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** · 23,617★ · TypeScript · Hot · health 77  
   Run & coordinate coding agents from phone, desktop and CLI.  
   <sub>topics: agents, claude-code, codex, opencode, ade, copilot</sub>
-- **[eigent-ai/eigent](https://github.com/eigent-ai/eigent)** · 15,720★ · TypeScript · Hot · health 78  
+- **[eigent-ai/eigent](https://github.com/eigent-ai/eigent)** · 15,783★ · TypeScript · Hot · health 78  
   Open-source cowork desktop — local/free multi-agent productivity workspace.  
   <sub>topics: agent-framework, agent-skills, agentic-ai, agentic-workflow, claude-cowork, claude-cowork-alternative</sub>
-- **[OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)** · 14,010★ · Go · Hot · health 98  
+- **[OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)** · 14,332★ · TypeScript · Hot · health 88  
   Orchestrates parallel coding agents — plans tasks, spawns agents, handles CI autonomously.  
   <sub>topics: claude-code, codex-cli, orchestration, orchestrator, skills, agent-fleet</sub>
-- **[vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template)** · 1,796★ · TypeScript · Declining · health 29  
+- **[vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template)** · 1,797★ · TypeScript · Declining · health 28  
   Multi-agent coding platform on Vercel Sandbox + AI Gateway; declining, verify first.  
   <sub>topics: —</sub>
 
@@ -222,7 +222,7 @@ _Coordinate *swarms of coding agents* (Claude Code, Codex, Cursor…) on a codeb
 
 _Runtimes for always-on, long-running autonomous agents._
 
-- **[elizaOS/eliza](https://github.com/elizaOS/eliza)** · 19,757★ · TypeScript · Mature · health 80  
+- **[elizaOS/eliza](https://github.com/elizaOS/eliza)** · 19,792★ · TypeScript · Mature · health 80  
   Open-source 'agentic operating system' — long-running autonomous agents.  
   <sub>topics: agent, agentic, ai, autonomous, chatbot, crypto</sub>
 
@@ -230,10 +230,10 @@ _Runtimes for always-on, long-running autonomous agents._
 
 _Fault-tolerant execution — retries, checkpointing, deterministic routing for production._
 
-- **[flyteorg/flyte](https://github.com/flyteorg/flyte)** · 7,846★ · Go · Classic · health 85  
+- **[flyteorg/flyte](https://github.com/flyteorg/flyte)** · 7,831★ · Go · Classic · health 85  
   Dynamic, resilient orchestration (Go/K8s) — coordinate data, models & compute durably.  
   <sub>topics: machine-learning, scale, workflow, mlops, python, agent-runtime</sub>
-- **[inngest/agent-kit](https://github.com/inngest/agent-kit)** · 959★ · TypeScript · Declining · health 21  
+- **[inngest/agent-kit](https://github.com/inngest/agent-kit)** · 962★ · TypeScript · Declining · health 21  
   Build multi-agent networks in TS with deterministic routing + durable execution via MCP.  
   <sub>topics: agent, ai, ai-agent-framework, ai-agents, llm</sub>
 
@@ -241,10 +241,10 @@ _Fault-tolerant execution — retries, checkpointing, deterministic routing for 
 
 _Reference multi-agent architectures for a specific domain._
 
-- **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** · 119,820★ · Python · Mature · health 79  
+- **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** · 121,507★ · Python · Mature · health 79  
   Multi-agent LLM framework for financial trading — a vertical reference architecture (79k★).  
   <sub>topics: agent, finance, llm, multiagent, trading</sub>
-- **[assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)** · 30,431★ · Python · Classic · health 78  
+- **[assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)** · 30,597★ · Python · Classic · health 80  
   Autonomous research agent that plans, searches & writes cited reports.  
   <sub>topics: ai, python, agent, automation, research, search</sub>
 
@@ -252,58 +252,60 @@ _Reference multi-agent architectures for a specific domain._
 
 _Standards and meta-layers above any single framework._
 
-- **[sentient-agi/ROMA](https://github.com/sentient-agi/ROMA)** · 5,190★ · Python · Declining · health 16  
+- **[sentient-agi/ROMA](https://github.com/sentient-agi/ROMA)** · 5,193★ · Python · Declining · health 15  
   Recursive meta-agent framework to build multi-agent systems; declining/low health.  
   <sub>topics: —</sub>
-- **[TinyAGI/tinyagi](https://github.com/TinyAGI/tinyagi)** · 3,628★ · TypeScript · Declining · health 32  
+- **[TinyAGI/tinyagi](https://github.com/TinyAGI/tinyagi)** · 3,632★ · TypeScript · Declining · health 31  
   Agent-teams orchestrator aimed at one-person companies.  
   <sub>topics: —</sub>
-- **[veegee82/agent-workflow-protocol](https://github.com/veegee82/agent-workflow-protocol)** · 19★ · Python · Declining · health 21  
+- **[veegee82/agent-workflow-protocol](https://github.com/veegee82/agent-workflow-protocol)** · 19★ · Python · Declining · health 20  
   Open standard for multi-agent workflows — scripted pipelines to self-organizing teams.  
   <sub>topics: agentic, agentic-ai, agentic-ai-development, agentic-engineering, agentic-framework, agentic-workflow</sub>
 
 ## Graph analysis — how they relate
 
-**Community clustering.** These 38 tools span **16 of the graph's 42 communities**.
+**Community clustering.** These 38 tools span **11 of the graph's 41 communities**.
 
-- **Community 5** (11): `langchain-ai/langgraph`, `VoltAgent/voltagent`, `i-am-bee/beeai-framework`, `liquidos-ai/AutoAgents`, `crewAIInc/crewAI`, `agno-agi/agno`, `n8n-io/n8n`, `langgenius/dify`, `langflow-ai/langflow`, `code-yeongyu/oh-my-openagent`, `inngest/agent-kit`
-- **Community 32** (5): `strands-agents/harness-sdk`, `bytedance/deer-flow`, `ruvnet/ruflo`, `eigent-ai/eigent`, `veegee82/agent-workflow-protocol`
-- **Community 26** (4): `wshobson/agents`, `Yeachan-Heo/oh-my-claudecode`, `OrchestratorInc/agent-orchestrator`, `getpaseo/paseo`
-- **Community 2** (3): `microsoft/semantic-kernel`, `microsoft/agent-framework`, `microsoft/autogen`
-- **Community 4** (3): `agentscope-ai/agentscope`, `FoundationAgents/MetaGPT`, `TauricResearch/TradingAgents`
-- **Community 9** (2): `simstudioai/sim`, `elizaOS/eliza`
+- **Community 11** (9): `langchain-ai/langgraph`, `openai/openai-agents-python`, `VoltAgent/voltagent`, `i-am-bee/beeai-framework`, `assafelovic/gpt-researcher`, `langgenius/dify`, `simstudioai/sim`, `langflow-ai/langflow`, `elizaOS/eliza`
+- **Community 22** (5): `agentscope-ai/agentscope`, `FoundationAgents/MetaGPT`, `bytedance/deer-flow`, `TauricResearch/TradingAgents`, `veegee82/agent-workflow-protocol`
+- **Community 16** (5): `liquidos-ai/AutoAgents`, `crewAIInc/crewAI`, `agno-agi/agno`, `n8n-io/n8n`, `inngest/agent-kit`
+- **Community 0** (4): `stanfordnlp/dspy`, `OrchestratorInc/agent-orchestrator`, `getpaseo/paseo`, `TinyAGI/tinyagi`
+- **Community 23** (3): `microsoft/semantic-kernel`, `microsoft/agent-framework`, `microsoft/autogen`
+- **Community 1** (3): `google/adk-python`, `wshobson/agents`, `sentient-agi/ROMA`
+- **Community 17** (3): `strands-agents/harness-sdk`, `eigent-ai/eigent`, `flyteorg/flyte`
+- **Community 9** (3): `code-yeongyu/oh-my-openagent`, `ruvnet/ruflo`, `Yeachan-Heo/oh-my-claudecode`
 
 **Centrality (PageRank in the full 1,071-repo graph)** — most 'hub-like' orchestration tools in your ecosystem:
 
-- `openai/openai-agents-python` — PageRank 0.0014
-- `langchain-ai/langgraph` — PageRank 0.0012
-- `liquidos-ai/AutoAgents` — PageRank 0.0012
-- `huggingface/smolagents` — PageRank 0.0011
-- `agno-agi/agno` — PageRank 0.0010
+- `openai/openai-agents-python` — PageRank 0.0011
+- `liquidos-ai/AutoAgents` — PageRank 0.0011
+- `langchain-ai/langgraph` — PageRank 0.0011
+- `huggingface/smolagents` — PageRank 0.0010
+- `agno-agi/agno` — PageRank 0.0009
 - `microsoft/semantic-kernel` — PageRank 0.0008
+- `microsoft/agent-framework` — PageRank 0.0007
+- `wshobson/agents` — PageRank 0.0007
 - `inngest/agent-kit` — PageRank 0.0007
-- `crewAIInc/crewAI` — PageRank 0.0006
-- `langgenius/dify` — PageRank 0.0006
-- `strands-agents/harness-sdk` — PageRank 0.0006
+- `google/adk-python` — PageRank 0.0007
 
 **Direct links between orchestration tools** (top similarity edges where both endpoints are in this report):
 
-- `microsoft/agent-framework` ⇄ `microsoft/semantic-kernel` (w=0.825) — topics: ai, sdk; authors: eavanvalkenburg, baywet, dependabot[bot]
-- `microsoft/autogen` ⇄ `microsoft/agent-framework` (w=0.708) — topics: agents, ai; authors: westey-m
-- `microsoft/autogen` ⇄ `microsoft/semantic-kernel` (w=0.615) — topics: ai; authors: westey-m
-- `i-am-bee/beeai-framework` ⇄ `openai/openai-agents-python` (w=0.553) — topics: agents, ai, framework, llm; authors: dependabot[bot]
-- `agno-agi/agno` ⇄ `crewAIInc/crewAI` (w=0.524) — topics: agents, ai, ai-agents; authors: RaycarlLei
+- `microsoft/agent-framework` ⇄ `microsoft/semantic-kernel` (w=0.840) — topics: ai, sdk; authors: eavanvalkenburg, westey-m, baywet
+- `microsoft/autogen` ⇄ `microsoft/agent-framework` (w=0.710) — topics: agents, ai; authors: westey-m
+- `microsoft/autogen` ⇄ `microsoft/semantic-kernel` (w=0.609) — topics: ai; authors: westey-m
+- `i-am-bee/beeai-framework` ⇄ `openai/openai-agents-python` (w=0.555) — topics: agents, ai, framework, llm; authors: dependabot[bot]
+- `agno-agi/agno` ⇄ `crewAIInc/crewAI` (w=0.479) — topics: agents, ai, ai-agents
 - `agno-agi/agno` ⇄ `liquidos-ai/AutoAgents` (w=0.429) — topics: agents, ai, ai-agents
-- `crewAIInc/crewAI` ⇄ `liquidos-ai/AutoAgents` (w=0.429) — topics: agents, ai, ai-agents
 - `liquidos-ai/AutoAgents` ⇄ `inngest/agent-kit` (w=0.429) — topics: ai, ai-agents, llm
-- `bytedance/deer-flow` ⇄ `langgenius/dify` (w=0.377) — topics: agent, agentic-framework, agentic-workflow, ai; authors: dependabot[bot], Winoren, tanishqbaweja
-- `bytedance/deer-flow` ⇄ `google/adk-python` (w=0.350) — topics: agent, agentic, ai, ai-agents; authors: hyeonsang010716, lisry-1, pcbeingused333
+- `langchain-ai/langgraph` ⇄ `i-am-bee/beeai-framework` (w=0.379) — topics: agents, ai, framework, llm; authors: dependabot[bot]
+- `bytedance/deer-flow` ⇄ `agentscope-ai/agentscope` (w=0.321) — topics: agent, llm, multi-agent; authors: BlueX888, zuizhuai, pcbeingused333
 - `FoundationAgents/MetaGPT` ⇄ `TauricResearch/TradingAgents` (w=0.300) — topics: agent, llm
 - `simstudioai/sim` ⇄ `langgenius/dify` (w=0.276) — topics: agentic-workflow, ai, nextjs, deepseek
 - `FoundationAgents/MetaGPT` ⇄ `agentscope-ai/agentscope` (w=0.264) — topics: agent, llm, multi-agent
 - `langflow-ai/langflow` ⇄ `langchain-ai/langgraph` (w=0.250) — topics: chatgpt, generative-ai, agents, multiagent
-- `bytedance/deer-flow` ⇄ `agentscope-ai/agentscope` (w=0.246) — topics: agent, llm, multi-agent; authors: pcbeingused333, lll-hhh, lihongyuan99
-- …and 4 more.
+- `veegee82/agent-workflow-protocol` ⇄ `google/adk-python` (w=0.217) — topics: agentic, agentic-ai, agents, llms
+- `camel-ai/camel` ⇄ `eigent-ai/eigent` (w=0.184) — topics: multi-agent-systems; authors: Wendong-Fan
+- …and 2 more.
 
 ## Maintenance & risk signal
 
@@ -311,46 +313,46 @@ Bus factor = commit concentration (1 = single-maintainer risk). Orchestration is
 
 | Tool | Approach | Health | Lifecycle | Activity | Bus factor |
 |---|---|---|---|---|---|
-| i-am-bee/beeai-framework | Code-first agent frameworks | 100 | Mature | very active | 5 |
-| n8n-io/n8n | Visual / low-code platforms | 100 | Classic | very active | 6 |
-| microsoft/semantic-kernel | Code-first agent frameworks | 99 | Classic | very active | 6 |
-| google/adk-python | Code-first agent frameworks | 99 | Hot | very active | 9 |
+| microsoft/semantic-kernel | Code-first agent frameworks | 100 | Classic | very active | 9 |
+| n8n-io/n8n | Visual / low-code platforms | 100 | Classic | very active | 7 |
+| langgenius/dify | Visual / low-code platforms | 100 | Classic | very active | 5 |
+| google/adk-python | Code-first agent frameworks | 99 | Hot | very active | 7 |
 | microsoft/agent-framework | Code-first agent frameworks | 98 | Hot | very active | 7 |
-| OrchestratorInc/agent-orchestrator | Coding-agent orchestration | 98 | Hot | very active | 6 |
 | agentscope-ai/agentscope | Code-first agent frameworks | 97 | Mature | very active | 9 |
-| langgenius/dify | Visual / low-code platforms | 95 | Classic | very active | 4 |
+| i-am-bee/beeai-framework | Code-first agent frameworks | 94 | Mature | very active | 4 |
+| agno-agi/agno | Code-first agent frameworks | 92 | Classic | very active | 4 |
+| bytedance/deer-flow | Coding-agent orchestration | 89 | Hot | very active | 16 |
+| OrchestratorInc/agent-orchestrator | Coding-agent orchestration | 88 | Hot | very active | 3 |
 | strands-agents/harness-sdk | Code-first agent frameworks | 87 | Hot | very active | 3 |
-| agno-agi/agno | Code-first agent frameworks | 87 | Classic | very active | 3 |
-| bytedance/deer-flow | Coding-agent orchestration | 87 | Hot | very active | 10 |
 | openai/openai-agents-python | Code-first agent frameworks | 85 | Hot | very active | 2 |
 | flyteorg/flyte | Durable / production infra | 85 | Classic | very active | 2 |
 | langchain-ai/langgraph | Code-first agent frameworks | 83 | Classic | very active | 2 |
+| VoltAgent/voltagent | Code-first agent frameworks | 83 | Mature | active | 4 |
+| assafelovic/gpt-researcher | Vertical / domain systems | 80 | Classic | very active | 1 |
 | Yeachan-Heo/oh-my-claudecode | Coding-agent orchestration | 80 | Hot | very active | 1 |
 | elizaOS/eliza | Agent OS / long-horizon harness | 80 | Mature | very active | 1 |
-| crewAIInc/crewAI | Code-first agent frameworks | 79 | Classic | very active | 1 |
 | langflow-ai/langflow | Visual / low-code platforms | 79 | Classic | very active | 1 |
 | TauricResearch/TradingAgents | Vertical / domain systems | 79 | Mature | very active | 1 |
+| crewAIInc/crewAI | Code-first agent frameworks | 78 | Classic | very active | 1 |
 | stanfordnlp/dspy | Code-first agent frameworks | 78 | Classic | very active | 1 |
-| assafelovic/gpt-researcher | Vertical / domain systems | 78 | Classic | very active | 1 |
 | simstudioai/sim | Visual / low-code platforms | 78 | Mature | very active | 1 |
+| ruvnet/ruflo | Coding-agent orchestration | 78 | Hot | very active | 1 |
 | eigent-ai/eigent | Coding-agent orchestration | 78 | Hot | very active | 1 |
-| getpaseo/paseo | Coding-agent orchestration | 78 | Hot | very active | 1 |
 | code-yeongyu/oh-my-openagent | Coding-agent orchestration | 77 | Rising | very active | 1 |
-| ruvnet/ruflo | Coding-agent orchestration | 77 | Hot | very active | 1 |
+| getpaseo/paseo | Coding-agent orchestration | 77 | Hot | very active | 1 |
 | camel-ai/camel | Code-first agent frameworks | 76 | Classic | very active | 2 |
-| VoltAgent/voltagent | Code-first agent frameworks | 69 | Mature | active | 2 |
-| liquidos-ai/AutoAgents | Code-first agent frameworks | 67 | Mature | active | 2 |
-| wshobson/agents | Coding-agent orchestration | 63 | Hot | very active | 1 |
-| huggingface/smolagents | Code-first agent frameworks | 60 | Mature | active | 2 |
+| liquidos-ai/AutoAgents | Code-first agent frameworks | 66 | Mature | active | 2 |
+| wshobson/agents | Coding-agent orchestration | 64 | Hot | very active | 1 |
+| huggingface/smolagents | Code-first agent frameworks | 59 | Mature | active | 2 |
 | microsoft/autogen | Code-first agent frameworks | 45 | Mature | active | 1 |
-| TinyAGI/tinyagi | Protocols & meta-frameworks | 32 | Declining | stale | 0 |
-| vercel-labs/coding-agent-template | Coding-agent orchestration | 29 | Declining | slowing | 0 |
+| TinyAGI/tinyagi | Protocols & meta-frameworks | 31 | Declining | stale | 0 |
+| vercel-labs/coding-agent-template | Coding-agent orchestration | 28 | Declining | slowing | 0 |
 | inngest/agent-kit | Durable / production infra | 21 | Declining | stale | 0 |
-| veegee82/agent-workflow-protocol | Protocols & meta-frameworks | 21 | Declining | slowing | 0 |
+| veegee82/agent-workflow-protocol | Protocols & meta-frameworks | 20 | Declining | slowing | 0 |
 | FoundationAgents/MetaGPT | Code-first agent frameworks | 16 | Declining | stale | 0 |
-| sentient-agi/ROMA | Protocols & meta-frameworks | 16 | Declining | stale | 0 |
+| sentient-agi/ROMA | Protocols & meta-frameworks | 15 | Declining | stale | 0 |
 
-⚠️ **Adopt with caution** (low health and/or declining): `FoundationAgents/MetaGPT`, `sentient-agi/ROMA`, `inngest/agent-kit`, `veegee82/agent-workflow-protocol`, `vercel-labs/coding-agent-template`, `TinyAGI/tinyagi`.
+⚠️ **Adopt with caution** (low health and/or declining): `sentient-agi/ROMA`, `FoundationAgents/MetaGPT`, `veegee82/agent-workflow-protocol`, `inngest/agent-kit`, `vercel-labs/coding-agent-template`, `TinyAGI/tinyagi`.
 
 ## Coverage
 
@@ -370,4 +372,4 @@ Archived upstream, so they no longer appear in this report's tables — `sample.
 |---|---|---|---|
 | [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise) | Visual / low-code platforms | Archived upstream; last in the dataset 2026-08-11. Build AI agents visually; popular drag-and-drop builder. | 2026-08-11 |
 
-<sub>Tools covered: 38 across 7 approaches · Snapshot: 2026-11-02T14:17:38.270Z</sub>
+<sub>Tools covered: 38 across 7 approaches · Snapshot: 2026-11-09T14:44:53.318Z</sub>

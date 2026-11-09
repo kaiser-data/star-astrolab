@@ -3,9 +3,9 @@
   "title": "LLM-Driven 3D Modelling for 3D Printing \u2014 Landscape Report",
   "file": "3d-printing-stack.md",
   "category": "Engineering",
-  "summary": "33 tools (375,137\u2605) for driving 3D modelling with LLMs: code-CAD authoring, parametric libraries, implicit/SDF modelling, generative image-to-3D, mesh validation & repair, and print prep & slicing.",
+  "summary": "33 tools (379,057\u2605) for driving 3D modelling with LLMs: code-CAD authoring, parametric libraries, implicit/SDF modelling, generative image-to-3D, mesh validation & repair, and print prep & slicing.",
   "tool_count": 33,
-  "total_stars": 375137,
+  "total_stars": 379057,
   "categories": {
     "Code-CAD authoring": 6,
     "Parametric component library": 3,
@@ -18,27 +18,27 @@
   "top_tools": [
     {
       "name": "Comfy-Org/ComfyUI",
-      "stars": 144598
+      "stars": 145922
     },
     {
       "name": "FreeCAD/FreeCAD",
-      "stars": 35051
+      "stars": 35292
     },
     {
       "name": "ahujasid/mcp-for-blender",
-      "stars": 33056
+      "stars": 33744
     },
     {
       "name": "img2threejs/img2threejs",
-      "stars": 20083
+      "stars": 21027
     },
     {
       "name": "OrcaSlicer/OrcaSlicer",
-      "stars": 16282
+      "stars": 16400
     }
   ],
-  "snapshot": "2026-11-02T14:17:38.270Z",
-  "generated": "2026-11-02",
+  "snapshot": "2026-11-09T14:44:53.318Z",
+  "generated": "2026-11-09",
   "generator": "scripts/reports/printing_stack.py",
-  "created": "2026-11-01"
+  "created": "2026-11-07"
 }

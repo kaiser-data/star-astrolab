@@ -1,8 +1,8 @@
 # Local vs High-Infra AI Stack — A Deployment-Tier Comparison
 
-> Derived from **kaiser-data**'s 2,587 starred repos (snapshot `2026-11-02T14:17:38.270Z`), cross-referenced with the repo-similarity graph (2,587 nodes / 8,732 edges, 42 communities).
+> Derived from **kaiser-data**'s 2,728 starred repos (snapshot `2026-11-09T14:44:53.318Z`), cross-referenced with the repo-similarity graph (2,728 nodes / 9,126 edges, 41 communities).
 >
-> Generated 2026-11-02 by `scripts/reports/local_vs_infra_stack.py` (regenerate any time — no API cost).
+> Generated 2026-11-09 by `scripts/reports/local_vs_infra_stack.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/local-vs-infra-stack-top-tools.svg)
 
@@ -11,7 +11,7 @@
 
 ## Executive summary
 
-- **41 stack tools** in your stars (**1,883,580★** combined), mapped to every layer of a self-hosted AI stack and tagged by deployment tier:
+- **41 stack tools** in your stars (**1,890,586★** combined), mapped to every layer of a self-hosted AI stack and tagged by deployment tier:
   - 🟢 **Local / edge** (17) — laptop, single consumer GPU, on-device, zero ops
   - 🟡 **Scales both** (16) — same tool, local *or* cluster, config-dependent
   - 🔴 **High-infra** (8) — multi-GPU / datacenter / high-QPS / k8s
@@ -44,19 +44,19 @@ _Where the model actually executes. This is the layer where the local/high-infra
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [ollama/ollama](https://github.com/ollama/ollama) | 🟢 Local | 185,661 (▲121) | Go | Classic | The zero-config local default — `ollama run`, model registry, OpenAI-compatible API. Laptop-to-server, but single-node. |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 🟢 Local | 133,146 (▲107) | C++ | Classic | The CPU/edge engine under everything — GGUF quantization, runs on a Raspberry Pi to a Mac; the embeddable substrate. |
-| [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 🟢 Local | 77,347 (▲5) | C++ | Abandoned | Desktop-first local LLM app + bindings; privacy-focused, runs on plain CPUs. |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 🟢 Local | 50,133 (▲25) | Go | Classic | Self-hosted, OpenAI-drop-in engine for LLM/TTS/STT/image on commodity hardware — the all-in-one local server. |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 🟢 Local | 26,545 (▲8) | C++ | Classic | One file = one runnable model. Maximum portability for shipping a local model with no install. |
-| [microsoft/foundry-local](https://github.com/microsoft/foundry-local) | 🟢 Local | 2,605 (▲1) | C++ | Hot | Microsoft's on-device runtime — offline LLM + Whisper, hardware-accelerated where available. |
-| [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 🟢 Local | 2,197 | TypeScript | Classic | llama.cpp bindings for Node.js — run GGUF models in-process with JSON-schema-constrained output; the JS-native local path. |
-| [StayLameBro/backburner](https://github.com/StayLameBro/backburner) | 🟢 Local | 1,151 (▲4) | Python | Hot | Pairs an iPhone with a Mac over USB-C to run a 27B model with faster prefill and more context — a novel local-only scaling trick. |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 🟡 Both | 168,446 (▲42) | Python | Classic | The model-definition library every runtime builds on; runs a notebook locally or a training cluster — the common denominator. |
-| [exo-explore/exo](https://github.com/exo-explore/exo) | 🟡 Both | 48,151 (▲8) | Python | Mature | Stitches a *cluster out of your local devices* (phones, Macs, PCs) to run big models — distributed but home-grown. |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 🔴 Infra | 96,132 (▲96) | Python | Classic | The production serving standard — PagedAttention, continuous batching, tensor/pipeline parallelism for high QPS on GPU fleets. |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 🔴 Infra | 38,371 (▲34) | Python | Mature | High-throughput serving with RadixAttention prefix caching — excels at structured/agentic workloads at scale. |
-| [InternLM/lmdeploy](https://github.com/InternLM/lmdeploy) | 🔴 Infra | 8,128 (▲2) | Python | Classic | Toolkit for compressing + serving LLMs at scale (TurboMind engine); quantization-aware high-throughput inference. |
+| [ollama/ollama](https://github.com/ollama/ollama) | 🟢 Local | 186,456 (▲795) | Go | Classic | The zero-config local default — `ollama run`, model registry, OpenAI-compatible API. Laptop-to-server, but single-node. |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 🟢 Local | 133,817 (▲671) | C++ | Classic | The CPU/edge engine under everything — GGUF quantization, runs on a Raspberry Pi to a Mac; the embeddable substrate. |
+| [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 🟢 Local | 77,353 (▲6) | C++ | Abandoned | Desktop-first local LLM app + bindings; privacy-focused, runs on plain CPUs. |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 🟢 Local | 50,273 (▲140) | Go | Classic | Self-hosted, OpenAI-drop-in engine for LLM/TTS/STT/image on commodity hardware — the all-in-one local server. |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 🟢 Local | 26,591 (▲46) | C++ | Classic | One file = one runnable model. Maximum portability for shipping a local model with no install. |
+| [microsoft/foundry-local](https://github.com/microsoft/foundry-local) | 🟢 Local | 2,645 (▲40) | C++ | Hot | Microsoft's on-device runtime — offline LLM + Whisper, hardware-accelerated where available. |
+| [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 🟢 Local | 2,202 (▲5) | TypeScript | Classic | llama.cpp bindings for Node.js — run GGUF models in-process with JSON-schema-constrained output; the JS-native local path. |
+| [StayLameBro/backburner](https://github.com/StayLameBro/backburner) | 🟢 Local | 1,174 (▲23) | Python | Hot | Pairs an iPhone with a Mac over USB-C to run a 27B model with faster prefill and more context — a novel local-only scaling trick. |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 🟡 Both | 168,687 (▲241) | Python | Classic | The model-definition library every runtime builds on; runs a notebook locally or a training cluster — the common denominator. |
+| [exo-explore/exo](https://github.com/exo-explore/exo) | 🟡 Both | 48,264 (▲113) | Python | Mature | Stitches a *cluster out of your local devices* (phones, Macs, PCs) to run big models — distributed but home-grown. |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 🔴 Infra | 96,601 (▲469) | Python | Classic | The production serving standard — PagedAttention, continuous batching, tensor/pipeline parallelism for high QPS on GPU fleets. |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 🔴 Infra | 38,619 (▲248) | Python | Mature | High-throughput serving with RadixAttention prefix caching — excels at structured/agentic workloads at scale. |
+| [InternLM/lmdeploy](https://github.com/InternLM/lmdeploy) | 🔴 Infra | 8,136 (▲8) | Python | Classic | Toolkit for compressing + serving LLMs at scale (TurboMind engine); quantization-aware high-throughput inference. |
 
 ### Scaling / serving infra
 
@@ -64,8 +64,8 @@ _How you get a runtime onto many machines, cheaply. Only relevant once you outgr
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) | 🔴 Infra | 10,782 (▲6) | Python | Classic | Run/serve LLMs across any cloud or k8s with cost-aware scheduling & spot recovery — the multi-cloud orchestration layer. |
-| [vllm-project/llm-compressor](https://github.com/vllm-project/llm-compressor) | 🔴 Infra | 3,937 (▲6) | Python | Mature | Quantize/sparsify models (GPTQ/AWQ/SmoothQuant) so they serve cheaper on vLLM — the cost-optimization step. |
+| [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) | 🔴 Infra | 10,809 (▲27) | Python | Classic | Run/serve LLMs across any cloud or k8s with cost-aware scheduling & spot recovery — the multi-cloud orchestration layer. |
+| [vllm-project/llm-compressor](https://github.com/vllm-project/llm-compressor) | 🔴 Infra | 3,957 (▲20) | Python | Mature | Quantize/sparsify models (GPTQ/AWQ/SmoothQuant) so they serve cheaper on vLLM — the cost-optimization step. |
 
 ### Model gateway & UI
 
@@ -73,11 +73,11 @@ _What sits in front of the model(s) — a chat UI for one user, or a proxy that 
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 🟢 Local | 157,537 (▲88) | Python | Classic | The self-hosted ChatGPT-style UI for local models (pairs with Ollama) — RAG, users, tools, fully offline. |
-| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 🟢 Local | 67,851 (▲42) | JavaScript | Classic | All-in-one desktop/self-host app: chat + RAG + agents over local or API models. |
-| [janhq/jan](https://github.com/janhq/jan) | 🟢 Local | 45,323 (▲111) | Rust | Classic | Open-source desktop ChatGPT alternative that runs models 100% on your machine. |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 🟡 Both | 62,551 (▲67) | Python | Classic | One OpenAI-compatible API over 100+ providers + a self-hostable proxy with keys/budgets/routing — local or enterprise gateway. |
-| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | 🟡 Both | 13,301 (▲1) | TypeScript | Mature | Fast AI gateway with routing, fallbacks, caching, and guardrails — drop in front of any tier. |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 🟢 Local | 158,196 (▲659) | Svelte | Classic | The self-hosted ChatGPT-style UI for local models (pairs with Ollama) — RAG, users, tools, fully offline. |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 🟢 Local | 68,103 (▲252) | JavaScript | Classic | All-in-one desktop/self-host app: chat + RAG + agents over local or API models. |
+| [janhq/jan](https://github.com/janhq/jan) | 🟢 Local | 45,626 (▲303) | Rust | Classic | Open-source desktop ChatGPT alternative that runs models 100% on your machine. |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 🟡 Both | 62,968 (▲417) | Python | Classic | One OpenAI-compatible API over 100+ providers + a self-hostable proxy with keys/budgets/routing — local or enterprise gateway. |
+| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | 🟡 Both | 13,353 (▲52) | TypeScript | Mature | Fast AI gateway with routing, fallbacks, caching, and guardrails — drop in front of any tier. |
 
 ### Vector store
 
@@ -85,17 +85,17 @@ _Where embeddings live for RAG. Many of these span tiers — start embedded, clu
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 🟢 Local | 41,250 (▲5) | C++ | Classic | The in-process ANN library — no server, embed it in your app; the index inside many of the DBs below. |
-| [alibaba/zvec](https://github.com/alibaba/zvec) | 🟢 Local | 16,177 (▲10) | C++ | Hot | Lightweight, lightning-fast in-process vector database for embedded use. |
-| [neuml/txtai](https://github.com/neuml/txtai) | 🟢 Local | 13,061 (▲7) | Python | Classic | All-in-one embeddings DB + RAG + workflows in one local package. |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb) | 🟢 Local | 11,830 (▲7) | Rust | Classic | Embedded, serverless vector DB (Lance columnar format) — zero-ops local RAG that still handles large on-disk sets. |
-| [redis/redis](https://github.com/redis/redis) | 🟡 Both | 77,140 (▲12) | C | Classic | The in-memory store you already run, now with vector search — local cache to HA cluster. |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 🟡 Both | 35,385 (▲25) | Rust | Classic | Rust vector DB — single-binary local, but clusters with sharding/replication for billions of vectors. |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 🟡 Both | 29,623 (▲7) | Rust | Classic | AI-native store that runs embedded for prototyping and client/server for production — the easy on-ramp. |
-| [pgvector/pgvector](https://github.com/pgvector/pgvector) | 🟡 Both | 23,566 (▲11) | C | Mature | Vector search inside the Postgres you already run — scales from a laptop to a managed cluster with no new infra. |
-| [marqo-ai/marqo](https://github.com/marqo-ai/marqo) | 🟡 Both | 5,025 (▼1) | Python | Mature | End-to-end vector search that bundles embedding inference; deploys local or distributed. |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 🔴 Infra | 46,559 (▲11) | Go | Classic | The billion-scale, distributed OSS vector DB — heavy ops footprint, built for datacenter scale. |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 🔴 Infra | 16,934 (▲1) | Go | Classic | Cloud-native vector DB with hybrid search & modules — designed for clustered, multi-tenant deployments. |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 🟢 Local | 41,268 (▲18) | C++ | Classic | The in-process ANN library — no server, embed it in your app; the index inside many of the DBs below. |
+| [alibaba/zvec](https://github.com/alibaba/zvec) | 🟢 Local | 16,219 (▲42) | C++ | Hot | Lightweight, lightning-fast in-process vector database for embedded use. |
+| [neuml/txtai](https://github.com/neuml/txtai) | 🟢 Local | 13,207 (▲146) | Python | Classic | All-in-one embeddings DB + RAG + workflows in one local package. |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | 🟢 Local | 11,867 (▲37) | Rust | Classic | Embedded, serverless vector DB (Lance columnar format) — zero-ops local RAG that still handles large on-disk sets. |
+| [redis/redis](https://github.com/redis/redis) | 🟡 Both | 77,317 (▲177) | C | Classic | The in-memory store you already run, now with vector search — local cache to HA cluster. |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 🟡 Both | 35,480 (▲95) | Rust | Classic | Rust vector DB — single-binary local, but clusters with sharding/replication for billions of vectors. |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 🟡 Both | 29,660 (▲37) | Rust | Classic | AI-native store that runs embedded for prototyping and client/server for production — the easy on-ramp. |
+| [pgvector/pgvector](https://github.com/pgvector/pgvector) | 🟡 Both | 23,628 (▲62) | C | Mature | Vector search inside the Postgres you already run — scales from a laptop to a managed cluster with no new infra. |
+| [marqo-ai/marqo](https://github.com/marqo-ai/marqo) | 🟡 Both | 5,024 (▼1) | Python | Mature | End-to-end vector search that bundles embedding inference; deploys local or distributed. |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 🔴 Infra | 46,616 (▲57) | Go | Classic | The billion-scale, distributed OSS vector DB — heavy ops footprint, built for datacenter scale. |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 🔴 Infra | 16,944 (▲10) | Go | Classic | Cloud-native vector DB with hybrid search & modules — designed for clustered, multi-tenant deployments. |
 
 ### Fine-tuning
 
@@ -103,9 +103,9 @@ _Adapting a model. LoRA on one GPU vs. multi-node full fine-tunes._
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 🟢 Local | 78,955 (▲50) | Python | Mature | 2× faster, lower-VRAM fine-tuning — train a LoRA on a single consumer GPU (even Colab). |
-| [huggingface/peft](https://github.com/huggingface/peft) | 🟡 Both | 21,866 (▼1) | Python | Classic | Parameter-efficient fine-tuning (LoRA/QLoRA/adapters) — one consumer GPU or a multi-node run. |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 🔴 Infra | 12,656 (▲6) | Python | Classic | Config-driven fine-tuning that scales to multi-GPU/multi-node (DeepSpeed/FSDP) — the cluster-grade trainer. |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 🟢 Local | 79,234 (▲279) | Python | Mature | 2× faster, lower-VRAM fine-tuning — train a LoRA on a single consumer GPU (even Colab). |
+| [huggingface/peft](https://github.com/huggingface/peft) | 🟡 Both | 21,880 (▲14) | Python | Classic | Parameter-efficient fine-tuning (LoRA/QLoRA/adapters) — one consumer GPU or a multi-node run. |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 🔴 Infra | 12,674 (▲18) | Python | Classic | Config-driven fine-tuning that scales to multi-GPU/multi-node (DeepSpeed/FSDP) — the cluster-grade trainer. |
 
 ### Agent framework
 
@@ -113,10 +113,10 @@ _The orchestration logic — deliberately tier-agnostic; it targets whatever end
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 🟡 Both | 60,420 (▲51) | Python | Classic | Role-based multi-agent framework — runs against any model backend, local or hosted. |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 🟡 Both | 52,777 (▲10) | Python | Classic | Data/agent framework — point it at a local Ollama or a cloud endpoint; tier-agnostic. |
-| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 🟡 Both | 44,334 (▲74) | Python | Classic | Graph/stateful agent runtime — the orchestration logic is independent of where the model runs. |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 🟡 Both | 20,997 (▲20) | Python | Mature | Type-safe agent framework; model-agnostic, so the same code targets either tier. |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 🟡 Both | 60,687 (▲267) | Python | Classic | Role-based multi-agent framework — runs against any model backend, local or hosted. |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 🟡 Both | 52,856 (▲79) | Python | Classic | Data/agent framework — point it at a local Ollama or a cloud endpoint; tier-agnostic. |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 🟡 Both | 44,691 (▲357) | Python | Classic | Graph/stateful agent runtime — the orchestration logic is independent of where the model runs. |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 🟡 Both | 21,102 (▲105) | Python | Mature | Type-safe agent framework; model-agnostic, so the same code targets either tier. |
 
 ### Observability & eval
 
@@ -124,9 +124,9 @@ _Tracing, metrics, and evals. Most self-host locally and also offer managed clou
 
 | Tool | Tier | ★ Stars | Lang | Lifecycle | What it's for |
 |---|---|---|---|---|---|
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 🟢 Local | 26,742 (▲54) | TypeScript | Classic | CLI-first prompt/model eval that runs entirely on your machine in CI — no backend needed. |
-| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🟡 Both | 36,885 (▲62) | TypeScript | Classic | Self-hostable LLM tracing/eval/metrics — runs in Docker locally or as managed cloud. |
-| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 🟡 Both | 12,103 (▲13) | Python | Classic | Open-source LLM observability you can run locally; OTel-native tracing + evals. |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 🟢 Local | 26,988 (▲246) | TypeScript | Mature | CLI-first prompt/model eval that runs entirely on your machine in CI — no backend needed. |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🟡 Both | 37,199 (▲314) | TypeScript | Classic | Self-hostable LLM tracing/eval/metrics — runs in Docker locally or as managed cloud. |
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 🟡 Both | 12,215 (▲112) | Python | Classic | Open-source LLM observability you can run locally; OTel-native tracing + evals. |
 
 ## Which tier should you use?
 
@@ -147,91 +147,92 @@ Sorted by tier then stars. `Health`/`Lifecycle` are the dataset's computed metri
 
 | Tool | Layer | Tier | Lang | License | ★ Stars | Lifecycle | Health | Activity | Last push | Contrib(90d) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| [ollama](https://github.com/ollama/ollama) | Inference runtime | Local | Go | MIT | 185,661 (▲121) | Classic | 83 | very active | 0d ago | 12 |
-| [open-webui](https://github.com/open-webui/open-webui) | Model gateway & UI | Local | Python | NOASSERTION | 157,537 (▲88) | Classic | 85 | very active | 0d ago | 7 |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Inference runtime | Local | C++ | MIT | 133,146 (▲107) | Classic | 99 | very active | 0d ago | 58 |
-| [unsloth](https://github.com/unslothai/unsloth) | Fine-tuning | Local | Python | Apache-2.0 | 78,955 (▲50) | Mature | 80 | very active | 0d ago | 13 |
-| [gpt4all](https://github.com/nomic-ai/gpt4all) | Inference runtime | Local | C++ | MIT | 77,347 (▲5) | Abandoned | 7 | stale | 1.4y ago | 0 |
-| [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | Model gateway & UI | Local | JavaScript | MIT | 67,851 (▲42) | Classic | 99 | very active | 3d ago | 33 |
-| [LocalAI](https://github.com/mudler/LocalAI) | Inference runtime | Local | Go | MIT | 50,133 (▲25) | Classic | 79 | very active | 0d ago | 6 |
-| [jan](https://github.com/janhq/jan) | Model gateway & UI | Local | Rust | NOASSERTION | 45,323 (▲111) | Classic | 79 | very active | 0d ago | 4 |
-| [faiss](https://github.com/facebookresearch/faiss) | Vector store | Local | C++ | MIT | 41,250 (▲5) | Classic | 89 | very active | 1d ago | 24 |
-| [promptfoo](https://github.com/promptfoo/promptfoo) | Observability & eval | Local | TypeScript | MIT | 26,742 (▲54) | Classic | 79 | very active | 0d ago | 14 |
-| [llamafile](https://github.com/mozilla-ai/llamafile) | Inference runtime | Local | C++ | NOASSERTION | 26,545 (▲8) | Classic | 62 | active | 22d ago | 6 |
-| [zvec](https://github.com/alibaba/zvec) | Vector store | Local | C++ | Apache-2.0 | 16,177 (▲10) | Hot | 93 | very active | 0d ago | 18 |
-| [txtai](https://github.com/neuml/txtai) | Vector store | Local | Python | Apache-2.0 | 13,061 (▲7) | Classic | 100 | very active | 1d ago | 35 |
-| [lancedb](https://github.com/lancedb/lancedb) | Vector store | Local | Rust | Apache-2.0 | 11,830 (▲7) | Classic | 97 | very active | 0d ago | 37 |
-| [foundry-local](https://github.com/microsoft/foundry-local) | Inference runtime | Local | C++ | NOASSERTION | 2,605 (▲1) | Hot | 83 | very active | 0d ago | 15 |
-| [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | Inference runtime | Local | TypeScript | MIT | 2,197 | Classic | 67 | active | 13d ago | 5 |
-| [backburner](https://github.com/StayLameBro/backburner) | Inference runtime | Local | Python | MIT | 1,151 (▲4) | Hot | 62 | very active | 6d ago | 5 |
-| [transformers](https://github.com/huggingface/transformers) | Inference runtime | Both | Python | Apache-2.0 | 168,446 (▲42) | Classic | 100 | very active | 0d ago | 43 |
-| [redis](https://github.com/redis/redis) | Vector store | Both | C | NOASSERTION | 77,140 (▲12) | Classic | 97 | very active | 0d ago | 38 |
-| [litellm](https://github.com/BerriAI/litellm) | Model gateway & UI | Both | Python | NOASSERTION | 62,551 (▲67) | Classic | 99 | very active | 0d ago | 26 |
-| [crewAI](https://github.com/crewAIInc/crewAI) | Agent framework | Both | Python | MIT | 60,420 (▲51) | Classic | 79 | very active | 0d ago | 19 |
-| [llama_index](https://github.com/run-llama/llama_index) | Agent framework | Both | Python | MIT | 52,777 (▲10) | Classic | 97 | very active | 7d ago | 49 |
-| [exo](https://github.com/exo-explore/exo) | Inference runtime | Both | Python | Apache-2.0 | 48,151 (▲8) | Mature | 77 | very active | 0d ago | 1 |
-| [langgraph](https://github.com/langchain-ai/langgraph) | Agent framework | Both | Python | MIT | 44,334 (▲74) | Classic | 83 | very active | 0d ago | 16 |
-| [langfuse](https://github.com/langfuse/langfuse) | Observability & eval | Both | TypeScript | NOASSERTION | 36,885 (▲62) | Classic | 94 | very active | 0d ago | 22 |
-| [qdrant](https://github.com/qdrant/qdrant) | Vector store | Both | Rust | Apache-2.0 | 35,385 (▲25) | Classic | 83 | very active | 0d ago | 20 |
-| [chroma](https://github.com/chroma-core/chroma) | Vector store | Both | Rust | Apache-2.0 | 29,623 (▲7) | Classic | 80 | very active | 3d ago | 9 |
-| [pgvector](https://github.com/pgvector/pgvector) | Vector store | Both | C | NOASSERTION | 23,566 (▲11) | Mature | 63 | very active | 2d ago | 1 |
-| [peft](https://github.com/huggingface/peft) | Fine-tuning | Both | Python | Apache-2.0 | 21,866 (▼1) | Classic | 100 | very active | 0d ago | 47 |
-| [pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agent framework | Both | Python | MIT | 20,997 (▲20) | Mature | 82 | very active | 0d ago | 11 |
-| [gateway](https://github.com/Portkey-AI/gateway) | Model gateway & UI | Both | TypeScript | MIT | 13,301 (▲1) | Mature | 39 | slowing | 5mo ago | 0 |
-| [phoenix](https://github.com/Arize-ai/phoenix) | Observability & eval | Both | Python | NOASSERTION | 12,103 (▲13) | Classic | 84 | very active | 0d ago | 17 |
-| [marqo](https://github.com/marqo-ai/marqo) | Vector store | Both | Python | Apache-2.0 | 5,025 (▼1) | Mature | 44 | active | 2mo ago | 0 |
-| [vllm](https://github.com/vllm-project/vllm) | Inference runtime | Infra | Python | Apache-2.0 | 96,132 (▲96) | Classic | 99 | very active | 0d ago | 70 |
-| [milvus](https://github.com/milvus-io/milvus) | Vector store | Infra | Go | Apache-2.0 | 46,559 (▲11) | Classic | 99 | very active | 0d ago | 33 |
-| [sglang](https://github.com/sgl-project/sglang) | Inference runtime | Infra | Python | Apache-2.0 | 38,371 (▲34) | Mature | 99 | very active | 0d ago | 65 |
-| [weaviate](https://github.com/weaviate/weaviate) | Vector store | Infra | Go | NOASSERTION | 16,934 (▲1) | Classic | 78 | very active | 0d ago | 3 |
-| [axolotl](https://github.com/axolotl-ai-cloud/axolotl) | Fine-tuning | Infra | Python | Apache-2.0 | 12,656 (▲6) | Classic | 79 | very active | 0d ago | 9 |
-| [skypilot](https://github.com/skypilot-org/skypilot) | Scaling / serving infra | Infra | Python | Apache-2.0 | 10,782 (▲6) | Classic | 90 | very active | 0d ago | 21 |
-| [lmdeploy](https://github.com/InternLM/lmdeploy) | Inference runtime | Infra | Python | Apache-2.0 | 8,128 (▲2) | Classic | 97 | very active | 3d ago | 25 |
-| [llm-compressor](https://github.com/vllm-project/llm-compressor) | Scaling / serving infra | Infra | Python | Apache-2.0 | 3,937 (▲6) | Mature | 89 | very active | 2d ago | 31 |
+| [ollama](https://github.com/ollama/ollama) | Inference runtime | Local | Go | MIT | 186,456 (▲795) | Classic | 83 | very active | 2d ago | 13 |
+| [open-webui](https://github.com/open-webui/open-webui) | Model gateway & UI | Local | Svelte | NOASSERTION | 158,196 (▲659) | Classic | 80 | very active | 0d ago | 3 |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Inference runtime | Local | C++ | MIT | 133,817 (▲671) | Classic | 99 | very active | 0d ago | 58 |
+| [unsloth](https://github.com/unslothai/unsloth) | Fine-tuning | Local | Python | Apache-2.0 | 79,234 (▲279) | Mature | 80 | very active | 0d ago | 6 |
+| [gpt4all](https://github.com/nomic-ai/gpt4all) | Inference runtime | Local | C++ | MIT | 77,353 (▲6) | Abandoned | 7 | stale | 1.5y ago | 0 |
+| [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | Model gateway & UI | Local | JavaScript | MIT | 68,103 (▲252) | Classic | 89 | very active | 3d ago | 28 |
+| [LocalAI](https://github.com/mudler/LocalAI) | Inference runtime | Local | Go | MIT | 50,273 (▲140) | Classic | 79 | very active | 0d ago | 5 |
+| [jan](https://github.com/janhq/jan) | Model gateway & UI | Local | Rust | NOASSERTION | 45,626 (▲303) | Classic | 84 | very active | 0d ago | 3 |
+| [faiss](https://github.com/facebookresearch/faiss) | Vector store | Local | C++ | MIT | 41,268 (▲18) | Classic | 89 | very active | 2d ago | 28 |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | Observability & eval | Local | TypeScript | MIT | 26,988 (▲246) | Mature | 79 | very active | 0d ago | 1 |
+| [llamafile](https://github.com/mozilla-ai/llamafile) | Inference runtime | Local | C++ | NOASSERTION | 26,591 (▲46) | Classic | 67 | very active | 1d ago | 8 |
+| [zvec](https://github.com/alibaba/zvec) | Vector store | Local | C++ | Apache-2.0 | 16,219 (▲42) | Hot | 87 | very active | 1d ago | 18 |
+| [txtai](https://github.com/neuml/txtai) | Vector store | Local | Python | Apache-2.0 | 13,207 (▲146) | Classic | 100 | very active | 3d ago | 32 |
+| [lancedb](https://github.com/lancedb/lancedb) | Vector store | Local | Rust | Apache-2.0 | 11,867 (▲37) | Classic | 87 | very active | 0d ago | 24 |
+| [foundry-local](https://github.com/microsoft/foundry-local) | Inference runtime | Local | C++ | NOASSERTION | 2,645 (▲40) | Hot | 83 | very active | 0d ago | 15 |
+| [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | Inference runtime | Local | TypeScript | MIT | 2,202 (▲5) | Classic | 68 | active | 4d ago | 5 |
+| [backburner](https://github.com/StayLameBro/backburner) | Inference runtime | Local | Python | MIT | 1,174 (▲23) | Hot | 64 | very active | 3d ago | 5 |
+| [transformers](https://github.com/huggingface/transformers) | Inference runtime | Both | Python | Apache-2.0 | 168,687 (▲241) | Classic | 100 | very active | 0d ago | 40 |
+| [redis](https://github.com/redis/redis) | Vector store | Both | C | NOASSERTION | 77,317 (▲177) | Classic | 97 | very active | 0d ago | 35 |
+| [litellm](https://github.com/BerriAI/litellm) | Model gateway & UI | Both | Python | NOASSERTION | 62,968 (▲417) | Classic | 94 | very active | 0d ago | 30 |
+| [crewAI](https://github.com/crewAIInc/crewAI) | Agent framework | Both | Python | MIT | 60,687 (▲267) | Classic | 78 | very active | 0d ago | 7 |
+| [llama_index](https://github.com/run-llama/llama_index) | Agent framework | Both | Python | MIT | 52,856 (▲79) | Classic | 97 | very active | 1d ago | 43 |
+| [exo](https://github.com/exo-explore/exo) | Inference runtime | Both | Python | Apache-2.0 | 48,264 (▲113) | Mature | 78 | very active | 3d ago | 1 |
+| [langgraph](https://github.com/langchain-ai/langgraph) | Agent framework | Both | Python | MIT | 44,691 (▲357) | Classic | 83 | very active | 2d ago | 14 |
+| [langfuse](https://github.com/langfuse/langfuse) | Observability & eval | Both | TypeScript | NOASSERTION | 37,199 (▲314) | Classic | 89 | very active | 0d ago | 19 |
+| [qdrant](https://github.com/qdrant/qdrant) | Vector store | Both | Rust | Apache-2.0 | 35,480 (▲95) | Classic | 83 | very active | 0d ago | 20 |
+| [chroma](https://github.com/chroma-core/chroma) | Vector store | Both | Rust | Apache-2.0 | 29,660 (▲37) | Classic | 80 | very active | 2d ago | 9 |
+| [pgvector](https://github.com/pgvector/pgvector) | Vector store | Both | C | NOASSERTION | 23,628 (▲62) | Mature | 64 | very active | 0d ago | 1 |
+| [peft](https://github.com/huggingface/peft) | Fine-tuning | Both | Python | Apache-2.0 | 21,880 (▲14) | Classic | 100 | very active | 0d ago | 51 |
+| [pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agent framework | Both | Python | MIT | 21,102 (▲105) | Mature | 77 | very active | 0d ago | 13 |
+| [gateway](https://github.com/Portkey-AI/gateway) | Model gateway & UI | Both | TypeScript | MIT | 13,353 (▲52) | Mature | 36 | slowing | 5mo ago | 0 |
+| [phoenix](https://github.com/Arize-ai/phoenix) | Observability & eval | Both | Python | NOASSERTION | 12,215 (▲112) | Classic | 84 | very active | 0d ago | 20 |
+| [marqo](https://github.com/marqo-ai/marqo) | Vector store | Both | Python | Apache-2.0 | 5,024 (▼1) | Mature | 43 | slowing | 2mo ago | 0 |
+| [vllm](https://github.com/vllm-project/vllm) | Inference runtime | Infra | Python | Apache-2.0 | 96,601 (▲469) | Classic | 99 | very active | 0d ago | 61 |
+| [milvus](https://github.com/milvus-io/milvus) | Vector store | Infra | Go | Apache-2.0 | 46,616 (▲57) | Classic | 99 | very active | 0d ago | 33 |
+| [sglang](https://github.com/sgl-project/sglang) | Inference runtime | Infra | Python | Apache-2.0 | 38,619 (▲248) | Mature | 99 | very active | 0d ago | 57 |
+| [weaviate](https://github.com/weaviate/weaviate) | Vector store | Infra | Go | NOASSERTION | 16,944 (▲10) | Classic | 83 | very active | 0d ago | 9 |
+| [axolotl](https://github.com/axolotl-ai-cloud/axolotl) | Fine-tuning | Infra | Python | Apache-2.0 | 12,674 (▲18) | Classic | 79 | very active | 0d ago | 8 |
+| [skypilot](https://github.com/skypilot-org/skypilot) | Scaling / serving infra | Infra | Python | Apache-2.0 | 10,809 (▲27) | Classic | 90 | very active | 0d ago | 24 |
+| [lmdeploy](https://github.com/InternLM/lmdeploy) | Inference runtime | Infra | Python | Apache-2.0 | 8,136 (▲8) | Classic | 98 | very active | 0d ago | 28 |
+| [llm-compressor](https://github.com/vllm-project/llm-compressor) | Scaling / serving infra | Infra | Python | Apache-2.0 | 3,957 (▲20) | Mature | 94 | very active | 2d ago | 31 |
 
 ## Graph analysis — how the stack hangs together
 
-**Community clustering.** These 41 tools span **15 of the graph's 42 communities** — the stack cuts across the inference, RAG/vector, and agent neighborhoods rather than forming one cluster.
+**Community clustering.** These 41 tools span **15 of the graph's 41 communities** — the stack cuts across the inference, RAG/vector, and agent neighborhoods rather than forming one cluster.
 
-- **Community 21** (7): `mozilla-ai/llamafile`, `BerriAI/litellm`, `Portkey-AI/gateway`, `redis/redis`, `pydantic/pydantic-ai`, `langfuse/langfuse`, `Arize-ai/phoenix`
-- **Community 5** (7): `nomic-ai/gpt4all`, `InternLM/lmdeploy`, `Mintplex-Labs/anything-llm`, `chroma-core/chroma`, `neuml/txtai`, `langchain-ai/langgraph`, `crewAIInc/crewAI`
-- **Community 35** (6): `ollama/ollama`, `vllm-project/vllm`, `sgl-project/sglang`, `vllm-project/llm-compressor`, `open-webui/open-webui`, `unslothai/unsloth`
-- **Community 15** (5): `ggml-org/llama.cpp`, `withcatai/node-llama-cpp`, `StayLameBro/backburner`, `janhq/jan`, `marqo-ai/marqo`
-- **Community 8** (3): `lancedb/lancedb`, `pgvector/pgvector`, `qdrant/qdrant`
-- **Community 3** (2): `huggingface/transformers`, `huggingface/peft`
-- **Community 32** (2): `alibaba/zvec`, `run-llama/llama_index`
-- **Community 17** (2): `weaviate/weaviate`, `milvus-io/milvus`
+- **Community 16** (10): `Mintplex-Labs/anything-llm`, `lancedb/lancedb`, `pgvector/pgvector`, `chroma-core/chroma`, `alibaba/zvec`, `neuml/txtai`, `qdrant/qdrant`, `weaviate/weaviate`, `milvus-io/milvus`, `crewAIInc/crewAI`
+- **Community 27** (5): `ollama/ollama`, `huggingface/transformers`, `janhq/jan`, `unslothai/unsloth`, `huggingface/peft`
+- **Community 11** (5): `mozilla-ai/llamafile`, `BerriAI/litellm`, `Portkey-AI/gateway`, `langchain-ai/langgraph`, `pydantic/pydantic-ai`
+- **Community 22** (4): `vllm-project/vllm`, `sgl-project/sglang`, `vllm-project/llm-compressor`, `run-llama/llama_index`
+- **Community 26** (3): `ggml-org/llama.cpp`, `withcatai/node-llama-cpp`, `marqo-ai/marqo`
+- **Community 18** (3): `langfuse/langfuse`, `Arize-ai/phoenix`, `promptfoo/promptfoo`
+- **Community 20** (2): `nomic-ai/gpt4all`, `InternLM/lmdeploy`
+- **Community 1** (2): `StayLameBro/backburner`, `exo-explore/exo`
 
-**Centrality (PageRank in the full 2,587-repo graph)** — the 'hub' tools your other stars cluster around:
+**Centrality (PageRank in the full 2,728-repo graph)** — the 'hub' tools your other stars cluster around:
 
-- `langchain-ai/langgraph` — PageRank 0.0012 (🟡 Both)
-- `vllm-project/vllm` — PageRank 0.0007 (🔴 Infra)
-- `crewAIInc/crewAI` — PageRank 0.0006 (🟡 Both)
-- `qdrant/qdrant` — PageRank 0.0006 (🟡 Both)
-- `unslothai/unsloth` — PageRank 0.0006 (🟢 Local)
+- `nomic-ai/gpt4all` — PageRank 0.0013 (🟢 Local)
+- `langchain-ai/langgraph` — PageRank 0.0011 (🟡 Both)
 - `huggingface/transformers` — PageRank 0.0006 (🟡 Both)
-- `run-llama/llama_index` — PageRank 0.0006 (🟡 Both)
-- `weaviate/weaviate` — PageRank 0.0006 (🔴 Infra)
+- `qdrant/qdrant` — PageRank 0.0006 (🟡 Both)
+- `crewAIInc/crewAI` — PageRank 0.0006 (🟡 Both)
+- `vllm-project/vllm` — PageRank 0.0006 (🔴 Infra)
+- `axolotl-ai-cloud/axolotl` — PageRank 0.0006 (🔴 Infra)
 - `chroma-core/chroma` — PageRank 0.0006 (🟡 Both)
-- `ggml-org/llama.cpp` — PageRank 0.0005 (🟢 Local)
+- `huggingface/peft` — PageRank 0.0005 (🟡 Both)
+- `langfuse/langfuse` — PageRank 0.0005 (🟡 Both)
 
 **Direct links between stack tools** (top similarity edges where both endpoints are in this report):
 
-- `huggingface/peft` ⇄ `huggingface/transformers` (w=0.758) — topics: llm, python, pytorch; authors: albertvillanova, michaelbenayoun, mishig25
+- `huggingface/peft` ⇄ `huggingface/transformers` (w=0.710) — topics: llm, python, pytorch; authors: albertvillanova, kaixuanliu
 - `vllm-project/llm-compressor` ⇄ `vllm-project/vllm` (w=0.550)
+- `weaviate/weaviate` ⇄ `qdrant/qdrant` (w=0.429) — topics: search-engine, vector-search, vector-search-engine, vector-database
 - `vllm-project/vllm` ⇄ `sgl-project/sglang` (w=0.407) — topics: llm, transformer, inference, llama
 - `lancedb/lancedb` ⇄ `weaviate/weaviate` (w=0.400) — topics: approximate-nearest-neighbor-search, image-search, nearest-neighbor-search, recommender-system
 - `BerriAI/litellm` ⇄ `Portkey-AI/gateway` (w=0.348) — topics: langchain, llm, llmops, openai
 - `lancedb/lancedb` ⇄ `qdrant/qdrant` (w=0.323) — topics: image-search, nearest-neighbor-search, recommender-system, search-engine
-- `Arize-ai/phoenix` ⇄ `BerriAI/litellm` (w=0.290) — topics: llmops, anthropic, openai, langchain; authors: pcbeingused333, dependabot[bot]
-- `neuml/txtai` ⇄ `Mintplex-Labs/anything-llm` (w=0.288) — topics: llm, vector-database, rag, ai-agents; authors: MohammadHijjawi97, rtmalikian, moneebullah25
+- `neuml/txtai` ⇄ `Mintplex-Labs/anything-llm` (w=0.311) — topics: llm, vector-database, rag, ai-agents; authors: MohammadHijjawi97, Fahmid-Arman, tanishqbaweja
 - `sgl-project/sglang` ⇄ `ollama/ollama` (w=0.280) — topics: llama, llm, deepseek, gpt-oss
-- `promptfoo/promptfoo` ⇄ `langfuse/langfuse` (w=0.263) — topics: llm, prompt-engineering, llmops, evaluation; authors: dependabot[bot]
-- `unslothai/unsloth` ⇄ `open-webui/open-webui` (w=0.257) — topics: llms, llm, openai, self-hosted
+- `lancedb/lancedb` ⇄ `alibaba/zvec` (w=0.259) — topics: search-engine, semantic-search, similarity-search, vector-database; authors: dependabot[bot]
 - `lancedb/lancedb` ⇄ `pgvector/pgvector` (w=0.250) — topics: approximate-nearest-neighbor-search, nearest-neighbor-search
 - `unslothai/unsloth` ⇄ `ollama/ollama` (w=0.214) — topics: llama, llms, gemma, llm
+- `promptfoo/promptfoo` ⇄ `langfuse/langfuse` (w=0.206) — topics: llm, prompt-engineering, llmops, evaluation
 - `milvus-io/milvus` ⇄ `weaviate/weaviate` (w=0.202) — topics: nearest-neighbor-search, vector-search, image-search, hnsw
-- `pgvector/pgvector` ⇄ `weaviate/weaviate` (w=0.100) — topics: nearest-neighbor-search, approximate-nearest-neighbor-search
+- `mozilla-ai/llamafile` ⇄ `microsoft/foundry-local` (w=0.168) — topics: local-ai, speech-to-text
+- …and 1 more.
 
 ## Maintenance & risk signal
 
@@ -239,55 +240,55 @@ Bus factor = commit concentration (1 = single-maintainer risk). For infra you'll
 
 | Tool | Tier | Health | Lifecycle | Activity | Bus factor | Top-author share | Releases |
 |---|---|---|---|---|---|---|---|
-| transformers | Both | 100 | Classic | very active | 9 | 13% | 282 |
-| txtai | Local | 100 | Classic | very active | 5 | 29% | 68 |
-| peft | Both | 100 | Classic | very active | 7 | 21% | 36 |
-| llama.cpp | Local | 99 | Classic | very active | 13 | 10% | 7934 |
-| vllm | Infra | 99 | Classic | very active | 20 | 7% | 109 |
-| sglang | Infra | 99 | Mature | very active | 15 | 8% | 63 |
-| litellm | Both | 99 | Classic | very active | 7 | 10% | 1543 |
-| anything-llm | Local | 99 | Classic | very active | 5 | 24% | 39 |
-| milvus | Infra | 99 | Classic | very active | 6 | 10% | 180 |
-| lmdeploy | Infra | 97 | Classic | very active | 5 | 15% | 71 |
-| lancedb | Local | 97 | Classic | very active | 5 | 18% | 537 |
-| redis | Both | 97 | Classic | very active | 10 | 12% | 164 |
-| llama_index | Both | 97 | Classic | very active | 10 | 15% | 497 |
-| langfuse | Both | 94 | Classic | very active | 4 | 21% | 731 |
-| zvec | Local | 93 | Hot | very active | 4 | 16% | 15 |
-| skypilot | Infra | 90 | Classic | very active | 3 | 28% | 47 |
-| llm-compressor | Infra | 89 | Mature | very active | 3 | 23% | 40 |
-| faiss | Local | 89 | Classic | very active | 3 | 25% | 29 |
-| open-webui | Local | 85 | Classic | very active | 2 | 37% | 177 |
-| phoenix | Both | 84 | Classic | very active | 2 | 34% | 893 |
-| ollama | Local | 83 | Classic | very active | 2 | 38% | 271 |
-| foundry-local | Local | 83 | Hot | very active | 2 | 31% | 28 |
+| transformers | Both | 100 | Classic | very active | 6 | 18% | 283 |
+| txtai | Local | 100 | Classic | very active | 5 | 30% | 68 |
+| peft | Both | 100 | Classic | very active | 8 | 17% | 36 |
+| llama.cpp | Local | 99 | Classic | very active | 12 | 8% | 8046 |
+| vllm | Infra | 99 | Classic | very active | 11 | 14% | 109 |
+| sglang | Infra | 99 | Mature | very active | 11 | 18% | 64 |
+| milvus | Infra | 99 | Classic | very active | 8 | 11% | 180 |
+| lmdeploy | Infra | 98 | Classic | very active | 5 | 12% | 71 |
+| redis | Both | 97 | Classic | very active | 8 | 14% | 164 |
+| llama_index | Both | 97 | Classic | very active | 9 | 15% | 497 |
+| llm-compressor | Infra | 94 | Mature | very active | 4 | 19% | 40 |
+| litellm | Both | 94 | Classic | very active | 4 | 26% | 1552 |
+| skypilot | Infra | 90 | Classic | very active | 3 | 24% | 47 |
+| anything-llm | Local | 89 | Classic | very active | 3 | 28% | 39 |
+| faiss | Local | 89 | Classic | very active | 3 | 22% | 29 |
+| langfuse | Both | 89 | Classic | very active | 3 | 25% | 738 |
+| lancedb | Local | 87 | Classic | very active | 3 | 27% | 544 |
+| zvec | Local | 87 | Hot | very active | 3 | 22% | 16 |
+| jan | Local | 84 | Classic | very active | 2 | 47% | 108 |
+| phoenix | Both | 84 | Classic | very active | 2 | 27% | 903 |
+| ollama | Local | 83 | Classic | very active | 2 | 39% | 273 |
+| foundry-local | Local | 83 | Hot | very active | 2 | 35% | 31 |
 | qdrant | Both | 83 | Classic | very active | 2 | 41% | 119 |
-| langgraph | Both | 83 | Classic | very active | 2 | 35% | 593 |
-| pydantic-ai | Both | 82 | Mature | very active | 2 | 44% | 352 |
+| weaviate | Infra | 83 | Classic | very active | 2 | 27% | 612 |
+| langgraph | Both | 83 | Classic | very active | 2 | 40% | 599 |
+| open-webui | Local | 80 | Classic | very active | 1 | 63% | 181 |
 | chroma | Both | 80 | Classic | very active | 2 | 31% | 137 |
-| unsloth | Local | 80 | Mature | very active | 1 | 58% | 83 |
-| LocalAI | Local | 79 | Classic | very active | 1 | 68% | 140 |
-| jan | Local | 79 | Classic | very active | 1 | 72% | 108 |
-| axolotl | Infra | 79 | Classic | very active | 1 | 63% | 36 |
-| crewAI | Both | 79 | Classic | very active | 1 | 50% | 248 |
-| promptfoo | Local | 79 | Classic | very active | 1 | 69% | 432 |
-| weaviate | Infra | 78 | Classic | very active | 1 | 84% | 609 |
-| exo | Both | 77 | Mature | very active | 1 | 100% | 16 |
-| node-llama-cpp | Local | 67 | Classic | active | 1 | 76% | 142 |
-| pgvector | Both | 63 | Mature | very active | 1 | 100% | 0 |
-| llamafile | Local | 62 | Classic | active | 1 | 58% | 43 |
-| backburner | Local | 62 | Hot | very active | 1 | 73% | 4 |
-| marqo | Both | 44 | Mature | active | 0 | 0% | 113 |
-| gateway | Both | 39 | Mature | slowing | 0 | 0% | 81 |
+| unsloth | Local | 80 | Mature | very active | 1 | 92% | 86 |
+| LocalAI | Local | 79 | Classic | very active | 1 | 80% | 140 |
+| axolotl | Infra | 79 | Classic | very active | 1 | 69% | 36 |
+| promptfoo | Local | 79 | Mature | very active | 1 | 100% | 432 |
+| exo | Both | 78 | Mature | very active | 1 | 100% | 16 |
+| crewAI | Both | 78 | Classic | very active | 1 | 82% | 253 |
+| pydantic-ai | Both | 77 | Mature | very active | 1 | 58% | 355 |
+| node-llama-cpp | Local | 68 | Classic | active | 1 | 78% | 143 |
+| llamafile | Local | 67 | Classic | very active | 1 | 57% | 43 |
+| backburner | Local | 64 | Hot | very active | 1 | 72% | 4 |
+| pgvector | Both | 64 | Mature | very active | 1 | 100% | 0 |
+| marqo | Both | 43 | Mature | slowing | 0 | 0% | 113 |
+| gateway | Both | 36 | Mature | slowing | 0 | 0% | 81 |
 | gpt4all | Local | 7 | Abandoned | stale | 0 | 0% | 38 |
 
 ## Adjacent (covered elsewhere)
 
-- **ggml-org/whisper.cpp** (54,863★) — speech runtime — covered in the *voice-agents* report
-- **comet-ml/opik** (23,119★) — eval/observability — see the *LLM-evaluation* report
-- **confident-ai/deepeval** (19,249★) — eval framework — see the *LLM-evaluation* report
-- **langchain-ai/langchain** (148,880★) — broad agent toolkit — see the *agent-orchestration* report
-- **microsoft/autogen** (61,677★) — multi-agent framework — see the *agent-orchestration* report
+- **ggml-org/whisper.cpp** (55,039★) — speech runtime — covered in the *voice-agents* report
+- **comet-ml/opik** (23,282★) — eval/observability — see the *LLM-evaluation* report
+- **confident-ai/deepeval** (19,383★) — eval framework — see the *LLM-evaluation* report
+- **langchain-ai/langchain** (149,261★) — broad agent toolkit — see the *agent-orchestration* report
+- **microsoft/autogen** (61,759★) — multi-agent framework — see the *agent-orchestration* report
 
 ## Methodology & caveats
 
@@ -297,4 +298,4 @@ Bus factor = commit concentration (1 = single-maintainer risk). For infra you'll
 - **Metrics** (health, lifecycle, bus_factor) are precomputed at snapshot time and may lag GitHub's current state.
 - Re-run after a fresh `classified.json` to refresh stars/activity.
 
-<sub>Tools covered: 41 · Tiers: 17 local / 16 both / 8 infra · Snapshot: 2026-11-02T14:17:38.270Z</sub>
+<sub>Tools covered: 41 · Tiers: 17 local / 16 both / 8 infra · Snapshot: 2026-11-09T14:44:53.318Z</sub>

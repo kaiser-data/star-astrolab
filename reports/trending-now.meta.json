@@ -3,75 +3,75 @@
   "title": "Trending Now \u2014 What's Actually Moving in Your Stars",
   "file": "trending-now.md",
   "category": "AI / Trends",
-  "summary": "Measured star momentum across 26 data vintages: the 7-day movers, relative breakouts, sustained climbers, 183 new entrants, and what has gone flat.",
-  "tool_count": 246,
-  "total_stars": 9948115,
+  "summary": "Measured star momentum across 27 data vintages: the 7-day movers, relative breakouts, sustained climbers, 154 new entrants, and what has gone flat.",
+  "tool_count": 220,
+  "total_stars": 8299776,
   "categories": {
-    "Risers": 1867,
-    "Breakouts": 1758,
-    "New entrants": 183,
-    "Cooling": 77
+    "Risers": 1898,
+    "Breakouts": 1792,
+    "New entrants": 154,
+    "Cooling": 108
   },
   "top_tools": [
     {
       "name": "morluto/rea",
-      "stars": 421141
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "stars": 100036
-    },
-    {
-      "name": "HKUDS/DeepTutor",
-      "stars": 54119
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "stars": 98602
+      "stars": 445673
     },
     {
       "name": "cloudflare/security-audit-skill",
-      "stars": 56972
+      "stars": 67543
+    },
+    {
+      "name": "cactus-compute/cactus",
+      "stars": 14616
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "stars": 277214
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "stars": 100302
     }
   ],
   "chart_top_series": [
     {
       "name": "morluto/rea",
-      "value": 33250
-    },
-    {
-      "name": "pbakaus/impeccable",
-      "value": 11651
-    },
-    {
-      "name": "HKUDS/DeepTutor",
-      "value": 10916
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "value": 10734
+      "value": 24532
     },
     {
       "name": "cloudflare/security-audit-skill",
-      "value": 9210
+      "value": 10571
     },
     {
-      "name": "ifixai-ai/iFixAi",
-      "value": 8307
+      "name": "cactus-compute/cactus",
+      "value": 8445
     },
     {
       "name": "deepseek-ai/deepseek-harness",
-      "value": 7072
+      "value": 8054
     },
     {
-      "name": "thedotmack/claude-mem",
-      "value": 7050
+      "name": "D4Vinci/Scrapling",
+      "value": 8017
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "value": 7086
+    },
+    {
+      "name": "stablyai/orca",
+      "value": 6795
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "value": 6548
     }
   ],
   "chart_top_title": "Biggest star gains (7d)",
   "chart_cat_title": "Repos by movement type",
-  "snapshot": "2026-11-02T14:17:38.270Z",
-  "generated": "2026-11-02",
+  "snapshot": "2026-11-09T14:44:53.318Z",
+  "generated": "2026-11-09",
   "generator": "scripts/reports/trending_now.py",
-  "created": "2026-11-01"
+  "created": "2026-11-07"
 }

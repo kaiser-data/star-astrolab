@@ -1,8 +1,8 @@
 # Harness Engineering — Ten Methods That Make an Agent Harness Good
 
-> Derived from **kaiser-data**'s 2,587 starred repos (snapshot `2026-11-02T14:17:38.270Z`), cross-referenced with the repo-similarity graph (2,587 nodes / 8,732 edges, 42 communities). Evidence frozen 2026-10-01.
+> Derived from **kaiser-data**'s 2,728 starred repos (snapshot `2026-11-09T14:44:53.318Z`), cross-referenced with the repo-similarity graph (2,728 nodes / 9,126 edges, 41 communities). Evidence frozen 2026-10-01.
 >
-> Generated 2026-11-02 by `scripts/reports/harness_engineering.py` (regenerate any time — no API cost).
+> Generated 2026-11-09 by `scripts/reports/harness_engineering.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/harness-engineering-top-tools.svg)
 
@@ -11,7 +11,7 @@
 
 ## Executive summary
 
-- The **agent-harnesses** report asks *which* harness approach to pick. This one asks *how to make any harness good* — ten methods, in the order you'd apply them, each backed by published evidence and mapped to **48 repos** in your stars (**1,897,787★**) that implement it.
+- The **agent-harnesses** report asks *which* harness approach to pick. This one asks *how to make any harness good* — ten methods, in the order you'd apply them, each backed by published evidence and mapped to **48 repos** in your stars (**1,924,178★**) that implement it.
 - **The through-line: the harness should do less, and verify more.** The 2026 evidence consistently rewards *subtraction* (fewer tools, shorter instructions, elided context) and *external ground truth* (tests, browsers, hooks), and punishes self-assessment and unenforced prose.
 - **Three highest-leverage moves**, if you do nothing else:
   1. **External verification** — self-grading loops claimed progress 100% of the time while 56% of cycles made none (Park & Choi, 2026).
@@ -57,54 +57,54 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 | Tool | Method | Lang | License | ★ Stars | Lifecycle | Health | Activity | Last push | Age | Contrib(90d) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| [obra/superpowers](https://github.com/obra/superpowers) | 2. Small instruction budget | Shell | MIT | 310,991 (▲651) | Mature | 64 | active | 4d ago | 1.1y | 1 |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 2. Small instruction budget | — | — | 228,346 (▲608) | Declining | 19 | stale | 6mo ago | 9mo | 0 |
-| [anthropics/skills](https://github.com/anthropics/skills) | 2. Small instruction budget | Python | — | 186,616 (▲511) | Mature | 50 | active | 5d ago | 1.1y | 5 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 6. State on disk | Python | MIT | 145,248 (▲571) | Hot | 89 | very active | 3d ago | 1.2y | 26 |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | 1. Minimal loop first | TypeScript | MIT | 119,536 (▲261) | Hot | 80 | very active | 0d ago | 1.2y | 8 |
-| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 3. Context engineering | Rust | Apache-2.0 | 85,300 (▲120) | Hot | 75 | very active | 0d ago | 9mo | 15 |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 3. Context engineering | Python | Apache-2.0 | 78,631 (▲124) | Hot | 98 | very active | 0d ago | 9mo | 39 |
-| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 6. State on disk | TypeScript | MIT | 73,684 (▲114) | Hot | 88 | very active | 0d ago | 1.2y | 37 |
-| [upstash/context7](https://github.com/upstash/context7) | 4. Lean action space | TypeScript | MIT | 64,077 (▲41) | Hot | 85 | very active | 0d ago | 1.6y | 11 |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 5. External verification | Go | Apache-2.0 | 49,284 (▲69) | Hot | 97 | very active | 1d ago | 5mo | 46 |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 4. Lean action space | Rust | Apache-2.0 | 45,219 (▲135) | Hot | 76 | very active | 1d ago | 9mo | 8 |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 7. Sub-agents for isolation | TypeScript | MIT | 40,513 (▲36) | Hot | 80 | very active | 0d ago | 9mo | 7 |
-| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 5. External verification | TypeScript | Apache-2.0 | 38,979 (▲48) | Hot | 79 | very active | 1d ago | 1.6y | 7 |
-| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 10. Observe & eval the harness | TypeScript | NOASSERTION | 36,885 (▲62) | Classic | 94 | very active | 0d ago | 3.5y | 22 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 3. Context engineering | TypeScript | NOASSERTION | 33,231 (▲148) | Rising | 75 | very active | 0d ago | 8mo | 1 |
-| [oraios/serena](https://github.com/oraios/serena) | 4. Lean action space | Python | NOASSERTION | 31,015 (▲46) | Hot | 79 | very active | 5d ago | 1.6y | 17 |
-| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 7. Sub-agents for isolation | Python | MIT | 30,902 (▲54) | Hot | 84 | very active | 0d ago | 1.3y | 12 |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 6. State on disk | Shell | MIT | 27,826 (▲22) | Hot | 79 | very active | 3d ago | 10mo | 18 |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 10. Observe & eval the harness | TypeScript | MIT | 26,742 (▲54) | Classic | 79 | very active | 0d ago | 3.5y | 14 |
-| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 7. Sub-agents for isolation | Shell | MIT | 26,276 (▲29) | Hot | 59 | very active | 0d ago | 1.3y | 11 |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | 2. Small instruction budget | TypeScript | MIT | 25,277 (▲21) | Declining | 36 | active | 1mo ago | 1.2y | 2 |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 8. Guards & sandboxes | Python | Apache-2.0 | 23,947 (▲173) | Hot | 93 | very active | 0d ago | 7mo | 27 |
-| [snarktank/ralph](https://github.com/snarktank/ralph) | 6. State on disk | TypeScript | MIT | 22,111 (▲9) | Declining | 10 | stale | 9mo ago | 9mo | 0 |
-| [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | 1. Minimal loop first | Python | MIT | 20,712 (▲12) | Mature | 39 | active | 7d ago | 2.6y | 0 |
-| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 9. Durable runs & approvals | TypeScript | Apache-2.0 | 16,694 (▲23) | Classic | 88 | very active | 2d ago | 3.9y | 12 |
-| [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 1. Minimal loop first | JavaScript | MIT | 13,070 (▲14) | Rising | 77 | very active | 3d ago | 11mo | 1 |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 6. State on disk | TypeScript | MIT | 11,681 (▲5) | Hot | 68 | very active | 0d ago | 4mo | 11 |
-| [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 10. Observe & eval the harness | TypeScript | MIT | 11,660 (▲25) | Hot | 79 | very active | 0d ago | 6mo | 9 |
-| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 9. Durable runs & approvals | TypeScript | Apache-2.0 | 9,820 (▲19) | Rising | 79 | very active | 0d ago | 10mo | 1 |
-| [modem-dev/hunk](https://github.com/modem-dev/hunk) | 5. External verification | TypeScript | MIT | 9,739 (▲6) | Hot | 77 | very active | 0d ago | 7mo | 31 |
-| [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | 1. Minimal loop first | Python | MIT | 9,036 (▲29) | Declining | 62 | active | 7d ago | 1.3y | 2 |
-| [open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | 9. Durable runs & approvals | TypeScript | MIT | 7,042 (▲3) | Hot | 79 | very active | 4d ago | 7mo | 14 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 10. Observe & eval the harness | Python | Apache-2.0 | 6,718 (▲36) | Hot | 94 | very active | 0d ago | 1.2y | 36 |
-| [dagger/container-use](https://github.com/dagger/container-use) | 8. Guards & sandboxes | Go | Apache-2.0 | 4,083 (▼1) | Mature | 43 | active | 1mo ago | 1.4y | 2 |
-| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | 5. External verification | TypeScript | MIT | 3,367 (▼1) | Classic | 80 | very active | 1d ago | 4.6y | 4 |
-| [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | 10. Observe & eval the harness | Python | MIT | 3,155 (▲6) | Mature | 87 | very active | 0d ago | 3.0y | 23 |
-| [VibiumDev/vibium](https://github.com/VibiumDev/vibium) | 5. External verification | Go | Apache-2.0 | 2,941 (▲2) | Hot | 79 | very active | 0d ago | 10mo | 4 |
-| [alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer) | 3. Context engineering | Python | NOASSERTION | 2,844 (▲17) | Rising | 80 | very active | 1d ago | 8mo | 2 |
-| [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | 4. Lean action space | Python | NOASSERTION | 2,828 | Hot | 80 | very active | 0d ago | 8mo | 3 |
-| [Infisical/agent-vault](https://github.com/Infisical/agent-vault) | 8. Guards & sandboxes | Go | NOASSERTION | 2,467 (▲8) | Hot | 66 | very active | 2d ago | 7mo | 6 |
-| [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) | 8. Guards & sandboxes | TypeScript | MIT | 1,892 (▲14) | Hot | 80 | very active | 1d ago | 10mo | 3 |
-| [e2b-dev/runtime](https://github.com/e2b-dev/runtime) | 8. Guards & sandboxes | Go | Apache-2.0 | 1,798 (▲4) | Classic | 88 | very active | 0d ago | 3.2y | 18 |
-| [microsoft/waza](https://github.com/microsoft/waza) | 10. Observe & eval the harness | Go | MIT | 1,498 (▲2) | Hot | 83 | very active | 0d ago | 8mo | 6 |
-| [chunkhound/chunkhound](https://github.com/chunkhound/chunkhound) | 3. Context engineering | Python | MIT | 1,456 | Hot | 89 | very active | 0d ago | 1.4y | 22 |
-| [petergyang/human-review](https://github.com/petergyang/human-review) | 9. Durable runs & approvals | JavaScript | MIT | 1,445 | Hot | 62 | active | 1mo ago | 3mo | 4 |
-| [repoprompt/repoprompt-ce](https://github.com/repoprompt/repoprompt-ce) | 3. Context engineering | Swift | Apache-2.0 | 976 (▲1) | Hot | 77 | very active | 0d ago | 5mo | 5 |
-| [Nicolepcx/harness_engineering](https://github.com/Nicolepcx/harness_engineering) | 1. Minimal loop first | Jupyter Notebook | — | 169 | Declining | 35 | slowing | 2mo ago | 3mo | 1 |
-| [strands-labs/harness-optimizer](https://github.com/strands-labs/harness-optimizer) | 10. Observe & eval the harness | Python | Apache-2.0 | 60 | Declining | 50 | active | 14d ago | 5mo | 3 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 2. Small instruction budget | Shell | MIT | 314,888 (▲3,897) | Mature | 64 | active | 6d ago | 1.1y | 1 |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 2. Small instruction budget | — | — | 231,187 (▲2,841) | Declining | 18 | stale | 6mo ago | 9mo | 0 |
+| [anthropics/skills](https://github.com/anthropics/skills) | 2. Small instruction budget | Python | — | 190,342 (▲3,726) | Mature | 50 | active | 3d ago | 1.1y | 6 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 6. State on disk | Python | MIT | 148,915 (▲3,667) | Hot | 84 | very active | 0d ago | 1.2y | 28 |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 1. Minimal loop first | TypeScript | MIT | 121,019 (▲1,483) | Hot | 80 | very active | 0d ago | 1.3y | 7 |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 3. Context engineering | Rust | Apache-2.0 | 85,981 (▲681) | Hot | 75 | very active | 0d ago | 9mo | 13 |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 3. Context engineering | Python | Apache-2.0 | 79,211 (▲580) | Hot | 99 | very active | 0d ago | 10mo | 49 |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 6. State on disk | TypeScript | MIT | 74,392 (▲708) | Hot | 83 | very active | 1d ago | 1.3y | 33 |
+| [upstash/context7](https://github.com/upstash/context7) | 4. Lean action space | TypeScript | MIT | 64,415 (▲338) | Hot | 85 | very active | 0d ago | 1.6y | 11 |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 5. External verification | Go | Apache-2.0 | 49,705 (▲421) | Hot | 98 | very active | 0d ago | 5mo | 50 |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 4. Lean action space | Rust | Apache-2.0 | 48,185 (▲2,966) | Hot | 78 | very active | 0d ago | 10mo | 5 |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 7. Sub-agents for isolation | TypeScript | MIT | 40,710 (▲197) | Hot | 80 | very active | 0d ago | 10mo | 8 |
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 5. External verification | TypeScript | Apache-2.0 | 39,373 (▲394) | Hot | 79 | very active | 3d ago | 1.6y | 7 |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 10. Observe & eval the harness | TypeScript | NOASSERTION | 37,199 (▲314) | Classic | 89 | very active | 0d ago | 3.5y | 19 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 3. Context engineering | JavaScript | NOASSERTION | 33,741 (▲510) | Rising | 80 | very active | 0d ago | 8mo | 2 |
+| [oraios/serena](https://github.com/oraios/serena) | 4. Lean action space | Python | NOASSERTION | 31,232 (▲217) | Hot | 78 | very active | 12d ago | 1.6y | 17 |
+| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 7. Sub-agents for isolation | Python | MIT | 31,137 (▲235) | Hot | 89 | very active | 0d ago | 1.3y | 15 |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 6. State on disk | Shell | MIT | 27,966 (▲140) | Hot | 79 | very active | 2d ago | 10mo | 19 |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 10. Observe & eval the harness | TypeScript | MIT | 26,988 (▲246) | Mature | 79 | very active | 0d ago | 3.5y | 1 |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 7. Sub-agents for isolation | Shell | MIT | 26,440 (▲164) | Hot | 58 | very active | 7d ago | 1.3y | 10 |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | 2. Small instruction budget | TypeScript | MIT | 25,409 (▲132) | Declining | 35 | active | 2mo ago | 1.2y | 2 |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 8. Guards & sandboxes | Python | Apache-2.0 | 25,011 (▲1,064) | Hot | 83 | very active | 3d ago | 7mo | 3 |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | 6. State on disk | TypeScript | MIT | 22,185 (▲74) | Declining | 10 | stale | 9mo ago | 10mo | 0 |
+| [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | 1. Minimal loop first | Python | MIT | 20,765 (▲53) | Mature | 39 | active | 7d ago | 2.6y | 0 |
+| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 9. Durable runs & approvals | TypeScript | Apache-2.0 | 16,734 (▲40) | Classic | 88 | very active | 6d ago | 3.9y | 12 |
+| [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 1. Minimal loop first | JavaScript | MIT | 13,112 (▲42) | Rising | 77 | very active | 4d ago | 11mo | 1 |
+| [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 10. Observe & eval the harness | TypeScript | MIT | 11,737 (▲77) | Hot | 79 | very active | 1d ago | 7mo | 8 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 6. State on disk | TypeScript | MIT | 11,736 (▲55) | Hot | 68 | very active | 0d ago | 5mo | 10 |
+| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 9. Durable runs & approvals | TypeScript | Apache-2.0 | 9,933 (▲113) | Rising | 79 | very active | 0d ago | 10mo | 1 |
+| [modem-dev/hunk](https://github.com/modem-dev/hunk) | 5. External verification | TypeScript | MIT | 9,800 (▲61) | Hot | 77 | very active | 0d ago | 7mo | 31 |
+| [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | 1. Minimal loop first | Python | MIT | 9,451 (▲415) | Declining | 61 | active | 7d ago | 1.4y | 2 |
+| [open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | 9. Durable runs & approvals | TypeScript | MIT | 7,052 (▲10) | Hot | 79 | very active | 3d ago | 7mo | 14 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 10. Observe & eval the harness | Python | Apache-2.0 | 6,907 (▲189) | Hot | 89 | very active | 1d ago | 1.3y | 37 |
+| [dagger/container-use](https://github.com/dagger/container-use) | 8. Guards & sandboxes | Go | Apache-2.0 | 4,087 (▲4) | Mature | 42 | active | 1mo ago | 1.5y | 2 |
+| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | 5. External verification | TypeScript | MIT | 3,367 | Classic | 79 | very active | 8d ago | 4.6y | 4 |
+| [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | 10. Observe & eval the harness | Python | MIT | 3,208 (▲53) | Mature | 87 | very active | 0d ago | 3.0y | 33 |
+| [VibiumDev/vibium](https://github.com/VibiumDev/vibium) | 5. External verification | Go | Apache-2.0 | 2,957 (▲16) | Hot | 79 | very active | 2d ago | 11mo | 6 |
+| [alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer) | 3. Context engineering | Python | NOASSERTION | 2,940 (▲96) | Hot | 80 | very active | 0d ago | 8mo | 3 |
+| [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | 4. Lean action space | Python | NOASSERTION | 2,838 (▲10) | Hot | 80 | very active | 0d ago | 9mo | 4 |
+| [Infisical/agent-vault](https://github.com/Infisical/agent-vault) | 8. Guards & sandboxes | Go | NOASSERTION | 2,491 (▲24) | Hot | 67 | very active | 2d ago | 7mo | 6 |
+| [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) | 8. Guards & sandboxes | TypeScript | MIT | 1,976 (▲84) | Hot | 80 | very active | 0d ago | 10mo | 3 |
+| [e2b-dev/runtime](https://github.com/e2b-dev/runtime) | 8. Guards & sandboxes | Go | Apache-2.0 | 1,823 (▲25) | Classic | 93 | very active | 0d ago | 3.3y | 18 |
+| [microsoft/waza](https://github.com/microsoft/waza) | 10. Observe & eval the harness | Go | MIT | 1,506 (▲8) | Hot | 78 | very active | 1d ago | 8mo | 7 |
+| [chunkhound/chunkhound](https://github.com/chunkhound/chunkhound) | 3. Context engineering | Python | MIT | 1,460 (▲4) | Hot | 90 | very active | 0d ago | 1.4y | 25 |
+| [petergyang/human-review](https://github.com/petergyang/human-review) | 9. Durable runs & approvals | JavaScript | MIT | 1,448 (▲3) | Mature | 55 | active | 1mo ago | 3mo | 1 |
+| [repoprompt/repoprompt-ce](https://github.com/repoprompt/repoprompt-ce) | 3. Context engineering | Swift | Apache-2.0 | 986 (▲10) | Hot | 77 | very active | 0d ago | 6mo | 3 |
+| [Nicolepcx/harness_engineering](https://github.com/Nicolepcx/harness_engineering) | 1. Minimal loop first | Jupyter Notebook | — | 172 (▲3) | Declining | 35 | slowing | 2mo ago | 3mo | 1 |
+| [strands-labs/harness-optimizer](https://github.com/strands-labs/harness-optimizer) | 10. Observe & eval the harness | Python | Apache-2.0 | 61 (▲1) | Declining | 50 | active | 21d ago | 5mo | 3 |
 
 ## By method
 
@@ -114,19 +114,19 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Practitioner consensus in 2026 (HumanLayer, marmelab survey). Fan et al. (176 configurations, 4 models) found a bash-only action space gives capable models *substantially lower cost* at equal performance; heavy scaffolding mostly helps weaker models.
 
-- **[earendil-works/pi](https://github.com/earendil-works/pi)** · 119,536★ · TypeScript · Hot  
+- **[earendil-works/pi](https://github.com/earendil-works/pi)** · 121,019★ · TypeScript · Hot  
   Unified LLM API + small agent loop + TUI — a readable baseline to grow a harness from.  
   <sub>topics: —</sub>
-- **[SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** · 20,712★ · Python · Mature  
+- **[SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** · 20,765★ · Python · Mature  
   The project that named the *agent-computer interface* — proof that interface design moves scores.  
   <sub>topics: agent, ai, developer-tools, llm, agent-based-model, lms, cybersecurity</sub>
-- **[Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)** · 13,070★ · JavaScript · Rising  
+- **[Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts)** · 13,112★ · JavaScript · Rising  
   Every part of Claude Code's system prompt, tool descriptions and sub-agent prompts — a production harness to read.  
   <sub>topics: claude-code, claude-code-system-prompts, system-prompts</sub>
-- **[SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)** · 9,036★ · Python · Declining  
+- **[SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)** · 9,451★ · Python · Declining  
   The SWE-agent team's ~100-line agent — bash as the only tool, no config sprawl — and it still scores >74% on SWE-bench Verified. The strongest evidence that a minimal loop is enough.  
   <sub>topics: agent, agentic-ai, agentic-ai-cli, ai, ai-agent, textual</sub>
-- **[Nicolepcx/harness_engineering](https://github.com/Nicolepcx/harness_engineering)** · 169★ · Jupyter Notebook · Declining  
+- **[Nicolepcx/harness_engineering](https://github.com/Nicolepcx/harness_engineering)** · 172★ · Jupyter Notebook · Declining  
   Code for the O'Reilly *Harness Engineering* book — worked examples of each harness layer.  
   <sub>topics: ai, ai-agent, ai-agents, ai-governance, ai-security, harness, harness-ai, harness-design</sub>
 
@@ -136,16 +136,16 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** HumanLayer recommends <60 lines; OpenAI's harness write-up (via marmelab) lists context crowding, importance dilution, decay and untestability as failure modes of large instruction files. marmelab reports machine-generated context files *reduced* success and raised cost 20%+; human-written ones gained only ~4%.
 
-- **[obra/superpowers](https://github.com/obra/superpowers)** · 310,991★ · Shell · Mature  
+- **[obra/superpowers](https://github.com/obra/superpowers)** · 314,888★ · Shell · Mature  
   Skills + methodology (TDD, plans, review) delivered as progressively-disclosed skills.  
   <sub>topics: ai, brainstorming, coding, obra, sdlc, skills, superpowers, subagent-driven-development</sub>
-- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · 228,346★ · — · Declining  
+- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · 231,187★ · — · Declining  
   A single short CLAUDE.md of behavioural rules — the minimal-instructions end of the spectrum.  
   <sub>topics: —</sub>
-- **[anthropics/skills](https://github.com/anthropics/skills)** · 186,616★ · Python · Mature  
+- **[anthropics/skills](https://github.com/anthropics/skills)** · 190,342★ · Python · Mature  
   Reference Agent Skills: knowledge loaded on demand, not pinned in every turn.  
   <sub>topics: agent-skills</sub>
-- **[agentsmd/agents.md](https://github.com/agentsmd/agents.md)** · 25,277★ · TypeScript · Declining  
+- **[agentsmd/agents.md](https://github.com/agentsmd/agents.md)** · 25,409★ · TypeScript · Declining  
   AGENTS.md — one short, portable repo contract instead of a sprawling prompt.  
   <sub>topics: —</sub>
 
@@ -155,22 +155,22 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Fan et al.: context management matters most as budgets shrink, and rule-based elision before summarization works best — mainly by preventing overflow failures. Manus: KV-cache hit rate is the key production metric (cached input ~10× cheaper); keep URLs/paths so dropped content can be re-fetched.
 
-- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** · 85,300★ · Rust · Hot  
+- **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** · 85,981★ · Rust · Hot  
   CLI proxy that filters and condenses shell output for coding agents.  
   <sub>topics: agentic-coding, ai-coding, anthropic, claude-code, cli, command-line-tool, cost-reduction, developer-tools</sub>
-- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** · 78,631★ · Python · Hot  
+- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** · 79,211★ · Python · Hot  
   Compresses tool outputs, logs, files and RAG chunks before they reach the model.  
   <sub>topics: agent, ai, anthropic, compression, context-engineering, context-window, fastapi, langchain</sub>
-- **[mksglu/context-mode](https://github.com/mksglu/context-mode)** · 33,231★ · TypeScript · Rising  
+- **[mksglu/context-mode](https://github.com/mksglu/context-mode)** · 33,741★ · JavaScript · Rising  
   Sandboxes tool output out of the context window (claims ~98% reduction).  
   <sub>topics: claude, claude-code, claude-code-plugins, mcp, skills, codex, copilot, opencode</sub>
-- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** · 2,844★ · Python · Rising  
+- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** · 2,940★ · Python · Hot  
   Finds 'ghost tokens' and helps sessions survive compaction without quality decay.  
-  <sub>topics: agentskills, claude-code, token-optimization, claude-code-skill, context-window, token-usage, ghost-tokens, context-engineering</sub>
-- **[chunkhound/chunkhound](https://github.com/chunkhound/chunkhound)** · 1,456★ · Python · Hot  
+  <sub>topics: claude-code, token-optimization, context-window, token-usage, context-engineering, token-optimizer, claude-plugin, codex</sub>
+- **[chunkhound/chunkhound](https://github.com/chunkhound/chunkhound)** · 1,460★ · Python · Hot  
   Local code-aware indexing (semantic + regex) served over MCP — give the agent a map of the codebase instead of raw greps.  
   <sub>topics: agent, ai, duckdb, mcp-server, semantic-search, tree-sitter, rag</sub>
-- **[repoprompt/repoprompt-ce](https://github.com/repoprompt/repoprompt-ce)** · 976★ · Swift · Hot  
+- **[repoprompt/repoprompt-ce](https://github.com/repoprompt/repoprompt-ce)** · 986★ · Swift · Hot  
   Community edition of RepoPrompt — hand-pick files and code maps into a precise context bundle instead of letting the agent grep blindly.  
   <sub>topics: ai-agents, coding-agents, context-engineering, developer-tools, macos, mcp, model-context-protocol, prompt-engineering</sub>
 
@@ -180,16 +180,16 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Anthropic's *code execution with MCP* (Nov 2025): a Drive→Salesforce workflow fell from ~150k to ~2k tokens (−98.7%). Vercel (as reported by marmelab) removed 80% of an agent's tools: success 80%→100%, latency 724s→141s. HumanLayer swapped the Linear MCP server for a small CLI + examples.
 
-- **[upstash/context7](https://github.com/upstash/context7)** · 64,077★ · TypeScript · Hot  
+- **[upstash/context7](https://github.com/upstash/context7)** · 64,415★ · TypeScript · Hot  
   Fetches current, version-specific docs on demand instead of stuffing them into prompts.  
   <sub>topics: llm, mcp, mcp-server, vibe-coding</sub>
-- **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · 45,219★ · Rust · Hot  
+- **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · 48,185★ · Rust · Hot  
   Browser automation as a compact CLI built for agents rather than a large MCP surface.  
   <sub>topics: —</sub>
-- **[oraios/serena](https://github.com/oraios/serena)** · 31,015★ · Python · Hot  
+- **[oraios/serena](https://github.com/oraios/serena)** · 31,232★ · Python · Hot  
   Semantic (LSP-backed) retrieval and editing tools — fewer, sharper code tools.  
   <sub>topics: agent, ai, vibe-coding, mcp-server, ai-coding, language-server, programming, claude</sub>
-- **[jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp)** · 2,828★ · Python · Hot  
+- **[jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp)** · 2,838★ · Python · Hot  
   Symbol-level code retrieval — return the function, not the file.  
   <sub>topics: claude, claude-code, ai-coding, ast, code-intelligence, context-window, cursor, developer-tools</sub>
 
@@ -199,19 +199,19 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Park & Choi (2026): self-evaluating loops claimed improvement 100% of the time while 56% of cycles made zero or negative progress (the 'progress mirage'); LLM judges accepted 44% of real regressions. The mirage vanished on tasks with an externally verifiable boundary.
 
-- **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · 49,284★ · Go · Hot  
+- **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · 49,705★ · Go · Hot  
   Hybrid deterministic + LLM code review run against the agent's diff.  
   <sub>topics: agent, code-review, code-review-assistant, harness, repository-level-context, agent-skills</sub>
-- **[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)** · 38,979★ · TypeScript · Hot  
+- **[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)** · 39,373★ · TypeScript · Hot  
   Lets the agent drive the real app and check its own UI changes.  
   <sub>topics: mcp, playwright</sub>
-- **[modem-dev/hunk](https://github.com/modem-dev/hunk)** · 9,739★ · TypeScript · Hot  
+- **[modem-dev/hunk](https://github.com/modem-dev/hunk)** · 9,800★ · TypeScript · Hot  
   Review-first terminal diff viewer — keeps a human verifying what the agent changed.  
   <sub>topics: cli, code-review, diff, git, tui, agents, jj, jujutsu</sub>
 - **[haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite)** · 3,367★ · TypeScript · Classic  
   Zero-config lint/format — cheap, deterministic back-pressure inside the loop.  
   <sub>topics: biome, formatter, linter, cursor, mcp, vscode, windsurf, zed</sub>
-- **[VibiumDev/vibium](https://github.com/VibiumDev/vibium)** · 2,941★ · Go · Hot  
+- **[VibiumDev/vibium](https://github.com/VibiumDev/vibium)** · 2,957★ · Go · Hot  
   Verification layer for coding agents — browser-driven checks that the change actually works, outside the model.  
   <sub>topics: —</sub>
 
@@ -221,19 +221,19 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Anthropic's long-running harness (Nov 2025): an initializer agent writes a feature list + progress file + git repo; each coding session picks one item, verifies it, updates the files. JSON was edited inappropriately less often than markdown. Manus keeps a live todo.md to hold goals in recent attention.
 
-- **[github/spec-kit](https://github.com/github/spec-kit)** · 145,248★ · Python · Hot  
+- **[github/spec-kit](https://github.com/github/spec-kit)** · 148,915★ · Python · Hot  
   Spec-driven development: the spec on disk steers each session.  
   <sub>topics: ai, copilot, development, engineering, prd, spec, spec-driven</sub>
-- **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** · 73,684★ · TypeScript · Hot  
+- **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** · 74,392★ · TypeScript · Hot  
   Lightweight spec-driven workflow: change proposals and living specs in the repo carry intent across sessions.  
   <sub>topics: spec, ai, context-engineering, engineering, planning, prd, sdlc, spec-driven-development</sub>
-- **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** · 27,826★ · Shell · Hot  
+- **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** · 27,966★ · Shell · Hot  
   Plans and progress persisted to files — crash-proof, resumable long tasks.  
   <sub>topics: claude, claude-code, claude-skills, manus, agent-skills, planning, autonomous-agents, codex</sub>
-- **[snarktank/ralph](https://github.com/snarktank/ralph)** · 22,111★ · TypeScript · Declining  
+- **[snarktank/ralph](https://github.com/snarktank/ralph)** · 22,185★ · TypeScript · Declining  
   Fresh-context loop that re-reads a PRD and progress file until every item is done.  
   <sub>topics: —</sub>
-- **[cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)** · 11,681★ · TypeScript · Hot  
+- **[cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)** · 11,736★ · TypeScript · Hot  
   Patterns and starters for designing the iteration itself.  
   <sub>topics: agentic-ai, ai-agents, claude-code, codex, devops-automation, github-actions, grok, llm</sub>
 
@@ -243,13 +243,13 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** HumanLayer: sub-agents keep the parent in the 'smart zone' and can run on cheaper models. marmelab collects counter-evidence on *reviewer* agents (one study: −8pp on a 41% baseline) and Microsoft's finding that >4 handoffs almost always failed.
 
-- **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** · 40,513★ · TypeScript · Hot  
+- **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** · 40,710★ · TypeScript · Hot  
   Multi-agent orchestration inside Claude Code — delegation via sub-agents.  
   <sub>topics: agentic-coding, ai-agents, claude, claude-code, oh-my-opencode, opencode, vibe-coding, automation</sub>
-- **[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** · 30,902★ · Python · Hot  
+- **[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** · 31,137★ · Python · Hot  
   Planning + filesystem + sub-agents with isolated context windows, as a library.  
   <sub>topics: deepagents, langchain, langgraph, ai, python, typescript, harness, harness-engineering</sub>
-- **[VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** · 26,276★ · Shell · Hot  
+- **[VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** · 26,440★ · Shell · Hot  
   100+ sub-agent definitions — useful as patterns for scoped, condensed returns.  
   <sub>topics: ai-agents, claude, claude-ai, claude-subagents, subagents, ai-agent-framework, ai-agent-tools, claude-code-subagents</sub>
 
@@ -259,19 +259,19 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** marmelab cites an analysis of 481 public CLAUDE.md files where only 4–16% of written security rules had any detectable enforcement, and reports action-by-action approval beating pre-written permission rules by 20+pp at blocking bad actions. HumanLayer warns skill registries have shipped malicious skills.
 
-- **[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)** · 23,947★ · Python · Hot  
+- **[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)** · 25,011★ · Python · Hot  
   Scans agent skills for malicious or vulnerable patterns before you load them.  
   <sub>topics: agent-security, agent-skills, agentic-ai, ai-security, claude-code, mcp, prompt-injection, security-scanner</sub>
-- **[dagger/container-use](https://github.com/dagger/container-use)** · 4,083★ · Go · Mature  
+- **[dagger/container-use](https://github.com/dagger/container-use)** · 4,087★ · Go · Mature  
   Per-agent containerized environments so agents can't trample each other or the host.  
   <sub>topics: —</sub>
-- **[Infisical/agent-vault](https://github.com/Infisical/agent-vault)** · 2,467★ · Go · Hot  
+- **[Infisical/agent-vault](https://github.com/Infisical/agent-vault)** · 2,491★ · Go · Hot  
   HTTP credential proxy for agents — the agent calls APIs through the vault and never holds the raw secret.  
   <sub>topics: agents, ai-agents, secrets-management</sub>
-- **[kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net)** · 1,892★ · TypeScript · Hot  
+- **[kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net)** · 1,976★ · TypeScript · Hot  
   Pre-execution hook that blocks destructive git and filesystem commands.  
   <sub>topics: claude, claude-code, claude-code-plugin, security, codex, pi-extension, ai-agents, ai-safety</sub>
-- **[e2b-dev/runtime](https://github.com/e2b-dev/runtime)** · 1,798★ · Go · Classic  
+- **[e2b-dev/runtime](https://github.com/e2b-dev/runtime)** · 1,823★ · Go · Classic  
   E2B's sandbox runtime — isolated microVMs for AI-generated code, cloud or self-hosted (replaces the now-archived Daytona).  
   <sub>topics: ai-agents, code-interpreter, consul, devtools, firecracker, gcp, go, golang</sub>
 
@@ -281,16 +281,16 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** Follows from methods 6 and 8: durable state lets a crashed or rate-limited run resume, and approval at the irreversible step is where action-by-action review pays off. Evidence here is architectural rather than benchmarked.
 
-- **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)** · 16,694★ · TypeScript · Classic  
+- **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)** · 16,734★ · TypeScript · Classic  
   Durable execution for agents and workflows — retries, resumes, long waits.  
   <sub>topics: automation, orchestration, scheduler, background-jobs, nextjs, serverless, ai, ai-agents</sub>
-- **[backnotprop/plannotator](https://github.com/backnotprop/plannotator)** · 9,820★ · TypeScript · Rising  
+- **[backnotprop/plannotator](https://github.com/backnotprop/plannotator)** · 9,933★ · TypeScript · Rising  
   Annotate and approve agent plans and diffs before execution continues.  
   <sub>topics: claude-code, opencode, obsidian, pi-mono, plan-mode, codex, agents, code-review</sub>
-- **[open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent)** · 7,042★ · TypeScript · Hot  
+- **[open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent)** · 7,052★ · TypeScript · Hot  
   Agent runtime with durable approvals and verifiable run records.  
   <sub>topics: agent-framework, ai-agents, claude, llm, multi-agent, openai, typescript, anthropic</sub>
-- **[petergyang/human-review](https://github.com/petergyang/human-review)** · 1,445★ · JavaScript · Hot  
+- **[petergyang/human-review](https://github.com/petergyang/human-review)** · 1,448★ · JavaScript · Mature  
   Google-Doc-style commenting on the agent's HTML/Markdown output, sent back as feedback — a human checkpoint with a real UI.  
   <sub>topics: ai-agents, claude-code, cli, codex, feedback, html, human-in-the-loop, markdown</sub>
 
@@ -300,25 +300,25 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 **Evidence.** marmelab's survey: only 5 of 391 harness repos logged skill activations or blocks, and only one published before/after measurements for its rules. Fan et al. show component effects are model- and budget-dependent — so measure on *your* model.
 
-- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** · 36,885★ · TypeScript · Classic  
+- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** · 37,199★ · TypeScript · Classic  
   Open-source tracing + evals — see which steps, tools and rules actually fire.  
   <sub>topics: analytics, llm, llmops, large-language-models, openai, self-hosted, ycombinator, monitoring</sub>
-- **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** · 26,742★ · TypeScript · Classic  
+- **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** · 26,988★ · TypeScript · Mature  
   Regression tests and red-teaming for prompts and agents in CI.  
   <sub>topics: llm, prompt-engineering, prompts, llmops, prompt-testing, testing, rag, evaluation</sub>
-- **[getagentseal/codeburn](https://github.com/getagentseal/codeburn)** · 11,660★ · TypeScript · Hot  
+- **[getagentseal/codeburn](https://github.com/getagentseal/codeburn)** · 11,737★ · TypeScript · Hot  
   Local token/cost tracking across 37 coding agents — measure harness overhead.  
   <sub>topics: ai-coding, claude-code, cli, codex, cost-tracking, developer-tools, observability, terminal-ui</sub>
-- **[harbor-framework/harbor](https://github.com/harbor-framework/harbor)** · 6,718★ · Python · Hot  
+- **[harbor-framework/harbor](https://github.com/harbor-framework/harbor)** · 6,907★ · Python · Hot  
   Framework for evaluating and improving agents on frozen task sets.  
   <sub>topics: evals, rl-environments, terminal-bench</sub>
-- **[UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** · 3,155★ · Python · Mature  
+- **[UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** · 3,208★ · Python · Mature  
   The UK AI Security Institute's eval framework — tasks, solvers, scorers and sandboxed tool use; the standard way to put a harness under repeatable test.  
   <sub>topics: —</sub>
-- **[microsoft/waza](https://github.com/microsoft/waza)** · 1,498★ · Go · Hot  
+- **[microsoft/waza](https://github.com/microsoft/waza)** · 1,506★ · Go · Hot  
   CLI and framework for creating, testing and measuring Agent Skills — evals aimed at the skill layer, not the model.  
   <sub>topics: —</sub>
-- **[strands-labs/harness-optimizer](https://github.com/strands-labs/harness-optimizer)** · 60★ · Python · Declining  
+- **[strands-labs/harness-optimizer](https://github.com/strands-labs/harness-optimizer)** · 61★ · Python · Declining  
   Tunes harness 'formulas' against evals — early, research-grade, but the right idea: optimize the harness, not the prompt.  
   <sub>topics: agentic, agentic-ai, ai, genai, llm, machine-learning, strands-agents, strands-labs</sub>
 
@@ -354,44 +354,47 @@ Ten yes/no checks, one per method. A "no" is where to work next.
 
 ## Graph analysis — how they relate
 
-**Community clustering.** These 48 tools span **15 of the graph's 42 communities** — harness methods draw on very different corners of the ecosystem (context tooling, sandboxes, observability, skills).
+**Community clustering.** These 48 tools span **17 of the graph's 41 communities** — harness methods draw on very different corners of the ecosystem (context tooling, sandboxes, observability, skills).
 
-- **Community 5** (7): `SWE-agent/SWE-agent`, `Nicolepcx/harness_engineering`, `SWE-agent/mini-swe-agent`, `headroomlabs-ai/headroom`, `chunkhound/chunkhound`, `langchain-ai/deepagents`, `VoltAgent/awesome-claude-code-subagents`
-- **Community 1** (6): `earendil-works/pi`, `agentsmd/agents.md`, `upstash/context7`, `snarktank/ralph`, `github/spec-kit`, `Fission-AI/OpenSpec`
-- **Community 11** (6): `mksglu/context-mode`, `alexgreensh/token-optimizer`, `jgravelle/jcodemunch-mcp`, `VibiumDev/vibium`, `kenryu42/cc-safety-net`, `triggerdotdev/trigger.dev`
-- **Community 26** (6): `oraios/serena`, `OthmanAdi/planning-with-files`, `Yeachan-Heo/oh-my-claudecode`, `open-multi-agent/open-multi-agent`, `backnotprop/plannotator`, `petergyang/human-review`
-- **Community 6** (5): `haydenbleasel/ultracite`, `modem-dev/hunk`, `cobusgreyling/loop-engineering`, `getagentseal/codeburn`, `UKGovernmentBEIS/inspect_ai`
-- **Community 17** (4): `Piebald-AI/claude-code-system-prompts`, `anthropics/skills`, `repoprompt/repoprompt-ce`, `e2b-dev/runtime`
-- **Community 14** (3): `rtk-ai/rtk`, `Infisical/agent-vault`, `promptfoo/promptfoo`
-- **Community 2** (2): `microsoft/playwright-mcp`, `microsoft/waza`
-- **Community 32** (2): `alibaba/open-code-review`, `strands-labs/harness-optimizer`
-- **Community 21** (2): `langfuse/langfuse`, `harbor-framework/harbor`
+- **Community 0** (10): `earendil-works/pi`, `agentsmd/agents.md`, `haydenbleasel/ultracite`, `VibiumDev/vibium`, `snarktank/ralph`, `cobusgreyling/loop-engineering`, `backnotprop/plannotator`, `petergyang/human-review`, `getagentseal/codeburn`, `UKGovernmentBEIS/inspect_ai`
+- **Community 7** (4): `headroomlabs-ai/headroom`, `rtk-ai/rtk`, `alexgreensh/token-optimizer`, `modem-dev/hunk`
+- **Community 9** (4): `oraios/serena`, `Yeachan-Heo/oh-my-claudecode`, `e2b-dev/runtime`, `open-multi-agent/open-multi-agent`
+- **Community 10** (3): `Piebald-AI/claude-code-system-prompts`, `anthropics/skills`, `multica-ai/andrej-karpathy-skills`
+- **Community 11** (3): `Nicolepcx/harness_engineering`, `langchain-ai/deepagents`, `VoltAgent/awesome-claude-code-subagents`
+- **Community 16** (3): `obra/superpowers`, `alibaba/open-code-review`, `Infisical/agent-vault`
+- **Community 8** (3): `mksglu/context-mode`, `NVIDIA/SkillSpector`, `triggerdotdev/trigger.dev`
+- **Community 13** (3): `upstash/context7`, `github/spec-kit`, `Fission-AI/OpenSpec`
+- **Community 18** (3): `langfuse/langfuse`, `harbor-framework/harbor`, `promptfoo/promptfoo`
+- **Community 12** (2): `SWE-agent/SWE-agent`, `SWE-agent/mini-swe-agent`
+- **Community 2** (2): `repoprompt/repoprompt-ce`, `jgravelle/jcodemunch-mcp`
+- **Community 17** (2): `chunkhound/chunkhound`, `strands-labs/harness-optimizer`
+- **Community 23** (2): `microsoft/playwright-mcp`, `microsoft/waza`
 
-**Centrality (PageRank in the full 2,587-repo graph)**:
+**Centrality (PageRank in the full 2,728-repo graph)**:
 
-- `mksglu/context-mode` — PageRank 0.0033
-- `microsoft/playwright-mcp` — PageRank 0.0015
 - `multica-ai/andrej-karpathy-skills` — PageRank 0.0014
-- `kenryu42/cc-safety-net` — PageRank 0.0012
+- `microsoft/playwright-mcp` — PageRank 0.0012
 - `langchain-ai/deepagents` — PageRank 0.0010
-- `SWE-agent/mini-swe-agent` — PageRank 0.0007
-- `microsoft/waza` — PageRank 0.0006
-- `alexgreensh/token-optimizer` — PageRank 0.0006
+- `kenryu42/cc-safety-net` — PageRank 0.0010
+- `mksglu/context-mode` — PageRank 0.0009
+- `cobusgreyling/loop-engineering` — PageRank 0.0007
+- `jgravelle/jcodemunch-mcp` — PageRank 0.0007
 - `strands-labs/harness-optimizer` — PageRank 0.0006
-- `jgravelle/jcodemunch-mcp` — PageRank 0.0006
+- `SWE-agent/mini-swe-agent` — PageRank 0.0006
+- `microsoft/waza` — PageRank 0.0006
 
 **Direct links between repos in this report** (top similarity edges):
 
-- `alexgreensh/token-optimizer` ⇄ `mksglu/context-mode` (w=1.083) — topics: claude-code, claude-code-skill, codex; authors: github-actions[bot]
-- `mksglu/context-mode` ⇄ `kenryu42/cc-safety-net` (w=0.929) — topics: claude, claude-code, codex, opencode; authors: github-actions[bot]
-- `jgravelle/jcodemunch-mcp` ⇄ `mksglu/context-mode` (w=0.879) — topics: claude, claude-code, mcp, mcp-server; authors: github-actions[bot]
-- `microsoft/waza` ⇄ `microsoft/playwright-mcp` (w=0.864) — authors: dependabot[bot], Copilot
+- `microsoft/waza` ⇄ `microsoft/playwright-mcp` (w=0.833) — authors: dependabot[bot], Copilot
 - `SWE-agent/mini-swe-agent` ⇄ `SWE-agent/SWE-agent` (w=0.732) — topics: agent, ai
-- `Fission-AI/OpenSpec` ⇄ `github/spec-kit` (w=0.408) — topics: spec, ai, engineering, prd; authors: dependabot[bot], kevin9327, Khunjua
-- `promptfoo/promptfoo` ⇄ `langfuse/langfuse` (w=0.263) — topics: llm, prompt-engineering, llmops, evaluation; authors: dependabot[bot]
+- `jgravelle/jcodemunch-mcp` ⇄ `mksglu/context-mode` (w=0.612) — topics: claude, claude-code, mcp, mcp-server; authors: github-actions[bot]
+- `Fission-AI/OpenSpec` ⇄ `github/spec-kit` (w=0.375) — topics: spec, ai, engineering, prd; authors: dependabot[bot], kevin9327
 - `chunkhound/chunkhound` ⇄ `oraios/serena` (w=0.237) — topics: agent, ai, mcp-server
-- `cobusgreyling/loop-engineering` ⇄ `Yeachan-Heo/oh-my-claudecode` (w=0.224) — topics: ai-agents, claude-code, automation, claude
+- `promptfoo/promptfoo` ⇄ `langfuse/langfuse` (w=0.206) — topics: llm, prompt-engineering, llmops, evaluation
 - `Nicolepcx/harness_engineering` ⇄ `langchain-ai/deepagents` (w=0.200) — topics: ai, harness, harness-engineering
+- `jgravelle/jcodemunch-mcp` ⇄ `alexgreensh/token-optimizer` (w=0.161) — topics: claude-code, context-window, token-optimization, codex
+- `alexgreensh/token-optimizer` ⇄ `headroomlabs-ai/headroom` (w=0.161) — topics: claude-code, token-optimization, context-window, context-engineering
+- `alexgreensh/token-optimizer` ⇄ `getagentseal/codeburn` (w=0.143) — topics: claude-code, token-usage, codex, cost-tracking
 - `dagger/container-use` ⇄ `oraios/serena` (w=0.111) — authors: anxkhn
 
 ## Maintenance & risk signal
@@ -400,53 +403,53 @@ Bus factor = commit concentration (1 = single-maintainer risk). Methods outlive 
 
 | Tool | Health | Lifecycle | Activity | Bus factor | Top-author share | Releases |
 |---|---|---|---|---|---|---|
-| headroomlabs-ai/headroom | 98 | Hot | very active | 5 | 22% | 175 |
-| alibaba/open-code-review | 97 | Hot | very active | 7 | 14% | 141 |
-| langfuse/langfuse | 94 | Classic | very active | 4 | 21% | 731 |
-| harbor-framework/harbor | 94 | Hot | very active | 5 | 16% | 30 |
-| NVIDIA/SkillSpector | 93 | Hot | very active | 4 | 15% | 21 |
-| chunkhound/chunkhound | 89 | Hot | very active | 5 | 18% | 45 |
-| github/spec-kit | 89 | Hot | very active | 3 | 24% | 237 |
-| Fission-AI/OpenSpec | 88 | Hot | very active | 3 | 37% | 56 |
-| e2b-dev/runtime | 88 | Classic | very active | 3 | 37% | 52 |
+| headroomlabs-ai/headroom | 99 | Hot | very active | 7 | 22% | 177 |
+| alibaba/open-code-review | 98 | Hot | very active | 8 | 12% | 144 |
+| e2b-dev/runtime | 93 | Classic | very active | 4 | 27% | 52 |
+| chunkhound/chunkhound | 90 | Hot | very active | 5 | 16% | 45 |
+| langchain-ai/deepagents | 89 | Hot | very active | 3 | 32% | 338 |
+| langfuse/langfuse | 89 | Classic | very active | 3 | 25% | 738 |
+| harbor-framework/harbor | 89 | Hot | very active | 4 | 26% | 30 |
 | triggerdotdev/trigger.dev | 88 | Classic | very active | 3 | 22% | 706 |
-| UKGovernmentBEIS/inspect_ai | 87 | Mature | very active | 3 | 26% | 10 |
-| upstash/context7 | 85 | Hot | very active | 2 | 42% | 163 |
-| langchain-ai/deepagents | 84 | Hot | very active | 2 | 36% | 332 |
-| microsoft/waza | 83 | Hot | very active | 2 | 49% | 55 |
-| earendil-works/pi | 80 | Hot | very active | 1 | 72% | 276 |
-| alexgreensh/token-optimizer | 80 | Rising | very active | 1 | 99% | 302 |
-| jgravelle/jcodemunch-mcp | 80 | Hot | very active | 1 | 98% | 731 |
-| haydenbleasel/ultracite | 80 | Classic | very active | 1 | 93% | 396 |
-| Yeachan-Heo/oh-my-claudecode | 80 | Hot | very active | 1 | 85% | 285 |
-| kenryu42/cc-safety-net | 80 | Hot | very active | 1 | 91% | 87 |
-| oraios/serena | 79 | Hot | very active | 1 | 78% | 18 |
-| microsoft/playwright-mcp | 79 | Hot | very active | 2 | 41% | 74 |
-| VibiumDev/vibium | 79 | Hot | very active | 1 | 80% | 59 |
-| OthmanAdi/planning-with-files | 79 | Hot | very active | 1 | 57% | 125 |
-| open-multi-agent/open-multi-agent | 79 | Hot | very active | 1 | 75% | 32 |
-| backnotprop/plannotator | 79 | Rising | very active | 1 | 100% | 208 |
-| getagentseal/codeburn | 79 | Hot | very active | 1 | 74% | 80 |
-| promptfoo/promptfoo | 79 | Classic | very active | 1 | 69% | 432 |
-| Piebald-AI/claude-code-system-prompts | 77 | Rising | very active | 1 | 100% | 278 |
-| repoprompt/repoprompt-ce | 77 | Hot | very active | 1 | 74% | 36 |
-| modem-dev/hunk | 77 | Hot | very active | 1 | 53% | 76 |
-| vercel-labs/agent-browser | 76 | Hot | very active | 1 | 51% | 119 |
-| mksglu/context-mode | 75 | Rising | very active | 1 | 100% | 217 |
-| rtk-ai/rtk | 75 | Hot | very active | 1 | 58% | 460 |
-| cobusgreyling/loop-engineering | 68 | Hot | very active | 1 | 69% | 2 |
-| Infisical/agent-vault | 66 | Hot | very active | 1 | 76% | 58 |
-| obra/superpowers | 64 | Mature | active | 1 | 100% | 16 |
-| SWE-agent/mini-swe-agent | 62 | Declining | active | 1 | 67% | 65 |
-| petergyang/human-review | 62 | Hot | active | 1 | 92% | 8 |
-| VoltAgent/awesome-claude-code-subagents | 59 | Hot | very active | 1 | 76% | 0 |
-| anthropics/skills | 50 | Mature | active | 2 | 47% | 0 |
+| UKGovernmentBEIS/inspect_ai | 87 | Mature | very active | 3 | 24% | 11 |
+| upstash/context7 | 85 | Hot | very active | 2 | 36% | 172 |
+| github/spec-kit | 84 | Hot | very active | 2 | 39% | 241 |
+| Fission-AI/OpenSpec | 83 | Hot | very active | 2 | 43% | 57 |
+| NVIDIA/SkillSpector | 83 | Hot | very active | 2 | 48% | 22 |
+| earendil-works/pi | 80 | Hot | very active | 1 | 63% | 276 |
+| mksglu/context-mode | 80 | Rising | very active | 1 | 78% | 238 |
+| alexgreensh/token-optimizer | 80 | Hot | very active | 1 | 51% | 307 |
+| jgravelle/jcodemunch-mcp | 80 | Hot | very active | 1 | 97% | 753 |
+| Yeachan-Heo/oh-my-claudecode | 80 | Hot | very active | 1 | 70% | 288 |
+| kenryu42/cc-safety-net | 80 | Hot | very active | 1 | 80% | 92 |
+| microsoft/playwright-mcp | 79 | Hot | very active | 2 | 37% | 74 |
+| haydenbleasel/ultracite | 79 | Classic | very active | 1 | 93% | 396 |
+| VibiumDev/vibium | 79 | Hot | very active | 1 | 71% | 65 |
+| OthmanAdi/planning-with-files | 79 | Hot | very active | 1 | 58% | 127 |
+| open-multi-agent/open-multi-agent | 79 | Hot | very active | 1 | 70% | 32 |
+| backnotprop/plannotator | 79 | Rising | very active | 1 | 100% | 219 |
+| getagentseal/codeburn | 79 | Hot | very active | 1 | 82% | 84 |
+| promptfoo/promptfoo | 79 | Mature | very active | 1 | 100% | 432 |
+| oraios/serena | 78 | Hot | very active | 1 | 78% | 18 |
+| vercel-labs/agent-browser | 78 | Hot | very active | 1 | 53% | 120 |
+| microsoft/waza | 78 | Hot | very active | 1 | 63% | 59 |
+| Piebald-AI/claude-code-system-prompts | 77 | Rising | very active | 1 | 100% | 281 |
+| repoprompt/repoprompt-ce | 77 | Hot | very active | 1 | 59% | 38 |
+| modem-dev/hunk | 77 | Hot | very active | 1 | 56% | 76 |
+| rtk-ai/rtk | 75 | Hot | very active | 1 | 56% | 475 |
+| cobusgreyling/loop-engineering | 68 | Hot | very active | 1 | 72% | 2 |
+| Infisical/agent-vault | 67 | Hot | very active | 1 | 72% | 58 |
+| obra/superpowers | 64 | Mature | active | 1 | 100% | 17 |
+| SWE-agent/mini-swe-agent | 61 | Declining | active | 1 | 67% | 65 |
+| VoltAgent/awesome-claude-code-subagents | 58 | Hot | very active | 1 | 78% | 0 |
+| petergyang/human-review | 55 | Mature | active | 1 | 100% | 8 |
+| anthropics/skills | 50 | Mature | active | 2 | 40% | 0 |
 | strands-labs/harness-optimizer | 50 | Declining | active | 1 | 50% | 1 |
-| dagger/container-use | 43 | Mature | active | 1 | 86% | 14 |
+| dagger/container-use | 42 | Mature | active | 1 | 83% | 14 |
 | SWE-agent/SWE-agent | 39 | Mature | active | 0 | 0% | 10 |
-| agentsmd/agents.md | 36 | Declining | active | 1 | 67% | 0 |
 | Nicolepcx/harness_engineering | 35 | Declining | slowing | 1 | 100% | 0 |
-| multica-ai/andrej-karpathy-skills | 19 | Declining | stale | 0 | 0% | 0 |
+| agentsmd/agents.md | 35 | Declining | active | 1 | 67% | 0 |
+| multica-ai/andrej-karpathy-skills | 18 | Declining | stale | 0 | 0% | 0 |
 | snarktank/ralph | 10 | Declining | stale | 0 | 0% | 0 |
 
 **Watch items** (snapshot reads declining/abandoned): `Nicolepcx/harness_engineering`, `SWE-agent/mini-swe-agent`, `agentsmd/agents.md`, `multica-ai/andrej-karpathy-skills`, `snarktank/ralph`, `strands-labs/harness-optimizer`.
@@ -466,12 +469,12 @@ Bus factor = commit concentration (1 = single-maintainer risk). Methods outlive 
 
 ## Adjacent (deliberately not listed)
 
-- **affaan-m/ECC** (295,236★) — a full meta-harness *product* — compared in the agent-harnesses report
-- **ruvnet/ruflo** (80,601★) — swarm meta-harness — agent-harnesses / agent-orchestration reports
-- **dair-ai/Prompt-Engineering-Guide** (79,752★) — prompt-level, not harness-level — see the ai-engineer-stack report
-- **guardrails-ai/guardrails** (7,580★) — output guardrails for LLM apps, not agent-loop enforcement — decision-classifiers report
-- **topoteretes/cognee** (33,003★) — long-term memory platform — agent-memory / memory-frameworks reports
-- **openai/codex** (132,854★) — a coding agent (the thing being harnessed) — ai-coding-tuis report
+- **affaan-m/ECC** (299,980★) — a full meta-harness *product* — compared in the agent-harnesses report
+- **ruvnet/ruflo** (81,326★) — swarm meta-harness — agent-harnesses / agent-orchestration reports
+- **dair-ai/Prompt-Engineering-Guide** (79,945★) — prompt-level, not harness-level — see the ai-engineer-stack report
+- **guardrails-ai/guardrails** (7,590★) — output guardrails for LLM apps, not agent-loop enforcement — decision-classifiers report
+- **topoteretes/cognee** (33,177★) — long-term memory platform — agent-memory / memory-frameworks reports
+- **openai/codex** (134,247★) — a coding agent (the thing being harnessed) — ai-coding-tuis report
 
 ## Methodology & sources
 
@@ -487,4 +490,4 @@ Bus factor = commit concentration (1 = single-maintainer risk). Methods outlive 
   - Peak Ji (Manus), *Context Engineering for AI Agents: Lessons from Building Manus* (Jul 2025) — https://medium.com/@peakji/context-engineering-for-ai-agents-lessons-from-building-manus-71883f0a67f2
 - **Metrics** (health, lifecycle, bus_factor) are precomputed at snapshot time and may lag GitHub's current state.
 
-<sub>Tools covered: 48 · Snapshot: 2026-11-02T14:17:38.270Z</sub>
+<sub>Tools covered: 48 · Snapshot: 2026-11-09T14:44:53.318Z</sub>

@@ -3,9 +3,9 @@
   "title": "Agent Harnesses \u2014 Six Approaches to Running Autonomous Agents",
   "file": "agent-harnesses.md",
   "category": "AI / Agents",
-  "summary": "41 harness projects (1,729,895\u2605) across six approaches: harness-as-SDK, meta-harnesses over coding agents, fleet orchestration, spec-driven determinism, sandbox substrates, and long-horizon autonomy.",
+  "summary": "41 harness projects (1,745,959\u2605) across six approaches: harness-as-SDK, meta-harnesses over coding agents, fleet orchestration, spec-driven determinism, sandbox substrates, and long-horizon autonomy.",
   "tool_count": 41,
-  "total_stars": 1729895,
+  "total_stars": 1745959,
   "categories": {
     "Harness-as-SDK": 11,
     "Meta-harness over coding agents": 7,
@@ -17,27 +17,27 @@
   "top_tools": [
     {
       "name": "obra/superpowers",
-      "stars": 314888
+      "stars": 318369
     },
     {
       "name": "affaan-m/ECC",
-      "stars": 299980
+      "stars": 304244
     },
     {
       "name": "github/spec-kit",
-      "stars": 148915
+      "stars": 150046
     },
     {
       "name": "earendil-works/pi",
-      "stars": 121019
+      "stars": 122314
     },
     {
       "name": "bytedance/deer-flow",
-      "stars": 85183
+      "stars": 85395
     }
   ],
-  "snapshot": "2026-11-09T14:44:53.318Z",
-  "generated": "2026-11-09",
+  "snapshot": "2026-11-16T14:38:50.632Z",
+  "generated": "2026-11-16",
   "generator": "scripts/reports/agent_harnesses.py",
-  "created": "2026-11-07"
+  "created": "2026-11-09"
 }

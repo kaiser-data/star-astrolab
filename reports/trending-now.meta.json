@@ -3,75 +3,75 @@
   "title": "Trending Now \u2014 What's Actually Moving in Your Stars",
   "file": "trending-now.md",
   "category": "AI / Trends",
-  "summary": "Measured star momentum across 27 data vintages: the 7-day movers, relative breakouts, sustained climbers, 154 new entrants, and what has gone flat.",
-  "tool_count": 220,
-  "total_stars": 8299776,
+  "summary": "Measured star momentum across 28 data vintages: the 7-day movers, relative breakouts, sustained climbers, 174 new entrants, and what has gone flat.",
+  "tool_count": 243,
+  "total_stars": 9451991,
   "categories": {
-    "Risers": 1898,
-    "Breakouts": 1792,
-    "New entrants": 154,
-    "Cooling": 108
+    "Risers": 2108,
+    "Breakouts": 1972,
+    "New entrants": 174,
+    "Cooling": 113
   },
   "top_tools": [
     {
       "name": "morluto/rea",
-      "stars": 445673
+      "stars": 463252
+    },
+    {
+      "name": "mattpocock/skills",
+      "stars": 325658
+    },
+    {
+      "name": "stablyai/orca",
+      "stars": 126400
     },
     {
       "name": "cloudflare/security-audit-skill",
-      "stars": 67543
+      "stars": 73592
     },
     {
-      "name": "cactus-compute/cactus",
-      "stars": 14616
-    },
-    {
-      "name": "deepseek-ai/deepseek-harness",
-      "stars": 277214
-    },
-    {
-      "name": "D4Vinci/Scrapling",
-      "stars": 100302
+      "name": "debpalash/VoiceStudio",
+      "stars": 111708
     }
   ],
   "chart_top_series": [
     {
       "name": "morluto/rea",
-      "value": 24532
+      "value": 17579
     },
     {
-      "name": "cloudflare/security-audit-skill",
-      "value": 10571
-    },
-    {
-      "name": "cactus-compute/cactus",
-      "value": 8445
-    },
-    {
-      "name": "deepseek-ai/deepseek-harness",
-      "value": 8054
-    },
-    {
-      "name": "D4Vinci/Scrapling",
-      "value": 8017
-    },
-    {
-      "name": "debpalash/VoiceStudio",
-      "value": 7086
+      "name": "mattpocock/skills",
+      "value": 6435
     },
     {
       "name": "stablyai/orca",
-      "value": 6795
+      "value": 6395
     },
     {
-      "name": "pbakaus/impeccable",
-      "value": 6548
+      "name": "cloudflare/security-audit-skill",
+      "value": 6049
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "value": 6020
+    },
+    {
+      "name": "anthropics/skills",
+      "value": 5378
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "value": 4958
+    },
+    {
+      "name": "h4ckf0r0day/obscura",
+      "value": 4613
     }
   ],
   "chart_top_title": "Biggest star gains (7d)",
   "chart_cat_title": "Repos by movement type",
-  "snapshot": "2026-11-09T14:44:53.318Z",
-  "generated": "2026-11-09",
+  "snapshot": "2026-11-16T14:38:50.632Z",
+  "generated": "2026-11-16",
   "generator": "scripts/reports/trending_now.py",
-  "created": "2026-11-07"
+  "created": "2026-11-09"
 }

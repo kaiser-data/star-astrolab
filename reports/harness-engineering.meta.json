@@ -3,9 +3,9 @@
   "title": "Harness Engineering \u2014 Ten Methods That Make an Agent Harness Good",
   "file": "harness-engineering.md",
   "category": "AI / Agents",
-  "summary": "Ten evidence-backed methods for building a good agent harness \u2014 minimal loops, small instruction budgets, context engineering, lean tools, external verification, state on disk, sub-agent isolation, guards, durable runs, and harness evals \u2014 mapped to 48 repos (1,924,178\u2605).",
+  "summary": "Ten evidence-backed methods for building a good agent harness \u2014 minimal loops, small instruction budgets, context engineering, lean tools, external verification, state on disk, sub-agent isolation, guards, durable runs, and harness evals \u2014 mapped to 48 repos (1,954,136\u2605).",
   "tool_count": 48,
-  "total_stars": 1924178,
+  "total_stars": 1954136,
   "categories": {
     "1. Minimal loop first": 5,
     "2. Small instruction budget": 4,
@@ -21,27 +21,27 @@
   "top_tools": [
     {
       "name": "obra/superpowers",
-      "stars": 314888
+      "stars": 318369
     },
     {
       "name": "multica-ai/andrej-karpathy-skills",
-      "stars": 231187
+      "stars": 233640
     },
     {
       "name": "anthropics/skills",
-      "stars": 190342
+      "stars": 195720
     },
     {
       "name": "github/spec-kit",
-      "stars": 148915
+      "stars": 150046
     },
     {
       "name": "earendil-works/pi",
-      "stars": 121019
+      "stars": 122314
     }
   ],
-  "snapshot": "2026-11-09T14:44:53.318Z",
-  "generated": "2026-11-09",
+  "snapshot": "2026-11-16T14:38:50.632Z",
+  "generated": "2026-11-16",
   "generator": "scripts/reports/harness_engineering.py",
-  "created": "2026-11-07"
+  "created": "2026-11-09"
 }

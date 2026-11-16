@@ -1,8 +1,8 @@
 # Meeting Transcription & Conversation Analysis — Field Guide
 
-> Derived from **kaiser-data**'s 2,728 starred repos (snapshot `2026-11-09T14:44:53.318Z`), cross-referenced with the repo-similarity graph (2,728 nodes / 9,126 edges, 41 communities).
+> Derived from **kaiser-data**'s 2,896 starred repos (snapshot `2026-11-16T14:38:50.632Z`), cross-referenced with the repo-similarity graph (2,896 nodes / 9,609 edges, 48 communities).
 >
-> Generated 2026-11-09 by `scripts/reports/meeting_transcription.py` (regenerate any time — no API cost).
+> Generated 2026-11-16 by `scripts/reports/meeting_transcription.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/meeting-transcription-top-tools.svg)
 
@@ -25,8 +25,8 @@
 
 ## Executive summary
 
-- **33 transcription/analysis projects** in your stars (**489,018★** combined), organized along the meeting pipeline:
-  - **Meeting assistant (end-to-end)** (8): `meetily`, `screenpipe`, `vibe`, `ecoute`, `Scriberr`, `whishper`, `noScribe`, `transcriptionstream`
+- **32 transcription/analysis projects** in your stars (**488,086★** combined), organized along the meeting pipeline:
+  - **Meeting assistant (end-to-end)** (7): `meetily`, `screenpipe`, `vibe`, `ecoute`, `Scriberr`, `noScribe`, `transcriptionstream`
   - **ASR engine / model** (14): `whisper`, `whisper.cpp`, `faster-whisper`, `FunASR`, `Speech`, `kaldi`, `vosk-api`, `speechbrain`, `moonshine`, `espnet`, `SenseVoice`, `audio.cpp`, `distil-whisper`, `delayed-streams-modeling`
   - **Diarization & alignment** (4): `whisperX`, `pyannote-audio`, `whisper-diarization`, `diart`
   - **Streaming / live capture** (4): `sherpa-onnx`, `silero-vad`, `RealtimeSTT`, `WhisperLive`
@@ -54,38 +54,37 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 | Tool | Category | Lang | License | ★ Stars | Lifecycle | Health | Activity | Last push | Age | Contrib(90d) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| [openai/whisper](https://github.com/openai/whisper) | ASR engine / model | Python | MIT | 112,285 (▲515) | Mature | 36 | slowing | 2mo ago | 4.2y | 1 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | ASR engine / model | C++ | MIT | 55,039 (▲176) | Classic | 99 | very active | 0d ago | 4.1y | 60 |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Meeting assistant (end-to-end) | Rust | MIT | 32,556 (▲175) | Hot | 72 | very active | 0d ago | 1.9y | 4 |
-| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ASR engine / model | Python | MIT | 26,617 (▲214) | Classic | 58 | active | 3d ago | 3.7y | 8 |
-| [m-bain/whisperX](https://github.com/m-bain/whisperX) | Diarization & alignment | Python | BSD-2-Clause | 25,167 (▲156) | Mature | 69 | active | 18d ago | 3.9y | 4 |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Meeting assistant (end-to-end) | Rust | NOASSERTION | 22,290 (▲81) | Mature | 80 | very active | 1d ago | 2.4y | 5 |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | ASR engine / model | Python | MIT | 20,977 (▲65) | Classic | 80 | very active | 0d ago | 4.0y | 6 |
-| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | ASR engine / model | Python | Apache-2.0 | 18,718 (▲38) | Classic | 90 | very active | 0d ago | 7.3y | 28 |
-| [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | Streaming / live capture | C++ | Apache-2.0 | 15,841 (▲161) | Classic | 86 | very active | 2d ago | 4.2y | 37 |
-| [kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi) | ASR engine / model | Shell | NOASSERTION | 15,513 (▲3) | Abandoned | 9 | stale | 1.1y ago | 11.6y | 0 |
-| [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | ASR engine / model | Jupyter Notebook | Apache-2.0 | 15,236 (▲12) | Mature | 43 | active | 25d ago | 7.2y | 1 |
-| [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) | ASR engine / model | Python | Apache-2.0 | 11,929 (▲12) | Classic | 74 | very active | 26d ago | 6.5y | 15 |
-| [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | ASR engine / model | C++ | NOASSERTION | 11,441 (▲61) | Mature | 76 | very active | 1d ago | 2.1y | 2 |
-| [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Diarization & alignment | Jupyter Notebook | MIT | 10,770 (▲20) | Classic | 69 | active | 0d ago | 10.7y | 7 |
-| [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | Streaming / live capture | Python | MIT | 10,622 (▲41) | Classic | 61 | very active | 19d ago | 6.0y | 8 |
-| [KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | Streaming / live capture | Python | MIT | 10,237 (▲10) | Classic | 68 | very active | 10d ago | 3.2y | 6 |
-| [espnet/espnet](https://github.com/espnet/espnet) | ASR engine / model | Python | Apache-2.0 | 10,010 (▲6) | Classic | 80 | very active | 0d ago | 8.9y | 3 |
-| [QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice) | ASR engine / model | C | MIT | 9,721 (▲51) | Mature | 67 | active | 1mo ago | 2.4y | 5 |
-| [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe) | Meeting assistant (end-to-end) | TypeScript | MIT | 8,038 (▲43) | Mature | 77 | very active | 11d ago | 2.8y | 2 |
-| [SevaSk/ecoute](https://github.com/SevaSk/ecoute) | Meeting assistant (end-to-end) | Python | MIT | 6,035 (▼1) | Declining | 16 | stale | 7mo ago | 3.5y | 0 |
-| [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | Diarization & alignment | Jupyter Notebook | BSD-2-Clause | 5,674 (▲1) | Mature | 39 | slowing | 2mo ago | 3.8y | 2 |
-| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | Streaming / live capture | Python | MIT | 4,353 (▲12) | Classic | 66 | very active | 7d ago | 3.5y | 8 |
-| [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) | ASR engine / model | C++ | NOASSERTION | 4,136 (▲195) | Hot | 80 | very active | 0d ago | 4mo | 24 |
-| [huggingface/distil-whisper](https://github.com/huggingface/distil-whisper) | ASR engine / model | Python | MIT | 4,119 | Abandoned | 4 | stale | 1.8y ago | 3.0y | 0 |
-| [speaches-ai/speaches](https://github.com/speaches-ai/speaches) | Transcription server / API | Python | MIT | 3,760 (▲8) | Mature | 41 | active | 2d ago | 2.5y | 0 |
-| [ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice) | Transcription server / API | Python | MIT | 3,367 (▼4) | Mature | 35 | active | 1mo ago | 4.1y | 0 |
-| [rishikanthc/Scriberr](https://github.com/rishikanthc/Scriberr) | Meeting assistant (end-to-end) | Go | MIT | 3,143 (▲13) | Mature | 41 | active | 1mo ago | 2.1y | 1 |
-| [pluja/whishper](https://github.com/pluja/whishper) | Meeting assistant (end-to-end) | Svelte | AGPL-3.0 | 3,105 (▲8) | Mature | 26 | slowing | 3mo ago | 3.2y | 0 |
-| [kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) | ASR engine / model | Python | Apache-2.0 | 3,052 (▲7) | Declining | 13 | stale | 9mo ago | 1.4y | 0 |
-| [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Meeting assistant (end-to-end) | Python | GPL-3.0 | 2,238 (▲11) | Classic | 68 | very active | 0d ago | 3.5y | 5 |
-| [juanmc2005/diart](https://github.com/juanmc2005/diart) | Diarization & alignment | Python | MIT | 2,047 | Mature | 25 | slowing | 4mo ago | 5.3y | 0 |
-| [transcriptionstream/transcriptionstream](https://github.com/transcriptionstream/transcriptionstream) | Meeting assistant (end-to-end) | Python | GPL-3.0 | 946 | Declining | 14 | stale | 9mo ago | 3.0y | 0 |
+| [openai/whisper](https://github.com/openai/whisper) | ASR engine / model | Python | MIT | 112,794 (▲509) | Mature | 35 | slowing | 2mo ago | 4.2y | 1 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | ASR engine / model | C++ | MIT | 55,242 (▲203) | Classic | 99 | very active | 0d ago | 4.1y | 60 |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Meeting assistant (end-to-end) | Rust | MIT | 32,739 (▲183) | Hot | 71 | very active | 2d ago | 1.9y | 5 |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ASR engine / model | Python | MIT | 26,795 (▲178) | Classic | 59 | active | 4d ago | 3.8y | 10 |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | Diarization & alignment | Python | BSD-2-Clause | 25,372 (▲205) | Classic | 72 | active | 4d ago | 3.9y | 4 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Meeting assistant (end-to-end) | Rust | NOASSERTION | 22,393 (▲103) | Mature | 80 | very active | 1d ago | 2.4y | 7 |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | ASR engine / model | Python | MIT | 21,044 (▲67) | Classic | 80 | very active | 1d ago | 4.0y | 9 |
+| [NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech) | ASR engine / model | Python | Apache-2.0 | 18,759 (▲41) | Classic | 85 | very active | 0d ago | 7.3y | 22 |
+| [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | Streaming / live capture | C++ | Apache-2.0 | 15,985 (▲144) | Classic | 82 | very active | 0d ago | 4.2y | 32 |
+| [kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi) | ASR engine / model | Shell | NOASSERTION | 15,515 (▲2) | Abandoned | 9 | stale | 1.2y ago | 11.6y | 0 |
+| [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | ASR engine / model | Jupyter Notebook | Apache-2.0 | 15,266 (▲30) | Mature | 43 | active | 1mo ago | 7.2y | 1 |
+| [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) | ASR engine / model | Python | Apache-2.0 | 11,940 (▲11) | Classic | 74 | active | 1mo ago | 6.6y | 15 |
+| [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | ASR engine / model | C++ | NOASSERTION | 11,524 (▲83) | Mature | 73 | very active | 6d ago | 2.1y | 2 |
+| [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Diarization & alignment | Jupyter Notebook | MIT | 10,804 (▲34) | Classic | 69 | active | 0d ago | 10.7y | 7 |
+| [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | Streaming / live capture | Python | MIT | 10,675 (▲53) | Classic | 60 | very active | 26d ago | 6.0y | 7 |
+| [KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | Streaming / live capture | Python | Apache-2.0 | 10,251 (▲14) | Classic | 71 | very active | 5d ago | 3.2y | 6 |
+| [espnet/espnet](https://github.com/espnet/espnet) | ASR engine / model | Python | Apache-2.0 | 10,018 (▲8) | Classic | 80 | very active | 0d ago | 8.9y | 8 |
+| [QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice) | ASR engine / model | C | MIT | 9,764 (▲43) | Mature | 65 | active | 1mo ago | 2.4y | 3 |
+| [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe) | Meeting assistant (end-to-end) | TypeScript | MIT | 8,115 (▲77) | Mature | 78 | very active | 2d ago | 2.9y | 2 |
+| [SevaSk/ecoute](https://github.com/SevaSk/ecoute) | Meeting assistant (end-to-end) | Python | MIT | 6,030 (▼5) | Declining | 16 | stale | 7mo ago | 3.5y | 0 |
+| [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | Diarization & alignment | Jupyter Notebook | BSD-2-Clause | 5,676 (▲2) | Mature | 31 | slowing | 3mo ago | 3.8y | 0 |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | Streaming / live capture | Python | MIT | 4,361 (▲8) | Classic | 67 | very active | 1d ago | 3.5y | 10 |
+| [0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp) | ASR engine / model | C++ | NOASSERTION | 4,290 (▲154) | Hot | 80 | very active | 0d ago | 4mo | 21 |
+| [huggingface/distil-whisper](https://github.com/huggingface/distil-whisper) | ASR engine / model | Python | MIT | 4,118 (▼1) | Abandoned | 4 | stale | 1.9y ago | 3.0y | 0 |
+| [speaches-ai/speaches](https://github.com/speaches-ai/speaches) | Transcription server / API | Python | MIT | 3,767 (▲7) | Mature | 39 | active | 0d ago | 2.5y | 0 |
+| [ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice) | Transcription server / API | Python | MIT | 3,369 (▲2) | Mature | 34 | active | 1mo ago | 4.2y | 0 |
+| [rishikanthc/Scriberr](https://github.com/rishikanthc/Scriberr) | Meeting assistant (end-to-end) | Go | MIT | 3,150 (▲7) | Mature | 41 | active | 1mo ago | 2.1y | 1 |
+| [kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) | ASR engine / model | Python | Apache-2.0 | 3,052 | Declining | 12 | stale | 9mo ago | 1.4y | 0 |
+| [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Meeting assistant (end-to-end) | Python | GPL-3.0 | 2,248 (▲10) | Classic | 67 | very active | 7d ago | 3.5y | 5 |
+| [juanmc2005/diart](https://github.com/juanmc2005/diart) | Diarization & alignment | Python | MIT | 2,047 | Mature | 25 | slowing | 5mo ago | 5.3y | 0 |
+| [transcriptionstream/transcriptionstream](https://github.com/transcriptionstream/transcriptionstream) | Meeting assistant (end-to-end) | Python | GPL-3.0 | 947 (▲1) | Declining | 14 | stale | 10mo ago | 3.0y | 0 |
 | [DrDroidLab/voicesummary](https://github.com/DrDroidLab/voicesummary) | Transcript analysis | Python | MIT | 36 | Declining | 2 | stale | 1.0y ago | 1.2y | 0 |
 
 ## By category
@@ -94,28 +93,25 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 
 _The bundled pipeline — capture, transcribe, diarize, summarize in one app. Pick one of these if you want a product, not a project._
 
-- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** · 32,556★ · Rust · Hot  
+- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** · 32,739★ · Rust · Hot  
   Privacy-first local meeting notetaker (macOS/Win) — live Parakeet/Whisper transcription, speaker diarization, Ollama summaries; 100% on-device.  
   <sub>topics: meeting-minutes, meeting-notes, llm, mac, windows, rust, whisper, whisper-cpp</sub>
-- **[screenpipe/screenpipe](https://github.com/screenpipe/screenpipe)** · 22,290★ · Rust · Mature  
+- **[screenpipe/screenpipe](https://github.com/screenpipe/screenpipe)** · 22,393★ · Rust · Mature  
   24/7 local screen + mic capture with transcription — a rolling, searchable record of everything said on your machine.  
   <sub>topics: ai, computer-vision, llm, machine-learning, multimodal, agents, agi, audio-recording</sub>
-- **[thewh1teagle/vibe](https://github.com/thewh1teagle/vibe)** · 8,038★ · TypeScript · Mature  
+- **[thewh1teagle/vibe](https://github.com/thewh1teagle/vibe)** · 8,115★ · TypeScript · Mature  
   Polished cross-platform desktop app for offline transcription (Whisper) with batch, subtitles, and diarization.  
   <sub>topics: ai, cross-platform, desktop, openai, rust, transcribe, whisper</sub>
-- **[SevaSk/ecoute](https://github.com/SevaSk/ecoute)** · 6,035★ · Python · Declining  
+- **[SevaSk/ecoute](https://github.com/SevaSk/ecoute)** · 6,030★ · Python · Declining  
   Live meeting listener — real-time transcription of mic + speaker audio with GPT-suggested responses as the call happens.  
   <sub>topics: gpt-35-turbo, whisper-ai, windows</sub>
-- **[rishikanthc/Scriberr](https://github.com/rishikanthc/Scriberr)** · 3,143★ · Go · Mature  
+- **[rishikanthc/Scriberr](https://github.com/rishikanthc/Scriberr)** · 3,150★ · Go · Mature  
   Self-hosted (Docker) team transcription service — upload recordings, get diarized transcripts + optional local-LLM summaries.  
   <sub>topics: ai, audio, transcript, transcription</sub>
-- **[pluja/whishper](https://github.com/pluja/whishper)** · 3,105★ · Svelte · Mature  
-  Self-hosted transcription suite with web UI — transcribe, translate, edit, and export subtitles, fully offline.  
-  <sub>topics: ai, audio-to-text, golang, subtitles, sveltekit, transcription, whisper, ui</sub>
-- **[kaixxx/noScribe](https://github.com/kaixxx/noScribe)** · 2,238★ · Python · Classic  
+- **[kaixxx/noScribe](https://github.com/kaixxx/noScribe)** · 2,248★ · Python · Classic  
   Transcription built for qualitative researchers — diarized interview transcripts with an editor designed for coding/analysis.  
   <sub>topics: audio-transcription, interview, pyannote, qualitative-research, transcription, faster-whisper</sub>
-- **[transcriptionstream/transcriptionstream](https://github.com/transcriptionstream/transcriptionstream)** · 946★ · Python · Declining  
+- **[transcriptionstream/transcriptionstream](https://github.com/transcriptionstream/transcriptionstream)** · 947★ · Python · Declining  
   Turnkey self-hosted drop-folder: transcription + diarization + Ollama summarization as one service.  
   <sub>topics: automation, diarization, llm, speaker-diarization, speech-recognition, transcription, whisper, ollama</sub>
 
@@ -123,43 +119,43 @@ _The bundled pipeline — capture, transcribe, diarize, summarize in one app. Pi
 
 _The transcribers. Raw word-error-rate is near-parity at the top; choose by deployment target (CPU/GPU/edge), language coverage, and streaming support._
 
-- **[openai/whisper](https://github.com/openai/whisper)** · 112,285★ · Python · Mature  
+- **[openai/whisper](https://github.com/openai/whisper)** · 112,794★ · Python · Mature  
   The reference open ASR model — robust multilingual transcription; the baseline every meeting tool builds on.  
   <sub>topics: —</sub>
-- **[ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp)** · 55,039★ · C++ · Classic  
+- **[ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp)** · 55,242★ · C++ · Classic  
   C/C++ Whisper — runs on CPU/edge with no Python; powers many of the desktop meeting apps above.  
   <sub>topics: openai, speech-to-text, transformer, whisper, inference, speech-recognition</sub>
-- **[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)** · 26,617★ · Python · Classic  
+- **[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)** · 26,795★ · Python · Classic  
   CTranslate2 Whisper — ~4× faster, lower memory; the production server-side transcription default.  
   <sub>topics: deep-learning, inference, quantization, speech-recognition, speech-to-text, transformer, whisper, openai</sub>
-- **[modelscope/FunASR](https://github.com/modelscope/FunASR)** · 20,977★ · Python · Classic  
+- **[modelscope/FunASR](https://github.com/modelscope/FunASR)** · 21,044★ · Python · Classic  
   Alibaba's production ASR toolkit — streaming + offline models with punctuation, timestamps, and speaker labels (Paraformer).  
   <sub>topics: pytorch, speech-recognition, paraformer, punctuation, speaker-diarization, voice-activity-detection, asr, multilingual-asr</sub>
-- **[NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech)** · 18,718★ · Python · Classic  
+- **[NVIDIA-NeMo/Speech](https://github.com/NVIDIA-NeMo/Speech)** · 18,759★ · Python · Classic  
   NVIDIA's speech stack — Parakeet (fastest open ASR) and Canary (top of the Open ASR leaderboard) live here, plus diarization recipes.  
   <sub>topics: machine-translation, speaker-recognition, asr, tts, generative-ai, deeplearning, neural-networks, speaker-diariazation</sub>
-- **[kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi)** · 15,513★ · Shell · Abandoned  
+- **[kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi)** · 15,515★ · Shell · Abandoned  
   The classic ASR research toolkit — the foundation Vosk and a generation of speech systems were built on.  
   <sub>topics: kaldi, c-plus-plus, cuda, shell, speech-recognition, speech-to-text, speaker-verification, speaker-id</sub>
-- **[alphacep/vosk-api](https://github.com/alphacep/vosk-api)** · 15,236★ · Jupyter Notebook · Mature  
+- **[alphacep/vosk-api](https://github.com/alphacep/vosk-api)** · 15,266★ · Jupyter Notebook · Mature  
   Offline ASR for 20+ languages with tiny (~50MB) models — bindings for ~10 languages; runs on a Raspberry Pi.  
   <sub>topics: speech-recognition, asr, voice-recognition, speech-to-text, android, ios, raspberry-pi, deep-learning</sub>
-- **[speechbrain/speechbrain](https://github.com/speechbrain/speechbrain)** · 11,929★ · Python · Classic  
+- **[speechbrain/speechbrain](https://github.com/speechbrain/speechbrain)** · 11,940★ · Python · Classic  
   PyTorch conversational-AI toolkit — ASR, speaker ID, diarization, enhancement; strong for custom pipelines.  
   <sub>topics: speech-recognition, speech-toolkit, speaker-recognition, speech-to-text, speech-enhancement, speech-separation, audio, audio-processing</sub>
-- **[moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)** · 11,441★ · C++ · Mature  
+- **[moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)** · 11,524★ · C++ · Mature  
   Edge-first ASR beating Whisper at 5–15× speed on short segments — built for live, on-device captioning.  
   <sub>topics: intent-recognition, stt, tts, voice, voice-recognition</sub>
-- **[espnet/espnet](https://github.com/espnet/espnet)** · 10,010★ · Python · Classic  
+- **[espnet/espnet](https://github.com/espnet/espnet)** · 10,018★ · Python · Classic  
   End-to-end speech toolkit (ASR/TTS/translation/diarization) — research breadth across 100+ recipes.  
   <sub>topics: deep-learning, end-to-end, chainer, pytorch, kaldi, speech-recognition, speech-synthesis, speech-translation</sub>
-- **[QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice)** · 9,721★ · C · Mature  
+- **[QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice)** · 9,764★ · C · Mature  
   Multilingual ASR with emotion recognition and audio-event detection — transcription plus conversational tone signals.  
   <sub>topics: asr, speech-recognition, speech-to-text, cross-lingual, pytorch, speech-emotion-recognition, multilingual, audio-analysis</sub>
-- **[0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp)** · 4,136★ · C++ · Hot  
+- **[0xShug0/audio.cpp](https://github.com/0xShug0/audio.cpp)** · 4,290★ · C++ · Hot  
   Pure C++ ggml engine for audio models — STT, TTS and VAD in one runtime; whisper.cpp's design applied to the wider audio-model zoo.  
   <sub>topics: ai, amd-gpu, apple-silicon, asr, audio, cpp, edge-ai, ggml</sub>
-- **[huggingface/distil-whisper](https://github.com/huggingface/distil-whisper)** · 4,119★ · Python · Abandoned  
+- **[huggingface/distil-whisper](https://github.com/huggingface/distil-whisper)** · 4,118★ · Python · Abandoned  
   Distilled Whisper — ~6× faster, 49% smaller, within ~1% WER; batch-transcribe long meetings cheaply.  
   <sub>topics: audio, speech-recognition, whisper</sub>
 - **[kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling)** · 3,052★ · Python · Declining  
@@ -170,13 +166,13 @@ _The transcribers. Raw word-error-rate is near-parity at the top; choose by depl
 
 _Who said what, when — the part that turns a wall of text into an analyzable conversation. Hardest stage, fewest options, pyannote underneath most._
 
-- **[m-bain/whisperX](https://github.com/m-bain/whisperX)** · 25,167★ · Python · Mature  
+- **[m-bain/whisperX](https://github.com/m-bain/whisperX)** · 25,372★ · Python · Classic  
   Whisper + forced alignment (word-level timestamps) + pyannote diarization — the best single pipeline for 'who said what, when'.  
   <sub>topics: asr, speech, speech-recognition, speech-to-text, whisper</sub>
-- **[pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio)** · 10,770★ · Jupyter Notebook · Classic  
+- **[pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio)** · 10,804★ · Jupyter Notebook · Classic  
   THE open speaker-diarization toolkit — state-of-the-art pipelines for 'who spoke when'; the de-facto standard.  
   <sub>topics: pytorch, speech-processing, speaker-diarization, speech-activity-detection, speaker-change-detection, speaker-embedding, voice-activity-detection, pretrained-models</sub>
-- **[MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)** · 5,674★ · Jupyter Notebook · Mature  
+- **[MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)** · 5,676★ · Jupyter Notebook · Mature  
   Ready-made faster-whisper + NeMo MSDD diarization pipeline — speaker-labeled transcripts with one command.  
   <sub>topics: asr, speaker-diarization, speech, speech-recognition, speech-to-text, whisper</sub>
 - **[juanmc2005/diart](https://github.com/juanmc2005/diart)** · 2,047★ · Python · Mature  
@@ -187,16 +183,16 @@ _Who said what, when — the part that turns a wall of text into an analyzable c
 
 _Live transcription needs VAD, chunking, and endpointing — these own the real-time path._
 
-- **[k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)** · 15,841★ · C++ · Classic  
+- **[k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)** · 15,985★ · C++ · Classic  
   On-device streaming ASR + diarization + VAD via ONNX — 10 languages of bindings, runs from RPi to server, no internet.  
   <sub>topics: asr, onnx, windows, linux, macos, cpp, android, ios</sub>
-- **[snakers4/silero-vad](https://github.com/snakers4/silero-vad)** · 10,622★ · Python · Classic  
+- **[snakers4/silero-vad](https://github.com/snakers4/silero-vad)** · 10,675★ · Python · Classic  
   The standard pre-trained voice-activity detector — <1ms per chunk; gates every serious live pipeline.  
   <sub>topics: voice-detection, voice-recognition, voice-commands, pytorch, onnx, voice-activity-detection, voice-control, onnx-runtime</sub>
-- **[KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)** · 10,237★ · Python · Classic  
+- **[KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)** · 10,251★ · Python · Classic  
   Low-latency streaming STT with built-in VAD and wake-word — the easiest way to wire live mic → text.  
   <sub>topics: python, realtime, speech-to-text</sub>
-- **[collabora/WhisperLive](https://github.com/collabora/WhisperLive)** · 4,353★ · Python · Classic  
+- **[collabora/WhisperLive](https://github.com/collabora/WhisperLive)** · 4,361★ · Python · Classic  
   Whisper as a real-time websocket server — stream mic/RTSP audio in, live transcript out.  
   <sub>topics: dictation, obs, openai, text-to-speech, translation, voice-recognition, whisper, tensorrt</sub>
 
@@ -204,10 +200,10 @@ _Live transcription needs VAD, chunking, and endpointing — these own the real-
 
 _Self-hosted OpenAI-compatible endpoints — point any Whisper-API client at your own box._
 
-- **[speaches-ai/speaches](https://github.com/speaches-ai/speaches)** · 3,760★ · Python · Mature  
+- **[speaches-ai/speaches](https://github.com/speaches-ai/speaches)** · 3,767★ · Python · Mature  
   OpenAI-compatible STT/TTS server on faster-whisper — drop-in self-hosted replacement for the Whisper API.  
   <sub>topics: docker, docker-compose, faster-whisper, openai-api, openai-whisper-translation, whisper, whisper-ai, openai-whisper</sub>
-- **[ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice)** · 3,367★ · Python · Mature  
+- **[ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice)** · 3,369★ · Python · Mature  
   Dockerized Whisper ASR webservice — the long-standing self-hosted transcription endpoint.  
   <sub>topics: automatic-speech-recognition, speech-recognition, speech-to-text, openai-whisper, docker, asr, speech</sub>
 
@@ -242,43 +238,44 @@ mic/system audio → silero-vad → WhisperLive or RealtimeSTT (streaming ASR)
 
 ## Graph analysis — how they relate
 
-**Community clustering.** These 33 tools span **12 of the graph's 41 communities**.
+**Community clustering.** These 32 tools span **12 of the graph's 48 communities**.
 
-- **Community 26** (20): `pluja/whishper`, `kaixxx/noScribe`, `transcriptionstream/transcriptionstream`, `ggml-org/whisper.cpp`, `SYSTRAN/faster-whisper`, `modelscope/FunASR`, `QwenAudio/SenseVoice`, `alphacep/vosk-api`, `kaldi-asr/kaldi`, `speechbrain/speechbrain`, `0xShug0/audio.cpp`, `pyannote/pyannote-audio`, `m-bain/whisperX`, `MahmoudAshraf97/whisper-diarization`, `juanmc2005/diart`, `KoljaB/RealtimeSTT`, `collabora/WhisperLive`, `snakers4/silero-vad`, `speaches-ai/speaches`, `ahmetoner/whisper-asr-webservice`
-- **Community 11** (2): `Zackriya-Solutions/meetily`, `openai/whisper`
-- **Community 7** (2): `SevaSk/ecoute`, `k2-fsa/sherpa-onnx`
+- **Community 27** (18): `kaixxx/noScribe`, `transcriptionstream/transcriptionstream`, `ggml-org/whisper.cpp`, `SYSTRAN/faster-whisper`, `modelscope/FunASR`, `alphacep/vosk-api`, `kaldi-asr/kaldi`, `speechbrain/speechbrain`, `0xShug0/audio.cpp`, `pyannote/pyannote-audio`, `m-bain/whisperX`, `MahmoudAshraf97/whisper-diarization`, `juanmc2005/diart`, `KoljaB/RealtimeSTT`, `collabora/WhisperLive`, `snakers4/silero-vad`, `speaches-ai/speaches`, `ahmetoner/whisper-asr-webservice`
+- **Community 20** (2): `Zackriya-Solutions/meetily`, `thewh1teagle/vibe`
+- **Community 2** (2): `SevaSk/ecoute`, `k2-fsa/sherpa-onnx`
+- **Community 12** (2): `moonshine-ai/moonshine`, `QwenAudio/SenseVoice`
 
-**Centrality (PageRank in the full 2,728-repo graph)** — most 'hub-like' transcription tools in your ecosystem:
+**Centrality (PageRank in the full 2,896-repo graph)** — most 'hub-like' transcription tools in your ecosystem:
 
 - `m-bain/whisperX` — PageRank 0.0010
-- `MahmoudAshraf97/whisper-diarization` — PageRank 0.0008
-- `ggml-org/whisper.cpp` — PageRank 0.0007
+- `MahmoudAshraf97/whisper-diarization` — PageRank 0.0007
+- `ggml-org/whisper.cpp` — PageRank 0.0006
 - `KoljaB/RealtimeSTT` — PageRank 0.0005
-- `modelscope/FunASR` — PageRank 0.0005
-- `QwenAudio/SenseVoice` — PageRank 0.0005
+- `modelscope/FunASR` — PageRank 0.0004
 - `ahmetoner/whisper-asr-webservice` — PageRank 0.0004
 - `SYSTRAN/faster-whisper` — PageRank 0.0004
 - `openai/whisper` — PageRank 0.0004
-- `NVIDIA-NeMo/Speech` — PageRank 0.0004
+- `huggingface/distil-whisper` — PageRank 0.0004
+- `QwenAudio/SenseVoice` — PageRank 0.0003
 
 **Direct links between these tools** (top similarity edges where both endpoints are in this report):
 
 - `MahmoudAshraf97/whisper-diarization` ⇄ `m-bain/whisperX` (w=0.833) — topics: asr, speech, speech-recognition, speech-to-text
 - `ggml-org/whisper.cpp` ⇄ `SYSTRAN/faster-whisper` (w=0.750) — topics: openai, speech-to-text, transformer, whisper
 - `ahmetoner/whisper-asr-webservice` ⇄ `m-bain/whisperX` (w=0.550) — topics: speech-recognition, speech-to-text, asr, speech
-- `QwenAudio/SenseVoice` ⇄ `modelscope/FunASR` (w=0.450) — topics: asr, speech-recognition, speech-to-text, pytorch; authors: LauraGPT
 - `ahmetoner/whisper-asr-webservice` ⇄ `MahmoudAshraf97/whisper-diarization` (w=0.444) — topics: speech-recognition, speech-to-text, asr, speech
+- `QwenAudio/SenseVoice` ⇄ `modelscope/FunASR` (w=0.432) — topics: asr, speech-recognition, speech-to-text, pytorch; authors: LauraGPT
 - `m-bain/whisperX` ⇄ `SYSTRAN/faster-whisper` (w=0.350) — topics: speech-recognition, speech-to-text, whisper
+- `collabora/WhisperLive` ⇄ `KoljaB/RealtimeSTT` (w=0.336) — authors: ANDROIDHASSAN, abaichuan1017
+- `pyannote/pyannote-audio` ⇄ `snakers4/silero-vad` (w=0.304) — topics: pytorch, speech-processing, voice-activity-detection; authors: MohammadHijjawi97
 - `speechbrain/speechbrain` ⇄ `m-bain/whisperX` (w=0.297) — topics: speech-recognition, speech-to-text, asr; authors: li-lizhe
-- `pyannote/pyannote-audio` ⇄ `snakers4/silero-vad` (w=0.293) — topics: pytorch, speech-processing, voice-activity-detection; authors: MohammadHijjawi97
 - `speechbrain/speechbrain` ⇄ `espnet/espnet` (w=0.291) — topics: speech-recognition, speech-enhancement, speech-separation, spoken-language-understanding
 - `pyannote/pyannote-audio` ⇄ `speechbrain/speechbrain` (w=0.288) — topics: pytorch, speech-processing, speaker-diarization, speaker-recognition; authors: Kayvan-Zahiri
 - `pyannote/pyannote-audio` ⇄ `openai/whisper` (w=0.286) — authors: Kayvan-Zahiri
-- `pyannote/pyannote-audio` ⇄ `modelscope/FunASR` (w=0.274) — topics: pytorch, speaker-diarization, voice-activity-detection; authors: MohammadHijjawi97
 - `kaldi-asr/kaldi` ⇄ `m-bain/whisperX` (w=0.273) — topics: speech-recognition, speech-to-text, speech
-- `modelscope/FunASR` ⇄ `snakers4/silero-vad` (w=0.271) — topics: pytorch, voice-activity-detection; authors: MohammadHijjawi97
-- `speechbrain/speechbrain` ⇄ `SYSTRAN/faster-whisper` (w=0.261) — topics: speech-recognition, speech-to-text, deep-learning; authors: sungbin1015
-- …and 21 more.
+- `speechbrain/speechbrain` ⇄ `SYSTRAN/faster-whisper` (w=0.253) — topics: speech-recognition, speech-to-text, deep-learning; authors: sungbin1015
+- `MahmoudAshraf97/whisper-diarization` ⇄ `kaldi-asr/kaldi` (w=0.250) — topics: speech, speech-recognition, speech-to-text
+- …and 17 more.
 
 ## Maintenance & risk signal
 
@@ -286,48 +283,47 @@ Bus factor = commit concentration (1 = single-maintainer risk). Several of the d
 
 | Tool | Health | Lifecycle | Activity | Bus factor | Top-author share | Releases |
 |---|---|---|---|---|---|---|
-| ggml-org/whisper.cpp | 99 | Classic | very active | 14 | 8% | 45 |
-| NVIDIA-NeMo/Speech | 90 | Classic | very active | 3 | 25% | 87 |
-| k2-fsa/sherpa-onnx | 86 | Classic | very active | 3 | 41% | 194 |
-| screenpipe/screenpipe | 80 | Mature | very active | 1 | 50% | 505 |
-| modelscope/FunASR | 80 | Classic | very active | 1 | 85% | 82 |
-| espnet/espnet | 80 | Classic | very active | 1 | 98% | 65 |
-| 0xShug0/audio.cpp | 80 | Hot | very active | 1 | 63% | 25 |
-| thewh1teagle/vibe | 77 | Mature | very active | 1 | 98% | 99 |
-| moonshine-ai/moonshine | 76 | Mature | very active | 1 | 99% | 24 |
-| speechbrain/speechbrain | 74 | Classic | very active | 4 | 24% | 17 |
-| Zackriya-Solutions/meetily | 72 | Hot | very active | 2 | 45% | 12 |
+| ggml-org/whisper.cpp | 99 | Classic | very active | 13 | 8% | 45 |
+| NVIDIA-NeMo/Speech | 85 | Classic | very active | 2 | 29% | 87 |
+| k2-fsa/sherpa-onnx | 82 | Classic | very active | 2 | 45% | 197 |
+| screenpipe/screenpipe | 80 | Mature | very active | 1 | 51% | 505 |
+| modelscope/FunASR | 80 | Classic | very active | 1 | 77% | 87 |
+| espnet/espnet | 80 | Classic | very active | 1 | 83% | 65 |
+| 0xShug0/audio.cpp | 80 | Hot | very active | 1 | 55% | 26 |
+| thewh1teagle/vibe | 78 | Mature | very active | 1 | 99% | 114 |
+| speechbrain/speechbrain | 74 | Classic | active | 4 | 24% | 17 |
+| moonshine-ai/moonshine | 73 | Mature | very active | 1 | 98% | 24 |
+| m-bain/whisperX | 72 | Classic | active | 2 | 46% | 44 |
+| Zackriya-Solutions/meetily | 71 | Hot | very active | 1 | 65% | 13 |
+| KoljaB/RealtimeSTT | 71 | Classic | very active | 1 | 82% | 48 |
 | pyannote/pyannote-audio | 69 | Classic | active | 2 | 40% | 18 |
-| m-bain/whisperX | 69 | Mature | active | 2 | 44% | 44 |
-| kaixxx/noScribe | 68 | Classic | very active | 1 | 72% | 9 |
-| KoljaB/RealtimeSTT | 68 | Classic | very active | 1 | 75% | 47 |
-| QwenAudio/SenseVoice | 67 | Mature | active | 1 | 83% | 7 |
-| collabora/WhisperLive | 66 | Classic | very active | 1 | 54% | 21 |
-| snakers4/silero-vad | 61 | Classic | very active | 1 | 50% | 14 |
-| SYSTRAN/faster-whisper | 58 | Classic | active | 2 | 46% | 21 |
+| kaixxx/noScribe | 67 | Classic | very active | 1 | 72% | 9 |
+| collabora/WhisperLive | 67 | Classic | very active | 1 | 50% | 21 |
+| QwenAudio/SenseVoice | 65 | Mature | active | 1 | 88% | 7 |
+| snakers4/silero-vad | 60 | Classic | very active | 1 | 55% | 14 |
+| SYSTRAN/faster-whisper | 59 | Classic | active | 2 | 38% | 21 |
 | alphacep/vosk-api | 43 | Mature | active | 1 | 100% | 20 |
 | rishikanthc/Scriberr | 41 | Mature | active | 1 | 100% | 16 |
-| speaches-ai/speaches | 41 | Mature | active | 0 | 0% | 9 |
-| MahmoudAshraf97/whisper-diarization | 39 | Mature | slowing | 1 | 50% | 0 |
-| openai/whisper | 36 | Mature | slowing | 1 | 100% | 13 |
-| ahmetoner/whisper-asr-webservice | 35 | Mature | active | 0 | 0% | 27 |
-| pluja/whishper | 26 | Mature | slowing | 0 | 0% | 21 |
+| speaches-ai/speaches | 39 | Mature | active | 0 | 0% | 9 |
+| openai/whisper | 35 | Mature | slowing | 1 | 100% | 13 |
+| ahmetoner/whisper-asr-webservice | 34 | Mature | active | 0 | 0% | 27 |
+| MahmoudAshraf97/whisper-diarization | 31 | Mature | slowing | 0 | 0% | 0 |
 | juanmc2005/diart | 25 | Mature | slowing | 0 | 0% | 13 |
 | SevaSk/ecoute | 16 | Declining | stale | 0 | 0% | 0 |
 | transcriptionstream/transcriptionstream | 14 | Declining | stale | 0 | 0% | 0 |
-| kyutai-labs/delayed-streams-modeling | 13 | Declining | stale | 0 | 0% | 0 |
+| kyutai-labs/delayed-streams-modeling | 12 | Declining | stale | 0 | 0% | 0 |
 | kaldi-asr/kaldi | 9 | Abandoned | stale | 0 | 0% | 0 |
 | huggingface/distil-whisper | 4 | Abandoned | stale | 0 | 0% | 0 |
 | DrDroidLab/voicesummary | 2 | Declining | stale | 0 | 0% | 2 |
 
 ## Adjacent (deliberately not listed here)
 
-- **pipecat-ai/pipecat** (17,152★) — realtime voice-*agent* framework — building bots that talk, not transcribing meetings (see voice-agents report)
-- **livekit/agents** (15,156★) — voice-agent framework with transcription as a component — see voice-agents report
-- **TEN-framework/ten-framework** (11,224★) — conversational voice-AI agent framework — see voice-agents report
-- **Macoron/whisper.unity** (760★) — whisper.cpp in Unity — game/XR captioning, not meetings
+- **pipecat-ai/pipecat** (17,287★) — realtime voice-*agent* framework — building bots that talk, not transcribing meetings (see voice-agents report)
+- **livekit/agents** (15,246★) — voice-agent framework with transcription as a component — see voice-agents report
+- **TEN-framework/ten-framework** (11,232★) — conversational voice-AI agent framework — see voice-agents report
+- **Macoron/whisper.unity** (762★) — whisper.cpp in Unity — game/XR captioning, not meetings
 - **kaiser-data/claude-code-langfuse-tracing** (3★) — transcript observability for *Claude Code sessions*, not audio conversations
-- **coqui-ai/TTS** (46,195★) — text-to-*speech* — the other direction; see voice-agents report
+- **coqui-ai/TTS** (46,234★) — text-to-*speech* — the other direction; see voice-agents report
 
 ## Methodology & caveats
 
@@ -336,4 +332,4 @@ Bus factor = commit concentration (1 = single-maintainer risk). Several of the d
 - **Metrics** (health, lifecycle, bus_factor) are precomputed at snapshot time and may lag GitHub's current state.
 - Re-run after a fresh `classified.json` to refresh stars/activity.
 
-<sub>Tools covered: 33 · Snapshot: 2026-11-09T14:44:53.318Z</sub>
+<sub>Tools covered: 32 · Snapshot: 2026-11-16T14:38:50.632Z</sub>

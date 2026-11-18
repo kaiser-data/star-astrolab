@@ -207,7 +207,8 @@ export default function MapView({ onSelectNode, focusedRepoName }) {
       const dt = Math.min(0.1, (now - last) / 1000);
       last = now;
       layer.tick(now / 1000, fg.camera(), fg.renderer());
-      tickBackdrop(group, dt);
+      const el = fg.renderer().domElement;
+      tickBackdrop(group, dt, fg.camera(), el.clientWidth, el.clientHeight);
       raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);

@@ -110,6 +110,8 @@ export function buildBackdrop(look, centres, bounds) {
     t.renderOrder = 5;
     t.position.set(c.centre.x, c.centre.y + c.spread * 0.9 + 30, c.centre.z);
     t.userData.constellation = c.id;
+    t.userData.rank = named.indexOf(c); // 0 = largest constellation, wins overlaps
+    t.material.transparent = true;
     group.add(t);
   }
 
@@ -145,9 +147,48 @@ export function buildBackdrop(look, centres, bounds) {
   return group;
 }
 
-export function tickBackdrop(group, dt) {
+const _p = new THREE.Vector3();
+
+/**
+ * Per frame: spin the rings, and declutter constellation names in screen space.
+ * Clusters that sit close in 3D put their names on top of each other; walking the
+ * names largest-first, any name whose on-screen box hits an already placed one fades
+ * out, and fades back in once the camera turns and frees the space.
+ */
+export function tickBackdrop(group, dt, camera, viewW, viewH) {
   if (!group) return;
   for (const o of group.children) if (o.userData.spin) o.rotation.y += o.userData.spin * dt;
+  if (!camera || !viewW || !viewH) return;
+  const k = Math.min(1, dt * 7); // ~150 ms fade
+  const tanHalf = Math.tan((camera.fov * Math.PI) / 360);
+  // Screen box per name. Names cut by the frame edge yield to names fully in view; then
+  // the name that looks biggest wins (the cluster you zoomed into beats a distant one),
+  // and constellation size breaks ties.
+  const items = [];
+  for (const t of group.children) {
+    if (t.userData.constellation == null) continue;
+    let r = null;
+    if (t.visible) {
+      _p.copy(t.position).project(camera);
+      if (_p.z < 1 && Math.abs(_p.x) < 1.2 && Math.abs(_p.y) < 1.2) {
+        const pxPerUnit = viewH / 2 / (tanHalf * camera.position.distanceTo(t.position));
+        const w = t.scale.x * pxPerUnit, h = t.scale.y * pxPerUnit;
+        const x = (_p.x + 1) / 2 * viewW, y = (1 - _p.y) / 2 * viewH;
+        r = { l: x - w / 2 - 6, r: x + w / 2 + 6, t: y - h / 2 - 4, b: y + h / 2 + 4 };
+        r.clipped = r.l < 0 || r.t < 0 || r.r > viewW || r.b > viewH;
+        r.area = w * h;
+      }
+    }
+    items.push({ t, r });
+  }
+  items.sort((a, b) => (a.r?.clipped ?? 1) - (b.r?.clipped ?? 1)
+    || (b.r?.area ?? 0) - (a.r?.area ?? 0) || a.t.userData.rank - b.t.userData.rank);
+  const placed = [];
+  for (const { t, r } of items) {
+    let target = 0;
+    if (r && !placed.some((q) => r.l < q.r && r.r > q.l && r.t < q.b && r.b > q.t)) { placed.push(r); target = 1; }
+    t.material.opacity += (target - t.material.opacity) * k;
+  }
 }
 
 export function disposeBackdrop(group) {

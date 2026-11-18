@@ -7,9 +7,20 @@ using only repos you have already vetted.
 
 **[→ Open the live app](https://star-astrolab.vercel.app)** · no sign-up, no install
 
-Currently mapping **2,408 starred repos** · 7,966 similarity edges · 39 communities · 29 landscape reports · refreshed weekly.
+Currently mapping **2,896 starred repos** · 9,609 similarity edges · 48 communities · 29 landscape reports · refreshed weekly.
 
-![The 3D map](docs/screenshots/01-map.jpg)
+![The map in Deep Sky: every project is a star. Related projects cluster into constellations; colour shows each project's life stage, twinkle shows recent commits.](docs/screenshots/01-map.jpg)
+
+### Three ways to see the sky
+
+Switch looks at the top of the map, or open one directly with `?look=deepsky`, `?look=holo` or `?look=classic`.
+
+| **Holo**: a calm, futuristic star chart | **Time-lapse**: stars ignite in the order the projects were created | **Tour**: a slow drift through the largest constellations |
+|---|---|---|
+| ![Holo look](docs/screenshots/01b-holo.jpg) | ![Time-lapse](docs/screenshots/01c-timelapse.jpg) | ![Tour](docs/screenshots/01d-tour.jpg) |
+
+In **Deep Sky** and **Holo**, colour is life stage (hot blue for fast-rising projects, fading red for abandoned ones),
+twinkle speed is commits in the last 90 days, and a ring marks the fastest-growing tenth.
 
 ---
 

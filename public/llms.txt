@@ -1,0 +1,39 @@
+# GitHub Astrolab
+
+> A hand-curated map of ~2,600 open-source GitHub projects, each scored for health and
+> lifecycle (Hot, Rising, Classic, Mature, Declining, Abandoned), linked by similarity,
+> and summarised in field guides that rank the best project for each job.
+> Everything below is static, free to fetch, and refreshed weekly. No key needed.
+
+Use it when you need to pick a library or tool, check whether a dependency is still
+maintained, or ground a recommendation in projects a human has already vetted,
+instead of guessing repo names.
+
+## Field guides (Markdown)
+
+- [Guide index](https://star-astrolab.vercel.app/reports/index.json): every guide with slug, title, category, summary, tool count and top tools. Fetch this first.
+- Each guide: `https://star-astrolab.vercel.app/reports/<slug>.md` (plain Markdown). Most have a "Task rankings" table (first, second, third pick per task, with evidence) and a "Maintenance & risk" section.
+- Example: [Agent Skills — how to write, measure, slim down and secure them](https://star-astrolab.vercel.app/reports/agent-skills.md)
+- Example: [RAG tooling](https://star-astrolab.vercel.app/reports/rag-tooling.md)
+
+## Project data (JSON)
+
+- [Graph](https://star-astrolab.vercel.app/data/graph.json): `nodes[]` with `full_name`, `description`, `stars`, `topics`, `lifecycle_stage`, `health_score` (0–100), `bus_factor`, `commits_90d`, `unique_authors_90d`, `days_since_push`, `community`, `pagerank`, `url`; `links[]` with `source`, `target`, `weight`, `shared_topics`, `shared_authors`; `communities[]`.
+- [Community summary](https://star-astrolab.vercel.app/data/graph-context.json): a compact overview of the 39 clusters, sized for a prompt.
+
+## Build recipes (Markdown)
+
+- [Recipe index](https://star-astrolab.vercel.app/prompts/index.json): step-by-step prompts you can follow to build a new project from vetted repos.
+- Each recipe: `https://star-astrolab.vercel.app/prompts/<slug>.md`
+
+## How to use it
+
+1. To pick a tool for a task: read `reports/index.json`, open the guide whose title matches the field, read its "Task rankings" table.
+2. Before adding a dependency: look up its `full_name` in `data/graph.json`; treat `Declining` / `Abandoned`, a low `health_score`, or `bus_factor` 1 as a warning to report to the user.
+3. To find alternatives: follow `links[]` from that node; higher `weight` means more similar.
+4. Cite the guide or repo URL you used. Numbers inside guides are point-in-time and partly quoted from each project's own README.
+
+## Source
+
+- Code and data: https://github.com/kaiser-data/star-astrolab (MIT)
+- App: https://star-astrolab.vercel.app

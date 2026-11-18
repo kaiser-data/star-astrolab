@@ -90,13 +90,14 @@ export default function InsightFeed({ onSelect }) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
       <div className="lg:col-span-1">
-        <h3 className="text-sm font-bold text-gray-300 mb-3 uppercase tracking-wide">Quick answers</h3>
-        <div className="flex flex-col gap-1">
+        <h3 className="hidden lg:block text-sm font-bold text-gray-300 mb-3 uppercase tracking-wide">Quick answers</h3>
+        {/* phones: one swipeable row of chips instead of a full-screen list */}
+        <div className="-mx-4 px-4 lg:mx-0 lg:px-0 flex lg:flex-col gap-1.5 lg:gap-1 overflow-x-auto lg:overflow-visible no-scrollbar">
           {Object.entries(QUERIES).map(([key, q]) => (
             <button
               key={key}
               onClick={() => setActiveKey(key)}
-              className={`text-left px-3 py-2 rounded-lg text-sm transition-colors ${
+              className={`shrink-0 whitespace-nowrap lg:whitespace-normal text-left px-3 py-2 rounded-lg text-sm transition-colors ${
                 activeKey === key ? 'bg-white text-black' : 'bg-gray-900 border border-gray-700 text-gray-300 hover:text-white hover:border-gray-600'
               }`}
             >
@@ -105,10 +106,10 @@ export default function InsightFeed({ onSelect }) {
           ))}
         </div>
       </div>
-      <div className="lg:col-span-3 bg-gray-800 rounded-lg p-5">
-        <div className="flex items-start justify-between gap-3 mb-4">
+      <div className="min-w-0 lg:col-span-3 bg-gray-800 rounded-lg p-4 sm:p-5">
+        <div className="flex flex-col sm:flex-row items-start justify-between gap-3 mb-4">
           <div>
-            <h2 className="text-xl font-bold text-white">{QUERIES[activeKey].title}</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-white">{QUERIES[activeKey].title}</h2>
             <p className="text-sm text-gray-400 mt-1">{QUERIES[activeKey].description}</p>
           </div>
           {result && result.length > 0 && (

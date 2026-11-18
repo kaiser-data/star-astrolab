@@ -51,6 +51,8 @@ export const MD_COMPONENTS = {
     <th className="text-left font-mono text-[11px] tracking-[0.12em] uppercase text-blue-300 px-3 py-2.5 border-b border-gray-700 whitespace-nowrap" {...p} />
   ),
   tr: (p) => <tr className="hover:bg-gray-800/40 transition-colors" {...p} />,
-  td: (p) => <td className="px-3 py-2 border-b border-gray-800 text-gray-300 align-top" {...p} />,
+  // Phones: a minimum cell width makes wide tables scroll sideways inside their
+  // frame instead of squeezing every column (and wrapping `code` letter by letter).
+  td: (p) => <td className="px-3 py-2 border-b border-gray-800 text-gray-300 align-top min-w-[7.5rem] md:min-w-0 [&_code]:whitespace-nowrap md:[&_code]:whitespace-normal" {...p} />,
   hr: () => <hr className="border-gray-700 my-8" />,
 };

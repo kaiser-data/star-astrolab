@@ -1,6 +1,6 @@
 # OHLC trading dashboard
 
-> Built from the **charting-stack** report, against 2,585 starred repos (snapshot `2026-11-01T12:41:55.392Z`). Regenerate any time — no API cost.
+> Built from the **charting-stack** report, against 2,896 starred repos (snapshot `2026-11-16T14:38:50.632Z`). Regenerate any time — no API cost.
 
 Financial charts fail in ways that are easy to miss in a demo and expensive to miss in front of a trader: a line quietly drawn across a weekend implies trading that never happened, and a candle whose only up/down signal is red-vs-green is unreadable to a meaningful share of viewers. This prompt makes both failure modes explicit requirements rather than things to notice later.
 
@@ -8,8 +8,8 @@ Financial charts fail in ways that are easy to miss in a demo and expensive to m
 
 | Stage | Tool | Stars | Health | Lifecycle |
 |---|---|---|---|---|
-| Chart | [`tradingview/lightweight-charts`](https://github.com/tradingview/lightweight-charts) | 17,742 | 77 | Classic |
-| App | [`streamlit/streamlit`](https://github.com/streamlit/streamlit) | 46,191 | 83 | Classic |
+| Chart | [`tradingview/lightweight-charts`](https://github.com/tradingview/lightweight-charts) | 17,870 | 76 | Classic |
+| App | [`streamlit/streamlit`](https://github.com/streamlit/streamlit) | 46,386 | 78 | Classic |
 
 Metrics are live from the dataset.
 

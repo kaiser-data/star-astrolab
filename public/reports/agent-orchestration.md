@@ -2,7 +2,7 @@
 
 > Derived from **kaiser-data**'s 2,896 starred repos (snapshot `2026-11-16T14:38:50.632Z`), cross-referenced with the repo-similarity graph (2,896 nodes / 9,609 edges, 48 communities).
 >
-> Generated 2026-11-16 by `scripts/reports/agent_orchestration.py` (regenerate any time — no API cost).
+> Generated 2026-11-18 by `scripts/reports/agent_orchestration.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/agent-orchestration-top-tools.svg)
 
@@ -13,10 +13,10 @@
 
 ## Executive summary
 
-- **38 agent-orchestration tools** in your stars (**1,654,913★**), organized by *how you express coordination*:
+- **39 agent-orchestration tools** in your stars (**1,656,127★**), organized by *how you express coordination*:
   - **Code-first agent frameworks** (17): `MetaGPT`, `autogen`, `crewAI`, `langgraph`, `agno`, `dspy`, `agentscope`, `openai-agents-python`, `smolagents`, `semantic-kernel`, `adk-python`, `camel`, `agent-framework`, `voltagent`, `harness-sdk`, `beeai-framework`, `AutoAgents`
   - **Visual / low-code platforms** (4): `n8n`, `dify`, `langflow`, `sim`
-  - **Coding-agent orchestration** (9): `deer-flow`, `ruflo`, `oh-my-openagent`, `agents`, `oh-my-claudecode`, `paseo`, `eigent`, `agent-orchestrator`, `coding-agent-template`
+  - **Coding-agent orchestration** (10): `deer-flow`, `ruflo`, `oh-my-openagent`, `agents`, `oh-my-claudecode`, `paseo`, `eigent`, `agent-orchestrator`, `coding-agent-template`, `kanzo`
   - **Agent OS / long-horizon harness** (1): `eliza`
   - **Durable / production infra** (2): `flyte`, `agent-kit`
   - **Vertical / domain systems** (2): `TradingAgents`, `gpt-researcher`
@@ -82,6 +82,7 @@
 | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) | 15,829 (▲46) | TypeScript | 78 | very active | Hot | 1 |
 | [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14,804 (▲472) | TypeScript | 88 | very active | Hot | 3 |
 | [vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template) | 1,801 (▲4) | TypeScript | 28 | slowing | Declining | 0 |
+| [emanuele-em/kanzo](https://github.com/emanuele-em/kanzo) | 1,214 (▲86) | Rust | 76 | very active | Hot | 1 |
 
 ### Agent OS / long-horizon harness
 
@@ -217,6 +218,9 @@ _Coordinate *swarms of coding agents* (Claude Code, Codex, Cursor…) on a codeb
 - **[vercel-labs/coding-agent-template](https://github.com/vercel-labs/coding-agent-template)** · 1,801★ · TypeScript · Declining · health 28  
   Multi-agent coding platform on Vercel Sandbox + AI Gateway; declining, verify first.  
   <sub>topics: —</sub>
+- **[emanuele-em/kanzo](https://github.com/emanuele-em/kanzo)** · 1,214★ · Rust · Hot · health 76  
+  Kanban board + MCP server in one 4.5 MB binary — you and your coding agents share one task board; 10–60 tokens per agent reply.  
+  <sub>topics: ai-agents, claude-code, cli, codex, coding-agents, kanban</sub>
 
 ### Agent OS / long-horizon harness
 
@@ -264,7 +268,7 @@ _Standards and meta-layers above any single framework._
 
 ## Graph analysis — how they relate
 
-**Community clustering.** These 38 tools span **18 of the graph's 48 communities**.
+**Community clustering.** These 39 tools span **19 of the graph's 48 communities**.
 
 - **Community 20** (8): `liquidos-ai/AutoAgents`, `crewAIInc/crewAI`, `agno-agi/agno`, `assafelovic/gpt-researcher`, `n8n-io/n8n`, `langgenius/dify`, `flyteorg/flyte`, `inngest/agent-kit`
 - **Community 19** (5): `langchain-ai/langgraph`, `VoltAgent/voltagent`, `i-am-bee/beeai-framework`, `simstudioai/sim`, `langflow-ai/langflow`
@@ -341,6 +345,7 @@ Bus factor = commit concentration (1 = single-maintainer risk). Orchestration is
 | TauricResearch/TradingAgents | Vertical / domain systems | 78 | Mature | very active | 1 |
 | code-yeongyu/oh-my-openagent | Coding-agent orchestration | 77 | Rising | very active | 1 |
 | camel-ai/camel | Code-first agent frameworks | 76 | Classic | very active | 2 |
+| emanuele-em/kanzo | Coding-agent orchestration | 76 | Hot | very active | 1 |
 | liquidos-ai/AutoAgents | Code-first agent frameworks | 69 | Mature | active | 2 |
 | wshobson/agents | Coding-agent orchestration | 62 | Hot | very active | 1 |
 | huggingface/smolagents | Code-first agent frameworks | 58 | Mature | active | 1 |
@@ -372,4 +377,4 @@ Archived upstream, so they no longer appear in this report's tables — `sample.
 |---|---|---|---|
 | [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise) | Visual / low-code platforms | Archived upstream; last in the dataset 2026-08-11. Build AI agents visually; popular drag-and-drop builder. | 2026-08-11 |
 
-<sub>Tools covered: 38 across 7 approaches · Snapshot: 2026-11-16T14:38:50.632Z</sub>
+<sub>Tools covered: 39 across 7 approaches · Snapshot: 2026-11-16T14:38:50.632Z</sub>

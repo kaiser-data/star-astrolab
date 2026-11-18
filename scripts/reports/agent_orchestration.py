@@ -73,6 +73,7 @@ TAXONOMY = {
     "langflow-ai/langflow": ("Visual / low-code platforms", "Popular drag-and-drop builder for agents & flows; visual graph of components."),
 
     # ===== Coding-agent orchestration (coordinate multiple coding agents) =====
+    "emanuele-em/kanzo": ("Coding-agent orchestration", "Kanban board + MCP server in one 4.5 MB binary — you and your coding agents share one task board; 10–60 tokens per agent reply."),
     "bytedance/deer-flow": ("Coding-agent orchestration", "Long-horizon SuperAgent harness that researches, codes & creates with sandboxes (bf6)."),
     "code-yeongyu/oh-my-openagent": ("Coding-agent orchestration", "'omo' — agent harness (formerly oh-my-opencode) for coding workflows."),
     "ruvnet/ruflo": ("Coding-agent orchestration", "Agent-orchestration platform for Claude — multi-agent swarms coordinating autonomous coding."),

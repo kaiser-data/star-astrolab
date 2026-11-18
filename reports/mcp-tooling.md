@@ -2,7 +2,7 @@
 
 > Derived from **kaiser-data**'s 2,896 starred repos (snapshot `2026-11-16T14:38:50.632Z`), cross-referenced with the repo-similarity graph (2,896 nodes / 9,609 edges, 48 communities).
 >
-> Generated 2026-11-16 by `scripts/reports/mcp_tooling.py` (regenerate any time — no API cost).
+> Generated 2026-11-18 by `scripts/reports/mcp_tooling.py` (regenerate any time — no API cost).
 
 ![Top tools by stars](assets/mcp-tooling-top-tools.svg)
 
@@ -13,7 +13,7 @@
 
 ## Executive summary
 
-- **38 MCP projects** in your stars (**598,582★** combined) — spanning the whole stack: SDKs, clients, gateways, and **24 domain servers**.
+- **39 MCP projects** in your stars (**615,070★** combined) — spanning the whole stack: SDKs, clients, gateways, and **25 domain servers**.
 - The architecture has three roles — and your stars cover all of them:
   - **Build** (SDKs/frameworks): `servers`, `fastmcp`, `typescript-sdk`, `fastapi_mcp`, `mcp-use`
   - **Consume** (clients/hosts): `inspector`, `witsy`, `mcphub.nvim`
@@ -28,7 +28,7 @@
 | **SDK / framework** | Build servers/clients | `fastmcp`, `mcp-use`, `fastapi_mcp` |
 | **Client / host** | Apps that consume servers | `mcphub.nvim`, `witsy` |
 | **Gateway / control plane** | Route, secure & govern servers | `klavis`, `gate22`, `mcp-toolbox` |
-| **Servers** | Expose a capability to agents | 24 across browser, DB, dev-tools, code-intel, docs, game engines |
+| **Servers** | Expose a capability to agents | 25 across browser, DB, dev-tools, code-intel, docs, game engines |
 | **Learning** | Lists & curricula | `awesome-mcp-servers` (×2), `mcp-for-beginners` |
 
 ## Master comparison
@@ -48,6 +48,7 @@ Sorted by stars. `Health`/`Lifecycle` are the dataset's computed metrics; `Activ
 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | Server · dev-tooling | TypeScript | MIT | 23,266 (▲36) | Hot | 80 | very active | 0d ago | 1.4y | 4 |
 | [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | Learning / reference | Jupyter Notebook | MIT | 17,659 (▲29) | Hot | 69 | very active | 3d ago | 1.6y | 9 |
 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | Gateway / control plane | Go | Apache-2.0 | 16,887 (▲57) | Mature | 98 | very active | 0d ago | 2.4y | 30 |
+| [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | Server · browser/web | TypeScript | MIT | 16,488 (▲1,101) | Hot | 82 | very active | 0d ago | 1.9y | 9 |
 | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | SDK / framework | TypeScript | NOASSERTION | 13,773 (▲39) | Mature | 79 | very active | 6d ago | 2.1y | 32 |
 | [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | Server · browser/web | TypeScript | MIT | 12,545 (▲6) | Declining | 9 | stale | 10mo ago | 1.4y | 0 |
 | [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | SDK / framework | Python | MIT | 12,031 (▲3) | Declining | 4 | stale | 11mo ago | 1.7y | 0 |
@@ -133,6 +134,9 @@ _Give agents a browser or the open web._
 - **[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)** · 39,732★ · TypeScript · Hot  
   Microsoft's Playwright MCP server — drive a real browser from an agent.  
   <sub>topics: mcp, playwright</sub>
+- **[apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)** · 16,488★ · TypeScript · Hot  
+  Apify's MCP server — thousands of ready-made scrapers (social, search, maps, e-commerce) as agent tools.  
+  <sub>topics: agents, ai, mcp, mcp-server</sub>
 - **[hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome)** · 12,545★ · TypeScript · Declining  
   Chrome-extension-based MCP server exposing the user's actual browser.  
   <sub>topics: —</sub>
@@ -257,9 +261,9 @@ A maturity signal — major vendors shipping **first-party** MCP servers in your
 
 ## Graph analysis — how they relate
 
-**Community clustering.** These 38 projects span **16 of the graph's 48 communities** — MCP tooling is woven through the whole agent-infra landscape rather than sitting in one bucket.
+**Community clustering.** These 39 projects span **16 of the graph's 48 communities** — MCP tooling is woven through the whole agent-infra landscape rather than sitting in one bucket.
 
-- **Community 6** (12): `PrefectHQ/fastmcp`, `mcp-use/mcp-use`, `getsentry/toolkit`, `upstash/context7`, `shaneholloman/mcp-knowledge-graph`, `modelcontextprotocol/typescript-sdk`, `modelcontextprotocol/inspector`, `Coding-Solo/godot-mcp`, `hi-godot/godot-ai`, `youichi-uda/godot-mcp-pro`, `tugcantopaloglu/godot-mcp`, `punkpeye/awesome-mcp-servers`
+- **Community 6** (13): `PrefectHQ/fastmcp`, `mcp-use/mcp-use`, `apify/apify-mcp-server`, `getsentry/toolkit`, `upstash/context7`, `shaneholloman/mcp-knowledge-graph`, `modelcontextprotocol/typescript-sdk`, `modelcontextprotocol/inspector`, `Coding-Solo/godot-mcp`, `hi-godot/godot-ai`, `youichi-uda/godot-mcp-pro`, `tugcantopaloglu/godot-mcp`, `punkpeye/awesome-mcp-servers`
 - **Community 13** (4): `ravitemer/mcphub.nvim`, `reading-plus-ai/mcp-server-data-exploration`, `mksglu/context-mode`, `modelcontextprotocol/servers`
 - **Community 10** (4): `github/github-mcp-server`, `SonarSource/sonarqube-mcp-server`, `oraios/serena`, `hustcc/mcp-mermaid`
 - **Community 5** (3): `googleapis/mcp-toolbox`, `bytebase/dbhub`, `czlonkowski/n8n-mcp`
@@ -269,6 +273,7 @@ A maturity signal — major vendors shipping **first-party** MCP servers in your
 
 **Centrality (PageRank in the full 1,071-repo graph)** — most 'hub-like' MCP projects in your ecosystem:
 
+- `apify/apify-mcp-server` — PageRank 0.0011
 - `mksglu/context-mode` — PageRank 0.0010
 - `punkpeye/awesome-mcp-servers` — PageRank 0.0010
 - `microsoft/playwright-mcp` — PageRank 0.0010
@@ -278,7 +283,6 @@ A maturity signal — major vendors shipping **first-party** MCP servers in your
 - `github/github-mcp-server` — PageRank 0.0006
 - `yvgude/lean-ctx` — PageRank 0.0005
 - `upstash/context7` — PageRank 0.0005
-- `SonarSource/sonarqube-mcp-server` — PageRank 0.0005
 
 **Direct links between MCP projects** (top similarity edges where both endpoints are in this report):
 
@@ -289,15 +293,15 @@ A maturity signal — major vendors shipping **first-party** MCP servers in your
 - `hi-godot/godot-ai` ⇄ `Coding-Solo/godot-mcp` (w=0.600) — topics: ai, godot, mcp
 - `github/github-mcp-server` ⇄ `upstash/context7` (w=0.500) — topics: mcp, mcp-server; authors: dependabot[bot], github-actions[bot]
 - `youichi-uda/godot-mcp-pro` ⇄ `hi-godot/godot-ai` (w=0.435) — topics: ai, game-development, godot, mcp
+- `apify/apify-mcp-server` ⇄ `Coding-Solo/godot-mcp` (w=0.400) — topics: ai, mcp
 - `hi-godot/godot-ai` ⇄ `punkpeye/awesome-mcp-servers` (w=0.400) — topics: ai, mcp
 - `hustcc/mcp-mermaid` ⇄ `github/github-mcp-server` (w=0.400) — topics: mcp, mcp-server
 - `czlonkowski/n8n-mcp` ⇄ `github/github-mcp-server` (w=0.400) — topics: mcp, mcp-server
 - `youichi-uda/godot-mcp-pro` ⇄ `tugcantopaloglu/godot-mcp` (w=0.389) — topics: ai, game-development, godot, godot-engine
+- `apify/apify-mcp-server` ⇄ `hustcc/mcp-mermaid` (w=0.383) — topics: mcp, mcp-server
+- `apify/apify-mcp-server` ⇄ `czlonkowski/n8n-mcp` (w=0.383) — topics: mcp, mcp-server
 - `modelcontextprotocol/typescript-sdk` ⇄ `hustcc/mcp-mermaid` (w=0.383) — topics: mcp, mcp-server
-- `hi-godot/godot-ai` ⇄ `tugcantopaloglu/godot-mcp` (w=0.308) — topics: ai, game-development, godot, mcp
-- `upstash/context7` ⇄ `mcp-use/mcp-use` (w=0.301) — topics: mcp, mcp-server; authors: github-actions[bot], Abhishek-B-R
-- `googleapis/mcp-toolbox` ⇄ `bytebase/dbhub` (w=0.293) — topics: mcp, ai, database, llm; authors: as992949791
-- …and 6 more.
+- …and 10 more.
 
 ## Maintenance & risk signal
 
@@ -312,6 +316,7 @@ Bus factor = commit concentration (1 = single-maintainer risk). MCP servers are 
 | mcp-use/mcp-use | 84 | Hot | very active | 2 | 47% | 1800 |
 | neo4j/mcp | 84 | Hot | very active | 2 | 45% | 33 |
 | github/github-mcp-server | 83 | Hot | very active | 2 | 42% | 87 |
+| apify/apify-mcp-server | 82 | Hot | very active | 2 | 44% | 194 |
 | bytebase/dbhub | 82 | Hot | very active | 2 | 48% | 18 |
 | SonarSource/sonarqube-mcp-server | 81 | Hot | very active | 2 | 36% | 45 |
 | microsoft/playwright-mcp | 80 | Hot | very active | 2 | 33% | 75 |
@@ -376,4 +381,4 @@ Archived upstream, so they no longer appear in this report's tables — `sample.
 | [`browserbase/mcp-server-browserbase`](https://github.com/browserbase/mcp-server-browserbase) | Server · browser/web | Archived upstream; last in the dataset 2026-07-20. Let LLMs control a cloud browser via Browserbase + Stagehand. | 2026-07-20 |
 | [`storybookjs/mcp`](https://github.com/storybookjs/mcp) | Server · dev-tooling | Archived upstream 2026-09; last in the dataset 2026-09-06. Storybook's MCP server for component-driven workflows. | 2026-09-06 |
 
-<sub>Projects covered: 38 (24 servers) · Snapshot: 2026-11-16T14:38:50.632Z</sub>
+<sub>Projects covered: 39 (25 servers) · Snapshot: 2026-11-16T14:38:50.632Z</sub>

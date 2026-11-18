@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16",
-  "count": 29,
+  "generated": "2026-11-18",
+  "count": 31,
   "reports": [
     {
       "slug": "trending-now",
@@ -75,9 +75,9 @@
       "chart_top_title": "Biggest star gains (7d)",
       "chart_cat_title": "Repos by movement type",
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/trending_now.py",
-      "created": "2026-11-09"
+      "created": "2026-08-08"
     },
     {
       "slug": "charting-stack",
@@ -122,9 +122,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/charting_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-08-11"
     },
     {
       "slug": "claude-code-setups",
@@ -168,9 +168,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/claude_code_setups.py",
-      "created": "2026-11-09"
+      "created": "2026-06-13"
     },
     {
       "slug": "ai-engineer-stack",
@@ -208,9 +208,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/ai_engineer_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-06-29"
     },
     {
       "slug": "agentic-terminals",
@@ -254,9 +254,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/agentic_terminals.py",
-      "created": "2026-11-09"
+      "created": "2026-08-23"
     },
     {
       "slug": "harness-engineering",
@@ -301,9 +301,53 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/harness_engineering.py",
-      "created": "2026-11-09"
+      "created": "2026-10-01"
+    },
+    {
+      "slug": "video-creation",
+      "title": "How the Best Videos Are Made \u2014 The Open Video-Creation Stack",
+      "file": "video-creation.md",
+      "category": "AI / Apps",
+      "summary": "43 open tools (1,605,890\u2605) for making a film, step by step: real footage, generated b-roll, narration, music, sound checks and code editing \u2014 ranked per task with Hugging Face evidence, licences, and eight rules measured on our own promo films.",
+      "tool_count": 43,
+      "total_stars": 1605890,
+      "categories": {
+        "Real footage": 4,
+        "Generated b-roll": 9,
+        "Narration (TTS)": 10,
+        "Music & sound": 3,
+        "Listening & QA": 4,
+        "Edit & render": 8,
+        "Agentic pipeline": 5
+      },
+      "top_tools": [
+        {
+          "name": "Genymobile/scrcpy",
+          "stars": 154958
+        },
+        {
+          "name": "Comfy-Org/ComfyUI",
+          "stars": 147152
+        },
+        {
+          "name": "harry0703/MoneyPrinterTurbo",
+          "stars": 143954
+        },
+        {
+          "name": "debpalash/VoiceStudio",
+          "stars": 111708
+        },
+        {
+          "name": "microsoft/playwright",
+          "stars": 100317
+        }
+      ],
+      "snapshot": "2026-11-16T14:38:50.632Z",
+      "generated": "2026-11-18",
+      "generator": "scripts/reports/video_creation.py",
+      "created": "2026-11-18"
     },
     {
       "slug": "agent-harnesses",
@@ -344,9 +388,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/agent_harnesses.py",
-      "created": "2026-11-09"
+      "created": "2026-07-19"
     },
     {
       "slug": "local-vs-infra-stack",
@@ -393,22 +437,22 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/local_vs_infra_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-06-05"
     },
     {
       "slug": "agent-orchestration",
       "title": "AI Agent Orchestration \u2014 Landscape Report",
       "file": "agent-orchestration.md",
       "category": "AI / Agents",
-      "summary": "38 agent-orchestration tools (1,654,913\u2605) by approach: code-first frameworks (langgraph, openai-agents, semantic-kernel), visual platforms (n8n, dify), coding-agent swarms (ruflo), agent OS, and durable infra (flyte).",
-      "tool_count": 38,
-      "total_stars": 1654913,
+      "summary": "39 agent-orchestration tools (1,656,127\u2605) by approach: code-first frameworks (langgraph, openai-agents, semantic-kernel), visual platforms (n8n, dify), coding-agent swarms (ruflo), agent OS, and durable infra (flyte).",
+      "tool_count": 39,
+      "total_stars": 1656127,
       "categories": {
         "Code-first": 17,
         "Visual": 4,
-        "Coding-agent": 9,
+        "Coding-agent": 10,
         "Agent OS": 1,
         "Infra": 2
       },
@@ -435,23 +479,23 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/agent_orchestration.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "mcp-tooling",
       "title": "MCP (Model Context Protocol) Tooling \u2014 Landscape Report",
       "file": "mcp-tooling.md",
       "category": "AI / MCP",
-      "summary": "38 MCP projects (598,582\u2605): SDKs/frameworks, clients, gateways, and 24 domain servers (browser, DB, dev-tools, code-intel, docs, game engines) \u2014 incl. official GitHub/Microsoft/Google servers.",
-      "tool_count": 38,
-      "total_stars": 598582,
+      "summary": "39 MCP projects (615,070\u2605): SDKs/frameworks, clients, gateways, and 25 domain servers (browser, DB, dev-tools, code-intel, docs, game engines) \u2014 incl. official GitHub/Microsoft/Google servers.",
+      "tool_count": 39,
+      "total_stars": 615070,
       "categories": {
         "SDK/framework": 5,
         "Client/host": 3,
         "Gateway": 3,
-        "Servers": 24,
+        "Servers": 25,
         "Learning": 3
       },
       "top_tools": [
@@ -477,9 +521,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/mcp_tooling.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "agent-memory",
@@ -521,9 +565,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/agent_memory.py",
-      "created": "2026-11-09"
+      "created": "2026-08-12"
     },
     {
       "slug": "blockchain-essentials",
@@ -571,9 +615,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/blockchain_essentials.py",
-      "created": "2026-11-09"
+      "created": "2026-06-03"
     },
     {
       "slug": "3d-printing-stack",
@@ -615,9 +659,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/printing_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-09-12"
     },
     {
       "slug": "notebooklm-stack",
@@ -660,9 +704,53 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/notebooklm_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-07-19"
+    },
+    {
+      "slug": "agent-skills",
+      "title": "Agent Skills \u2014 How to Write, Measure, Slim Down and Secure Them",
+      "file": "agent-skills.md",
+      "category": "AI / Agents",
+      "summary": "32 repos (2,335,961\u2605) for writing, measuring, slimming, gating, sharing, vetting and evolving agent skills \u2014 with task rankings and a step-by-step skill optimization loop.",
+      "tool_count": 32,
+      "total_stars": 2335961,
+      "categories": {
+        "Author & capture": 5,
+        "Evaluate & benchmark": 4,
+        "Optimize context cost": 3,
+        "Quality-gate exemplars": 7,
+        "Self-improving skills": 4,
+        "Discover & distribute": 6,
+        "Vet & secure": 3
+      },
+      "top_tools": [
+        {
+          "name": "mattpocock/skills",
+          "stars": 325658
+        },
+        {
+          "name": "obra/superpowers",
+          "stars": 318369
+        },
+        {
+          "name": "affaan-m/ECC",
+          "stars": 304244
+        },
+        {
+          "name": "anthropics/skills",
+          "stars": 195720
+        },
+        {
+          "name": "DietrichGebert/ponytail",
+          "stars": 191875
+        }
+      ],
+      "snapshot": "2026-11-16T14:38:50.632Z",
+      "generated": "2026-11-18",
+      "generator": "scripts/reports/agent_skills.py",
+      "created": "2026-11-18"
     },
     {
       "slug": "ai-coding-tuis",
@@ -702,9 +790,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/ai_coding_tuis.py",
-      "created": "2026-11-09"
+      "created": "2026-07-19"
     },
     {
       "slug": "decision-classifiers",
@@ -748,9 +836,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/decision_classifiers.py",
-      "created": "2026-11-09"
+      "created": "2026-09-25"
     },
     {
       "slug": "meeting-transcription",
@@ -791,9 +879,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/meeting_transcription.py",
-      "created": "2026-11-09"
+      "created": "2026-06-12"
     },
     {
       "slug": "rag-tooling",
@@ -833,9 +921,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/rag_tooling.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "voice-agents",
@@ -876,9 +964,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/voice_agents.py",
-      "created": "2026-11-09"
+      "created": "2026-06-04"
     },
     {
       "slug": "llm-evaluation-tooling",
@@ -917,9 +1005,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/llm_evaluation.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "openclaw-ecosystem",
@@ -959,9 +1047,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/openclaw_ecosystem.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "jetson-inference-engines",
@@ -1003,9 +1091,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/jetson_inference.py",
-      "created": "2026-11-09"
+      "created": "2026-08-23"
     },
     {
       "slug": "document-extraction",
@@ -1045,9 +1133,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/document_extraction.py",
-      "created": "2026-11-09"
+      "created": "2026-07-19"
     },
     {
       "slug": "finetuning-stack",
@@ -1088,9 +1176,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/finetuning_stack.py",
-      "created": "2026-11-09"
+      "created": "2026-07-20"
     },
     {
       "slug": "memory-frameworks-for-llm-agents",
@@ -1129,9 +1217,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/memory_frameworks.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "blockchain-claws",
@@ -1172,9 +1260,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/blockchain_claws.py",
-      "created": "2026-11-09"
+      "created": "2026-06-03"
     },
     {
       "slug": "token-savings",
@@ -1214,9 +1302,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/token_savings.py",
-      "created": "2026-11-09"
+      "created": "2026-05-31"
     },
     {
       "slug": "which-claw",
@@ -1254,9 +1342,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/which_claw.py",
-      "created": "2026-11-09"
+      "created": "2026-06-03"
     },
     {
       "slug": "hermes-vs-openclaw",
@@ -1293,9 +1381,9 @@
         }
       ],
       "snapshot": "2026-11-16T14:38:50.632Z",
-      "generated": "2026-11-16",
+      "generated": "2026-11-18",
       "generator": "scripts/reports/hermes_vs_openclaw.py",
-      "created": "2026-11-09"
+      "created": "2026-06-02"
     }
   ]
 }

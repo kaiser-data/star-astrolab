@@ -61,6 +61,7 @@ TAXONOMY = {
     # Browser / web automation servers
     "microsoft/playwright-mcp": ("Server · browser/web", "Microsoft's Playwright MCP server — drive a real browser from an agent."),
     "hangwin/mcp-chrome": ("Server · browser/web", "Chrome-extension-based MCP server exposing the user's actual browser."),
+    "apify/apify-mcp-server": ("Server · browser/web", "Apify's MCP server — thousands of ready-made scrapers (social, search, maps, e-commerce) as agent tools."),
     "brightdata/brightdata-mcp": ("Server · browser/web", "All-in-one MCP server for public web data access / scraping at scale."),
 
     # Database / data servers

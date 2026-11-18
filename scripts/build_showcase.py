@@ -13,7 +13,7 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SHOTS = os.path.join(ROOT, "docs/screenshots")
 OUT = os.path.join(ROOT, "docs/astrolab.html")
-REPO_URL = "https://github.com/kaiser-data/github-stars-analyzer"
+REPO_URL = "https://github.com/kaiser-data/star-astrolab"
 
 # Inlined marks — the page makes no external requests, so no icon font or CDN.
 GH_MARK = (

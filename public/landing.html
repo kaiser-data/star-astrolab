@@ -38,6 +38,7 @@
   --brass:#d9b04a; --brass-lit:#e8c66a; --glow:rgba(217,176,74,.13);
 }
 *{box-sizing:border-box}
+html{overflow-x:clip}
 body{
   margin:0;background:var(--night);color:var(--ink);
   font-family:var(--body);font-size:16.5px;line-height:1.68;
@@ -63,6 +64,9 @@ body{
 .hero > svg.rete{
   position:absolute;top:-130px;left:50%;transform:translateX(-50%);
   width:760px;height:760px;pointer-events:none;opacity:.5;z-index:0;
+}
+@media (max-width:640px){
+  .hero > svg.rete{width:150vw;height:150vw;top:-40px}
 }
 .rete circle,.rete line{fill:none;stroke:var(--brass);stroke-width:.7;opacity:.5}
 .rete .faint{opacity:.22}
@@ -231,7 +235,7 @@ a:focus-visible{outline:2px solid var(--brass-lit);outline-offset:3px;border-rad
   tools at a glance, and tell which ones are thriving and which are quietly fading.</p>
   <p class="cta-row">
     <a class="cta" href="/lab?tab=map">Enter the map<span aria-hidden="true"> →</span></a>
-    <a class="cta cta-ghost" href="https://github.com/kaiser-data/github-stars-analyzer" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>View on GitHub</a>
+    <a class="cta cta-ghost" href="https://github.com/kaiser-data/star-astrolab" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>View on GitHub</a>
   </p>
   <div class="stats"><div><b>%NODES%</b><span>software projects</span></div><div><b>%EDGES%</b><span>connections</span></div><div><b>%COMMUNITIES%</b><span>constellations</span></div><div><b>%REPORTS%</b><span>guides to read</span></div></div>
 </header>
@@ -330,7 +334,7 @@ a:focus-visible{outline:2px solid var(--brass-lit);outline-offset:3px;border-rad
   <div class="ask">
     <p>Astrolab is free and open source (MIT). Point it at your own stars.
     <strong>If you like it, give it a star. Now you know what that means.</strong></p>
-    <a class="cta" href="https://github.com/kaiser-data/github-stars-analyzer" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.1l2 4.15 4.5.63-3.26 3.2.78 4.52L8 11.47l-4.02 2.13.78-4.52L1.5 5.88 6 5.25 8 1.1Z"/></svg>Star the repo</a>
+    <a class="cta" href="https://github.com/kaiser-data/star-astrolab" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.1l2 4.15 4.5.63-3.26 3.2.78 4.52L8 11.47l-4.02 2.13.78-4.52L1.5 5.88 6 5.25 8 1.1Z"/></svg>Star the repo</a>
   </div>
   <p class="fine">github-stars-analyzer · MIT · data from %DATA_DATE%</p>
 </section>

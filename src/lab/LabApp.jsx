@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useCallback, useEffect, useState } from 'react';
+import React, { Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { GraphProvider, useGraph } from './GraphProvider';
 import InsightFeed from './InsightFeed';
@@ -367,6 +367,17 @@ function LabContent() {
 
   const closeDetail = useCallback(() => select(null), [select]);
 
+  // On phones the tab bar scrolls sideways; keep the active tab in view.
+  const tabBarRef = useRef(null);
+  useEffect(() => {
+    // scrollLeft, not scrollIntoView: that would also scroll the page vertically.
+    const bar = tabBarRef.current;
+    const btn = bar?.querySelector('[data-active]');
+    if (bar && btn && bar.scrollWidth > bar.clientWidth) {
+      bar.scrollLeft = btn.offsetLeft - (bar.clientWidth - btn.offsetWidth) / 2;
+    }
+  }, [tab]);
+
   const goCompare = useCallback((a, b) => {
     setParams((prev) => {
       const p = new URLSearchParams(prev);
@@ -381,13 +392,14 @@ function LabContent() {
   return (
     <div>
       <StatusBanner />
-      <HealthHistogram />
-      <div className="sticky top-0 z-30 -mx-4 px-4 mb-6 bg-black/95 border-b border-gray-700 flex flex-wrap gap-1">
+      <div className="hidden md:block"><HealthHistogram /></div>
+      <div ref={tabBarRef} className="sticky top-14 z-30 -mx-4 px-2 md:px-4 mb-6 bg-black/95 border-b border-gray-700 flex flex-nowrap md:flex-wrap gap-0.5 md:gap-1 overflow-x-auto no-scrollbar">
         {TABS.map((t) => (
           <button
             key={t.key}
+            data-active={tab === t.key || undefined}
             onClick={() => setTab(t.key)}
-            className={`relative px-3 py-3 text-sm transition-colors ${
+            className={`relative shrink-0 whitespace-nowrap px-3 py-3 text-sm transition-colors ${
               tab === t.key
                 ? 'text-white after:absolute after:inset-x-2 after:bottom-[-1px] after:h-0.5 after:bg-white'
                 : 'text-gray-400 hover:text-white'
@@ -430,13 +442,13 @@ function LabContent() {
 
 export default function LabApp() {
   return (
-    <div className="min-h-screen text-white py-8 px-4">
+    <div className="min-h-screen text-white py-5 md:py-8 px-4">
       <div className="max-w-[1920px] mx-auto">
-        <div className="mb-6">
-          <div className="font-mono text-[11px] tracking-[0.35em] uppercase text-blue-400">The best free software, mapped like a night sky</div>
-          <h1 className="text-4xl md:text-5xl text-white mt-2">The Lab</h1>
-          <p className="font-display italic text-blue-300 text-lg mt-1">Don't rebuild what already shines. Build on it.</p>
-          <p className="text-gray-400 text-sm mt-1">Every project here is free software someone trusted enough to star. See how they connect, which are thriving, and which one to reach for.</p>
+        <div className="mb-4 md:mb-6">
+          <div className="hidden sm:block font-mono text-[11px] tracking-[0.35em] uppercase text-blue-400">The best free software, mapped like a night sky</div>
+          <h1 className="text-3xl md:text-5xl text-white sm:mt-2">The Lab</h1>
+          <p className="font-display italic text-blue-300 text-base md:text-lg mt-1">Don't rebuild what already shines. Build on it.</p>
+          <p className="hidden sm:block text-gray-400 text-sm mt-1">Every project here is free software someone trusted enough to star. See how they connect, which are thriving, and which one to reach for.</p>
         </div>
         <GraphProvider>
           <LabContent />

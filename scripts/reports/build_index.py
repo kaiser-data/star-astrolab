@@ -56,6 +56,8 @@ GENERATORS = [
     "printing_stack.py",
     "decision_classifiers.py",
     "harness_engineering.py",
+    "video_creation.py",
+    "agent_skills.py",
 ]
 
 def run_generators():

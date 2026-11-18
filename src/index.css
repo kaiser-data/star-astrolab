@@ -54,4 +54,23 @@
     transform: translateZ(0);
     backface-visibility: hidden;
   }
+  /* Sideways-scrolling rows (the tab bar on phones) without a visible scrollbar */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Phones: a fixed background repaints on every scroll in mobile Safari, and
+   nothing on the page may push it wider than the screen. */
+@media (max-width: 767px) {
+  html, body {
+    overflow-x: clip;
+  }
+  body {
+    background-attachment: scroll;
+  }
 }

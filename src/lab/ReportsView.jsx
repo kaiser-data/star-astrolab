@@ -8,12 +8,21 @@ import { MD_COMPONENTS } from './markdownComponents';
 
 const fmt = (n) => (typeof n === 'number' ? n.toLocaleString() : n);
 
+// Reports carry a few HTML tags meant for GitHub (`<sub>` footnotes, `<br>` in
+// table cells). react-markdown escapes raw HTML, so they showed as literal
+// text; turn them into their markdown equivalents instead of adding rehype-raw.
+function tidyHtml(md) {
+  return md
+    .replace(/<sub>([\s\S]*?)<\/sub>/g, (_, inner) => (inner.trim() ? `*${inner.trim()}*` : ''))
+    .replace(/<br\s*\/?>/g, ' · ');
+}
+
 function ReportCard({ report, onOpen }) {
   const cats = report.categories || {};
   return (
     <button
       onClick={() => onOpen(report)}
-      className="text-left bg-gray-800/60 hover:bg-gray-800 border border-gray-700 hover:border-blue-500 rounded-xl p-5 transition-colors group flex flex-col"
+      className="min-w-0 text-left bg-gray-800/60 hover:bg-gray-800 border border-gray-700 hover:border-blue-500 rounded-xl p-4 sm:p-5 transition-colors group flex flex-col break-words"
     >
       <div className="flex items-start justify-between gap-2">
         <span className="text-[11px] uppercase tracking-wide text-blue-400 font-medium">
@@ -64,7 +73,7 @@ function ReportReader({ report, onBack }) {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       })
-      .then((t) => alive && setMd(t))
+      .then((t) => alive && setMd(tidyHtml(t)))
       .catch((e) => alive && setError(e.message));
     return () => { alive = false; };
   }, [report.file]);
@@ -89,7 +98,7 @@ function ReportReader({ report, onBack }) {
         </div>
       )}
       {md && (
-        <article className="cv-children max-w-none bg-gradient-to-b from-gray-900 to-gray-950 border border-gray-700 rounded-2xl px-6 py-8 md:px-12 md:py-12 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+        <article className="cv-children max-w-none bg-gradient-to-b from-gray-900 to-gray-950 border border-gray-700 rounded-2xl px-4 py-6 sm:px-6 sm:py-8 md:px-12 md:py-12 -mx-2 sm:mx-0 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={MD_COMPONENTS}>
             {md}
           </ReactMarkdown>

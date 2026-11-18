@@ -110,8 +110,22 @@ function ControlPanel({ settings, setSettings, onRecenter }) {
       <div className="col-span-2">{children}</div>
     </div>
   );
+  // Open on desktop; on phones the panel would cover the whole map, so it
+  // starts folded behind a button.
+  const [open, setOpen] = React.useState(
+    () => typeof window === 'undefined' || window.matchMedia('(min-width: 768px)').matches,
+  );
+  if (!open) {
+    return (
+      <button
+        onClick={() => setOpen(true)}
+        className="absolute top-3 right-3 z-10 bg-gray-900/95 border border-gray-700 rounded-lg px-3 py-2 text-xs text-gray-200 shadow-xl"
+      >Settings</button>
+    );
+  }
   return (
-    <div className="absolute top-3 right-3 z-10 bg-gray-900/95 border border-gray-700 rounded-lg p-3 text-xs text-gray-200 shadow-xl w-[240px]">
+    <div className="absolute top-3 right-3 z-10 bg-gray-900/95 border border-gray-700 rounded-lg p-3 text-xs text-gray-200 shadow-xl w-[240px] max-w-[calc(100%-1.5rem)] max-h-[calc(100%-1.5rem)] overflow-y-auto">
+      <button onClick={() => setOpen(false)} className="w-full mb-2 px-3 py-1 text-gray-400 hover:text-white border border-gray-700 rounded-md">Hide settings</button>
       <button
         onClick={onRecenter}
         className="w-full mb-2 px-3 py-1.5 bg-white hover:bg-gray-200 rounded-md text-black font-medium"
@@ -150,11 +164,14 @@ export default function TopicMap({ onSelect }) {
     if (!containerRef.current) return;
     const ro = new ResizeObserver((entries) => {
       const cr = entries[0].contentRect;
-      setSize({ w: Math.max(400, cr.width), h: Math.max(400, cr.height) });
+      setSize({ w: Math.max(280, cr.width), h: Math.max(320, cr.height) });
     });
     ro.observe(containerRef.current);
     return () => ro.disconnect();
-  }, []);
+  // The container only mounts once the graph is ready (loading renders a
+  // placeholder), so re-attach then; with [] the observer never ran and the
+  // canvas stayed at its 1200px default — off-centre on phones.
+  }, [status]);
 
   const topicGraph = useMemo(() => {
     if (status !== 'ready' || !classified) return null;
@@ -255,7 +272,7 @@ export default function TopicMap({ onSelect }) {
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
       <div className="lg:col-span-3">
         <div className="relative">
-          <div className="absolute top-3 left-3 z-10 bg-gray-900/95 border border-gray-700 rounded-lg px-3 py-2 text-xs text-gray-300 shadow-xl">
+          <div className="absolute top-3 left-3 z-10 max-w-[calc(100%-7rem)] md:max-w-none bg-gray-900/95 border border-gray-700 rounded-lg px-3 py-2 text-xs text-gray-300 shadow-xl">
             <div>{stats.topics} topics · {stats.edges} co-occurrences</div>
             <div className="text-gray-500 mt-1">Thicker line = more projects share both subjects</div>
             <div className="mt-2">
@@ -272,7 +289,7 @@ export default function TopicMap({ onSelect }) {
               <div className="text-xs text-gray-400 mt-1">{hovered.freq} repos</div>
             </div>
           )}
-          <div ref={containerRef} style={{ width: '100%', height: '78vh', background: 'radial-gradient(ellipse at 50% 40%, #131826 0%, #0b0e17 70%)', borderRadius: 12, overflow: 'hidden' }}>
+          <div ref={containerRef} style={{ width: '100%', height: 'min(78vh, 78dvh)', background: 'radial-gradient(ellipse at 50% 40%, #131826 0%, #0b0e17 70%)', borderRadius: 12, overflow: 'hidden' }}>
             {topicGraph && topicGraph.order === 0 ? (
               <div className="p-12 text-center text-gray-500">No subject has that many projects. Lower the number.</div>
             ) : (

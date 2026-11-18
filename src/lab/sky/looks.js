@@ -56,15 +56,32 @@ export const LOOKS = {
     rings: true,
     grid: true,
     labelStyle: {
-      font: '"Geist Mono Variable", ui-monospace, monospace', color: '#bff6ff',
-      background: 'rgba(3,18,32,0.55)', weight: '400', upper: true,
+      font: '"Geist Mono Variable", ui-monospace, monospace', color: '#d6f7ff',
+      background: 'rgba(2,14,26,0.82)', weight: '500', upper: true, size: 4.8, opacity: 1,
     },
-    constellation: { color: 'rgba(110,230,255,0.6)', font: '"Geist Mono Variable", ui-monospace, monospace', spacing: true },
+    // Thin cyan at 60% washed out over the haze: near-white, heavier, outlined, on a dark plate
+    constellation: {
+      // spacing off: a hair space is a full cell wide in a monospace font
+      color: 'rgba(205,245,255,0.92)', font: '"Geist Mono Variable", ui-monospace, monospace', spacing: false,
+      weight: '500', stroke: { width: 0.25, color: 'rgba(0,10,20,0.85)' },
+      background: 'rgba(2,14,26,0.62)', padding: 5, minHeight: 24,
+    },
     autoRotateSpeed: 0.25,
   },
 };
 
 export const LOOK_IDS = Object.keys(LOOKS);
+
+/** Load the web fonts a look draws into canvas textures. Browsers fetch a font only once
+ *  the DOM uses it, so canvas text drawn earlier silently falls back (Courier, for mono). */
+export function loadLookFonts(look) {
+  if (!look.custom || typeof document === 'undefined' || !document.fonts?.load) return Promise.resolve();
+  const specs = [
+    `${look.labelStyle.weight} 32px ${look.labelStyle.font.split(',')[0]}`,
+    `${look.constellation.weight ?? '300'} 32px ${look.constellation.font.split(',')[0]}`,
+  ];
+  return Promise.all(specs.map((s) => document.fonts.load(s).catch(() => null))).then(() => undefined);
+}
 const STORE_KEY = 'astrolab.map.look';
 
 export function initialLook() {

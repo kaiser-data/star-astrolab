@@ -94,12 +94,17 @@ export function buildBackdrop(look, centres, bounds) {
   const seen = new Set();
   const named = centres.filter((c) => (seen.has(c.name) ? false : seen.add(c.name))).slice(0, 10);
   for (const c of named) {
-    const text = look.constellation.spacing ? c.name.toUpperCase().split('').join(' ') : c.name;
+    const upper = c.name.toUpperCase();
+    const text = look.constellation.spacing ? upper.split('').join(' ') : upper;
     const t = noPick(new SpriteText(text));
-    t.fontFace = look.constellation.font;
-    t.fontWeight = '300';
-    t.color = look.constellation.color;
-    t.textHeight = Math.max(18, Math.min(42, c.spread * 0.14));
+    const cs = look.constellation;
+    t.fontFace = cs.font;
+    t.fontWeight = cs.weight ?? '300';
+    t.color = cs.color;
+    // Optional dark outline and backing panel: keeps names legible over haze, links and bloom
+    if (cs.stroke) { t.strokeWidth = cs.stroke.width; t.strokeColor = cs.stroke.color; }
+    if (cs.background) { t.backgroundColor = cs.background; t.padding = cs.padding ?? 4; t.borderRadius = 3; }
+    t.textHeight = Math.max(cs.minHeight ?? 18, Math.min(42, c.spread * 0.14));
     t.material.depthWrite = false;
     t.material.depthTest = false;
     t.renderOrder = 5;

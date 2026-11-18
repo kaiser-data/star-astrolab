@@ -5,7 +5,7 @@ import SpriteText from 'three-spritetext';
 import { forceManyBody, forceLink } from 'd3-force-3d';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { useGraph } from './GraphProvider';
-import { LOOKS, initialLook, rememberLook } from './sky/looks';
+import { LOOKS, initialLook, rememberLook, loadLookFonts } from './sky/looks';
 import { StarLayer } from './sky/StarLayer';
 import { buildBackdrop, tickBackdrop, disposeBackdrop, communityCentres, boundsOf } from './sky/Backdrop';
 import { useTour } from './sky/useTour';
@@ -83,6 +83,13 @@ export default function MapView({ onSelectNode, focusedRepoName }) {
   const setLook = useCallback((id) => { setLookIdRaw(id); rememberLook(id); }, []);
   // null = off, otherwise 0..1 along the repo-creation timeline
   const [timelapse, setTimelapse] = useState(null);
+  // Bumps once the look's fonts are loaded, so label textures are redrawn in the right font
+  const [fontsReady, setFontsReady] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    loadLookFonts(look).then(() => alive && setFontsReady((n) => n + 1));
+    return () => { alive = false; };
+  }, [look]);
   // Boolean twin: accessors depend on this so they don't change identity (and
   // force a full re-digest of links/labels) on every time-lapse frame.
   const timelapseOn = timelapse != null;
@@ -213,7 +220,7 @@ export default function MapView({ onSelectNode, focusedRepoName }) {
       if (starLayer.current === layer) starLayer.current = null;
       if (backdrop.current === group) backdrop.current = null;
     };
-  }, [look, view.nodes, communities]);
+  }, [look, view.nodes, communities, fontsReady]);
 
   // Bloom pass, only in looks that define one and when Glow is on
   useEffect(() => {
@@ -310,8 +317,8 @@ export default function MapView({ onSelectNode, focusedRepoName }) {
       sprite.backgroundColor = look.labelStyle.background;
       sprite.padding = 2;
       sprite.borderRadius = 2;
-      sprite.textHeight = 4.2;
-      sprite.material.opacity = 0.85;
+      sprite.textHeight = look.labelStyle.size ?? 4.2;
+      sprite.material.opacity = look.labelStyle.opacity ?? 0.85;
     } else {
       sprite.color = '#f1f5f9';
       sprite.backgroundColor = 'rgba(11,14,23,0.85)';
@@ -329,7 +336,7 @@ export default function MapView({ onSelectNode, focusedRepoName }) {
     }
     sprite.position.set(0, Math.cbrt(node.val) * 1.6 + 5, 0);
     return sprite;
-  }, [settings.alwaysLabels, settings.labelDensity, highlightNodes, look, showLabels]);
+  }, [settings.alwaysLabels, settings.labelDensity, highlightNodes, look, showLabels, fontsReady]);
 
   // Shared additive line materials per look (normal / highlighted / dimmed)
   const linkMats = React.useMemo(() => {

@@ -13,17 +13,17 @@ text{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 <text x="14" y="25" class="ttl">Top tools by stars</text>
 <text x="236" y="49.0" class="lbl" text-anchor="end" dominant-baseline="central">huggingface/transformers</text>
 <path d="M244,40 h340.0 q4,0 4,4 v10 q0,4 -4,4 h-340.0 z" class="bar"/>
-<text x="594.0" y="49.0" class="val" dominant-baseline="central">169,023</text>
+<text x="594.0" y="49.0" class="val" dominant-baseline="central">169,373</text>
 <text x="236" y="76.0" class="lbl" text-anchor="end" dominant-baseline="central">rasbt/LLMs-from-scratch</text>
-<path d="M244,67 h216.8 q4,0 4,4 v10 q0,4 -4,4 h-216.8 z" class="bar"/>
-<text x="470.8" y="76.0" class="val" dominant-baseline="central">108,503</text>
+<path d="M244,67 h217.2 q4,0 4,4 v10 q0,4 -4,4 h-217.2 z" class="bar"/>
+<text x="471.2" y="76.0" class="val" dominant-baseline="central">108,908</text>
 <text x="236" y="103.0" class="lbl" text-anchor="end" dominant-baseline="central">unslothai/unsloth</text>
-<path d="M244,94 h158.0 q4,0 4,4 v10 q0,4 -4,4 h-158.0 z" class="bar"/>
-<text x="412.0" y="103.0" class="val" dominant-baseline="central">79,601</text>
+<path d="M244,94 h158.6 q4,0 4,4 v10 q0,4 -4,4 h-158.6 z" class="bar"/>
+<text x="412.6" y="103.0" class="val" dominant-baseline="central">80,066</text>
 <text x="236" y="130.0" class="lbl" text-anchor="end" dominant-baseline="central">hiyouga/LlamaFactory</text>
 <path d="M244,121 h150.8 q4,0 4,4 v10 q0,4 -4,4 h-150.8 z" class="bar"/>
-<text x="404.8" y="130.0" class="val" dominant-baseline="central">76,067</text>
+<text x="404.8" y="130.0" class="val" dominant-baseline="central">76,242</text>
 <text x="236" y="157.0" class="lbl" text-anchor="end" dominant-baseline="central">labmlai/annotated_deep_learning…</text>
-<path d="M244,148 h133.9 q4,0 4,4 v10 q0,4 -4,4 h-133.9 z" class="bar"/>
-<text x="387.9" y="157.0" class="val" dominant-baseline="central">67,754</text>
+<path d="M244,148 h133.7 q4,0 4,4 v10 q0,4 -4,4 h-133.7 z" class="bar"/>
+<text x="387.7" y="157.0" class="val" dominant-baseline="central">67,788</text>
 </svg>

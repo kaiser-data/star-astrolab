@@ -13,17 +13,17 @@ text{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 <text x="14" y="25" class="ttl">Top tools by stars</text>
 <text x="236" y="49.0" class="lbl" text-anchor="end" dominant-baseline="central">openclaw/openclaw</text>
 <path d="M244,40 h340.0 q4,0 4,4 v10 q0,4 -4,4 h-340.0 z" class="bar"/>
-<text x="594.0" y="49.0" class="val" dominant-baseline="central">394,570</text>
+<text x="594.0" y="49.0" class="val" dominant-baseline="central">395,087</text>
 <text x="236" y="76.0" class="lbl" text-anchor="end" dominant-baseline="central">NousResearch/hermes-agent</text>
-<path d="M244,67 h226.0 q4,0 4,4 v10 q0,4 -4,4 h-226.0 z" class="bar"/>
-<text x="480.0" y="76.0" class="val" dominant-baseline="central">263,809</text>
+<path d="M244,67 h227.3 q4,0 4,4 v10 q0,4 -4,4 h-227.3 z" class="bar"/>
+<text x="481.3" y="76.0" class="val" dominant-baseline="central">265,607</text>
 <text x="236" y="103.0" class="lbl" text-anchor="end" dominant-baseline="central">bytedance/deer-flow</text>
-<path d="M244,94 h70.5 q4,0 4,4 v10 q0,4 -4,4 h-70.5 z" class="bar"/>
-<text x="324.5" y="103.0" class="val" dominant-baseline="central">85,395</text>
+<path d="M244,94 h70.6 q4,0 4,4 v10 q0,4 -4,4 h-70.6 z" class="bar"/>
+<text x="324.6" y="103.0" class="val" dominant-baseline="central">85,675</text>
 <text x="236" y="130.0" class="lbl" text-anchor="end" dominant-baseline="central">code-yeongyu/oh-my-openagent</text>
-<path d="M244,121 h57.8 q4,0 4,4 v10 q0,4 -4,4 h-57.8 z" class="bar"/>
-<text x="311.8" y="130.0" class="val" dominant-baseline="central">70,942</text>
+<path d="M244,121 h57.9 q4,0 4,4 v10 q0,4 -4,4 h-57.9 z" class="bar"/>
+<text x="311.9" y="130.0" class="val" dominant-baseline="central">71,080</text>
 <text x="236" y="157.0" class="lbl" text-anchor="end" dominant-baseline="central">HKUDS/nanobot</text>
-<path d="M244,148 h39.7 q4,0 4,4 v10 q0,4 -4,4 h-39.7 z" class="bar"/>
-<text x="293.7" y="157.0" class="val" dominant-baseline="central">50,123</text>
+<path d="M244,148 h39.8 q4,0 4,4 v10 q0,4 -4,4 h-39.8 z" class="bar"/>
+<text x="293.8" y="157.0" class="val" dominant-baseline="central">50,287</text>
 </svg>

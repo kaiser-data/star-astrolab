@@ -3,41 +3,41 @@
   "title": "Voice AI Agents \u2014 Landscape Report",
   "file": "voice-agents.md",
   "category": "AI / Voice",
-  "summary": "30 voice-AI projects (763,354\u2605) across the voice-agent loop: realtime frameworks, STT/ASR, TTS, voice cloning, speech-LLM/omni models, and voice-capable runtimes.",
-  "tool_count": 30,
-  "total_stars": 763354,
+  "summary": "29 voice-AI projects (768,883\u2605) across the voice-agent loop: realtime frameworks, STT/ASR, TTS, voice cloning, speech-LLM/omni models, and voice-capable runtimes.",
+  "tool_count": 29,
+  "total_stars": 768883,
   "categories": {
     "Realtime voice-agent framework": 5,
     "Speech-to-text / ASR": 7,
     "Text-to-speech / TTS": 9,
     "Voice cloning / studio": 3,
     "Speech-LLM / omni model": 1,
-    "Voice-capable runtime / serving": 5
+    "Voice-capable runtime / serving": 4
   },
   "top_tools": [
     {
-      "name": "openai/whisper",
-      "stars": 112794
+      "name": "debpalash/VoiceStudio",
+      "stars": 117019
     },
     {
-      "name": "debpalash/VoiceStudio",
-      "stars": 111708
+      "name": "openai/whisper",
+      "stars": 113430
     },
     {
       "name": "jamiepine/voicebox",
-      "stars": 60748
+      "stars": 61198
     },
     {
       "name": "CorentinJ/Real-Time-Voice-Cloning",
-      "stars": 60245
+      "stars": 60248
     },
     {
       "name": "ggml-org/whisper.cpp",
-      "stars": 55242
+      "stars": 55445
     }
   ],
-  "snapshot": "2026-11-16T14:38:50.632Z",
-  "generated": "2026-11-16",
+  "snapshot": "2026-11-23T16:50:13.482Z",
+  "generated": "2026-11-23",
   "generator": "scripts/reports/voice_agents.py",
-  "created": "2026-11-09"
+  "created": "2026-11-22"
 }

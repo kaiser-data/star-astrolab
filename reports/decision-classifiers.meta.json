@@ -3,9 +3,9 @@
   "title": "Decision Classifiers & Guard Models \u2014 Landscape Report",
   "file": "decision-classifiers.md",
   "category": "AI / Evaluation",
-  "summary": "32 tools (85,218\u2605) that turn text into typed decisions: Jev and open System One copies, zero-shot and few-shot classifiers, guard models, policy, routers, calibration \u2014 ranked by task with sprint evidence.",
+  "summary": "32 tools (85,599\u2605) that turn text into typed decisions: Jev and open System One copies, zero-shot and few-shot classifiers, guard models, policy, routers, calibration \u2014 ranked by task with sprint evidence.",
   "tool_count": 32,
-  "total_stars": 85218,
+  "total_stars": 85599,
   "categories": {
     "Typed decision API": 6,
     "Open decision model": 6,
@@ -20,27 +20,27 @@
   "top_tools": [
     {
       "name": "BoundaryML/baml",
-      "stars": 9512
+      "stars": 9532
     },
     {
       "name": "guardrails-ai/guardrails",
-      "stars": 7613
+      "stars": 7638
     },
     {
       "name": "NVIDIA-NeMo/Guardrails",
-      "stars": 7509
+      "stars": 7558
     },
     {
       "name": "katanemo/plano",
-      "stars": 7118
+      "stars": 7119
     },
     {
       "name": "mizorewww/laya-mlx",
-      "stars": 7107
+      "stars": 7118
     }
   ],
-  "snapshot": "2026-11-16T14:38:50.632Z",
-  "generated": "2026-11-16",
+  "snapshot": "2026-11-23T16:50:13.482Z",
+  "generated": "2026-11-23",
   "generator": "scripts/reports/decision_classifiers.py",
-  "created": "2026-11-09"
+  "created": "2026-11-22"
 }

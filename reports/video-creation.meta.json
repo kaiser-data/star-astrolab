@@ -3,9 +3,9 @@
   "title": "How the Best Videos Are Made \u2014 The Open Video-Creation Stack",
   "file": "video-creation.md",
   "category": "AI / Apps",
-  "summary": "43 open tools (1,605,890\u2605) for making a film, step by step: real footage, generated b-roll, narration, music, sound checks and code editing \u2014 ranked per task with Hugging Face evidence, licences, and eight rules measured on our own promo films.",
+  "summary": "43 open tools (1,627,264\u2605) for making a film, step by step: real footage, generated b-roll, narration, music, sound checks and code editing \u2014 ranked per task with Hugging Face evidence, licences, and eight rules measured on our own promo films.",
   "tool_count": 43,
-  "total_stars": 1605890,
+  "total_stars": 1627264,
   "categories": {
     "Real footage": 4,
     "Generated b-roll": 9,
@@ -18,27 +18,27 @@
   "top_tools": [
     {
       "name": "Genymobile/scrcpy",
-      "stars": 154958
+      "stars": 155481
     },
     {
       "name": "Comfy-Org/ComfyUI",
-      "stars": 147152
+      "stars": 148264
     },
     {
       "name": "harry0703/MoneyPrinterTurbo",
-      "stars": 143954
+      "stars": 145203
     },
     {
       "name": "debpalash/VoiceStudio",
-      "stars": 111708
+      "stars": 117019
     },
     {
       "name": "microsoft/playwright",
-      "stars": 100317
+      "stars": 100899
     }
   ],
-  "snapshot": "2026-11-16T14:38:50.632Z",
-  "generated": "2026-11-18",
+  "snapshot": "2026-11-23T16:50:13.482Z",
+  "generated": "2026-11-23",
   "generator": "scripts/reports/video_creation.py",
-  "created": "2026-11-18"
+  "created": "2026-11-22"
 }

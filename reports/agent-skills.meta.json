@@ -3,9 +3,9 @@
   "title": "Agent Skills \u2014 How to Write, Measure, Slim Down and Secure Them",
   "file": "agent-skills.md",
   "category": "AI / Agents",
-  "summary": "32 repos (2,335,961\u2605) for writing, measuring, slimming, gating, sharing, vetting and evolving agent skills \u2014 with task rankings and a step-by-step skill optimization loop.",
+  "summary": "32 repos (2,386,581\u2605) for writing, measuring, slimming, gating, sharing, vetting and evolving agent skills \u2014 with task rankings and a step-by-step skill optimization loop.",
   "tool_count": 32,
-  "total_stars": 2335961,
+  "total_stars": 2386581,
   "categories": {
     "Author & capture": 5,
     "Evaluate & benchmark": 4,
@@ -18,27 +18,27 @@
   "top_tools": [
     {
       "name": "mattpocock/skills",
-      "stars": 325658
+      "stars": 331154
     },
     {
       "name": "obra/superpowers",
-      "stars": 318369
+      "stars": 324803
     },
     {
       "name": "affaan-m/ECC",
-      "stars": 304244
+      "stars": 309385
     },
     {
       "name": "anthropics/skills",
-      "stars": 195720
+      "stars": 199342
     },
     {
       "name": "DietrichGebert/ponytail",
-      "stars": 191875
+      "stars": 197371
     }
   ],
-  "snapshot": "2026-11-16T14:38:50.632Z",
-  "generated": "2026-11-18",
+  "snapshot": "2026-11-23T16:50:13.482Z",
+  "generated": "2026-11-23",
   "generator": "scripts/reports/agent_skills.py",
-  "created": "2026-11-18"
+  "created": "2026-11-22"
 }

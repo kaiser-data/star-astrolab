@@ -3,9 +3,9 @@
   "title": "The AI Engineer's Stack \u2014 What's Fundamental, Must-Have, and Trending",
   "file": "ai-engineer-stack.md",
   "category": "AI / Engineering",
-  "summary": "57 repos every AI engineer should know (4,688,746\u2605), sorted into Fundamental / Must-have / Trending \u2014 plus a map of what's already solved (integrate, don't build) vs. still frontier, and 9 buildable project ideas.",
+  "summary": "57 repos every AI engineer should know (4,721,057\u2605), sorted into Fundamental / Must-have / Trending \u2014 plus a map of what's already solved (integrate, don't build) vs. still frontier, and 9 buildable project ideas.",
   "tool_count": 57,
-  "total_stars": 4688746,
+  "total_stars": 4721057,
   "categories": {
     "Fundamental": 13,
     "Must-have": 20,
@@ -14,27 +14,27 @@
   "top_tools": [
     {
       "name": "obra/superpowers",
-      "stars": 318369
+      "stars": 324803
     },
     {
       "name": "firecrawl/firecrawl",
-      "stars": 202234
+      "stars": 207626
     },
     {
       "name": "anthropics/skills",
-      "stars": 195720
+      "stars": 199342
     },
     {
       "name": "ollama/ollama",
-      "stars": 187208
+      "stars": 187903
     },
     {
       "name": "huggingface/transformers",
-      "stars": 169023
+      "stars": 169373
     }
   ],
-  "snapshot": "2026-11-16T14:38:50.632Z",
-  "generated": "2026-11-16",
+  "snapshot": "2026-11-23T16:50:13.482Z",
+  "generated": "2026-11-23",
   "generator": "scripts/reports/ai_engineer_stack.py",
-  "created": "2026-11-09"
+  "created": "2026-11-22"
 }

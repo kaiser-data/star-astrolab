@@ -13,17 +13,17 @@ text{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 <text x="14" y="25" class="ttl">Top tools by stars</text>
 <text x="236" y="49.0" class="lbl" text-anchor="end" dominant-baseline="central">punkpeye/awesome-mcp-servers</text>
 <path d="M244,40 h340.0 q4,0 4,4 v10 q0,4 -4,4 h-340.0 z" class="bar"/>
-<text x="594.0" y="49.0" class="val" dominant-baseline="central">97,759</text>
+<text x="594.0" y="49.0" class="val" dominant-baseline="central">98,418</text>
 <text x="236" y="76.0" class="lbl" text-anchor="end" dominant-baseline="central">modelcontextprotocol/servers</text>
-<path d="M244,67 h319.9 q4,0 4,4 v10 q0,4 -4,4 h-319.9 z" class="bar"/>
-<text x="573.9" y="76.0" class="val" dominant-baseline="central">92,041</text>
+<path d="M244,67 h318.2 q4,0 4,4 v10 q0,4 -4,4 h-318.2 z" class="bar"/>
+<text x="572.2" y="76.0" class="val" dominant-baseline="central">92,190</text>
 <text x="236" y="103.0" class="lbl" text-anchor="end" dominant-baseline="central">upstash/context7</text>
 <path d="M244,94 h224.4 q4,0 4,4 v10 q0,4 -4,4 h-224.4 z" class="bar"/>
-<text x="478.4" y="103.0" class="val" dominant-baseline="central">64,910</text>
+<text x="478.4" y="103.0" class="val" dominant-baseline="central">65,334</text>
 <text x="236" y="130.0" class="lbl" text-anchor="end" dominant-baseline="central">microsoft/playwright-mcp</text>
-<path d="M244,121 h135.8 q4,0 4,4 v10 q0,4 -4,4 h-135.8 z" class="bar"/>
-<text x="389.8" y="130.0" class="val" dominant-baseline="central">39,732</text>
+<path d="M244,121 h136.0 q4,0 4,4 v10 q0,4 -4,4 h-136.0 z" class="bar"/>
+<text x="390.0" y="130.0" class="val" dominant-baseline="central">40,058</text>
 <text x="236" y="157.0" class="lbl" text-anchor="end" dominant-baseline="central">github/github-mcp-server</text>
-<path d="M244,148 h117.5 q4,0 4,4 v10 q0,4 -4,4 h-117.5 z" class="bar"/>
-<text x="371.5" y="157.0" class="val" dominant-baseline="central">34,522</text>
+<path d="M244,148 h117.3 q4,0 4,4 v10 q0,4 -4,4 h-117.3 z" class="bar"/>
+<text x="371.3" y="157.0" class="val" dominant-baseline="central">34,692</text>
 </svg>
